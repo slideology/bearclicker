@@ -704,7 +704,7 @@ def merge_fellas_brainrot():
                          translations=get_translations())
 @app.route('/crazy-mouse-battle')
 def crazy_mouse_battle():
-    faq_data = get_faqs_for_page('merge-fellas-brainrot')
+    faq_data = get_faqs_for_page('crazy-mouse-battle')
     return render_template('crazy-mouse-battle.html',
                          page_title='Crazy Mouse Battle',
                          dynamic_faqs=faq_data['faqs'],
