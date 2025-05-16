@@ -389,6 +389,64 @@
     ],
     "conclusion": "Crazy Mouse Battle: A fast-paced single-player battle royale! Control a wild mouse on a chaotic mission to bump rival mice off the battlefield and claim victory."
   },
+  "poor-bunny": {
+    "faqs": [
+      {
+        "question": "Ready for a challenge? Tell me about the Poor Bunny game.",
+        "answer": "The Poor Bunny game drops you into a hazard-filled arena for a simple but intense test of reflexes! Your goal is to collect lots of carrots while constantly dodging an endless wave of traps like lasers, spikes, and saw blades that appear unpredictably."
+      },
+      {
+        "question": "What are the main objectives in Poor Bunny?",
+        "answer": "The key objectives are clear: Collect carrots to aim for high scores, and avoid all the dangerous traps (lasers, saws, etc.) to stay alive as long as possible. In multiplayer, the goal is to survive longer than your friend, or neither of you wins!"
+      },
+      {
+        "question": "Is the Poor Bunny game hard?",
+        "answer": "Getting started is quick and easy, thanks to simple controls. However, lasting more than a minute in the hazard-filled arena against the endless wave of traps is where the real challenge of the Poor Bunny game begins! It requires good reflexes and timing."
+      },
+      {
+        "question": "How does multiplayer work?",
+        "answer": "Poor Bunny offers split-screen multiplayer for co-op mayhem! Player 1 uses arrow keys for movement and jumping, while Player 2 uses W, A, and D keys. You both try to survive the traps, but in this mode, you need to outlast your friend; otherwise, you both lose!"
+      },
+      {
+        "question": "What kind of dangers will I face?",
+        "answer": "You'll face unpredictable dangers like lasers, spikes, and saw blades in the arena. These traps appear at random, turning every second you play into a test of how well you can dodge and time your movements."
+      },
+      {
+        "question": "Is the Poor Bunny game easy to master?",
+        "answer": "While the mechanics are easy to learn (move and jump), mastering the skills needed to survive the endless wave of randomly appearing traps and last more than a minute is hard! It requires excellent reflexes and timing."
+      }
+    ],
+    "conclusion": "Poor Bunny: Cute but challenging! This fast-paced platformer throws you into a world where even a second of hesitation can spell doom for the adorable hero."
+  },
+  "lemon-clicker": {
+    "faqs": [
+      {
+        "question": "Ready for a simple clicking game? What is Lemon Clicker?",
+        "answer": "Lemon Clicker is a straightforward yet fun clicker game where you earn points just by clicking lemons! It's designed to be enjoyable for everyone and can even help improve your clicking speed and patience."
+      },
+      {
+        "question": "How simple are the controls in Lemon Clicker?",
+        "answer": "The controls couldn't be simpler! In Lemon Clicker, you just use your mouse or finger to click on the lemon. That's it – every click adds to your point counter. No need for complicated controls or strategic planning initially."
+      },
+      {
+        "question": "What are the 'drops' in Lemon Clicker?",
+        "answer": "Something unique in Lemon Clicker are the 'drops' that occasionally appear in your inventory. These are special items with odd, sometimes silly designs like cherry blossoms or men's clothes. Collecting these unique drops adds an extra layer of fun beyond just clicking."
+      },
+      {
+        "question": "Can playing Lemon Clicker help you get better at things?",
+        "answer": "Yes, besides being a fun way to pass the time, playing Lemon Clicker regularly can help improve your clicking speed and patience over time."
+      },
+      {
+        "question": "Any advice for maximizing points in Lemon Clicker?",
+        "answer": "To get points quickly, just click the lemon repeatedly! Playing every day helps improve your speed. While it's simple, trying to plan how to maximize your points can help you get the highest score. Don't forget about the exciting surprise drops!"
+      },
+      {
+        "question": "Is Lemon Clicker fun for the whole family?",
+        "answer": "Yes, the game is easy and understandable enough that people of all ages can enjoy the fun of clicking lemons for points."
+      }
+    ],
+    "conclusion": "Enjoy Lemon Clicker! A simple yet fun clicker game where clicking lemons earns points, improving your speed and patience while you play."
+  },
   "sprunki-idle-clicker": {
     "faqs": [
       {

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Play Poor Bunny On Bear Clicker{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Poor Bunny: Cute but challenging! This fast-paced platformer throws you into a world where even a second of hesitation can spell doom for the adorable hero.">
+{% endblock %}
+
+{% block og_title %}Play Poor Bunny On Bear Clicker{% endblock %}
+{% block og_description %}Poor Bunny: Cute but challenging! This fast-paced platformer throws you into a world where even a second of hesitation can spell doom for the adorable hero.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/poor-bunny-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/poor-bunny-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="https://bearclicker.net/game/poor-bunny",
+        title="Poor Bunny",
+        description="Poor Bunny: Cute but challenging! This fast-paced platformer throws you into a world where even a second of hesitation can spell doom for the adorable hero."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='poor-bunny' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

@@ -710,6 +710,22 @@ def crazy_mouse_battle():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/poor-bunny')
+def poor_bunny():
+    faq_data = get_faqs_for_page('poor-bunny')
+    return render_template('poor-bunny.html',
+                         page_title='Poor Bunny',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+@app.route('/lemon-clicker')
+def lemon_clicker():
+    faq_data = get_faqs_for_page('lemon-clicker')
+    return render_template('lemon-clicker.html',
+                         page_title='Lemon Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/brainrot-clicker')
 def brainrot_clicker():
     faq_data = get_faqs_for_page('brainrot-clicker')
