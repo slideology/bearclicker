@@ -726,6 +726,14 @@ def lemon_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/tung-sahur-clicker')
+def tung_sahur_clicker():
+    faq_data = get_faqs_for_page('tung-sahur-clicker')
+    return render_template('tung-sahur-clicker.html',
+                         page_title='Tung Sahur Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/brainrot-clicker')
 def brainrot_clicker():
     faq_data = get_faqs_for_page('brainrot-clicker')
