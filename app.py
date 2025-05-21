@@ -734,6 +734,15 @@ def tung_sahur_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/tung-tung-sahur-obby-challenge')
+def tung_tung_sahur_obby_challenge():
+    faq_data = get_faqs_for_page('tung-tung-sahur-obby-challenge')
+    return render_template('tung-tung-sahur-obby-challenge.html',
+                         page_title='Tung Tung Sahur Obby Challenge',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/brainrot-clicker')
 def brainrot_clicker():
     faq_data = get_faqs_for_page('brainrot-clicker')

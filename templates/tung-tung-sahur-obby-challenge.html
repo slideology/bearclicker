@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Tung Tung Sahur: Obby Challenge Play On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Dive into Tung Tung Sahur: Obby Challenge! This wild parkour platformer, inspired by Italian Brainrot memes, offers hilarious, trap-filled obstacle courses and absurdity.">
+{% endblock %}
+
+{% block og_title %}Tung Tung Sahur: Obby Challenge Play On Bear Clicker Game{% endblock %}
+{% block og_description %}Tung Tung Sahur: Obby Challenge: Dive into this wild parkour platformer, inspired by Italian Brainrot memes, offers hilarious, trap-filled obstacle courses and absurdity.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/tung-tung-sahur-obby-challenge-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/tung-tung-sahur-obby-challenge-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="https://www.crazygames.com/embed/tung-tung-sahur-obby-challenge",
+        title="Tung Tung Sahur: Obby Challenge",
+        description="Tung Tung Sahur: Obby Challenge: Dive into this wild parkour platformer, inspired by Italian Brainrot memes, offers hilarious, trap-filled obstacle courses and absurdity."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='tung-tung-sahur-obby-challenge' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
