@@ -217,6 +217,9 @@ def faq():
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory('static', 'sitemap.xml')
+@app.route('/79b10f40ab4848b5a84b4d154927ed13.txt')
+def indexnow():
+    return send_from_directory('static', '79b10f40ab4848b5a84b4d154927ed13.txt')
 
 @app.route('/robots.txt')
 def robots():
