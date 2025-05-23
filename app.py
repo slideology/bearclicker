@@ -289,6 +289,15 @@ def business_clicker():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/bombardino-crocodilo-clicker')
+def bombardino_crocodilo_clicker():
+    faq_data = get_faqs_for_page('bombardino-crocodilo-clicker')
+    return render_template('bombardino-crocodilo-clicker.html',
+                         page_title='Bombardino Crocodilo Clicker',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/capybara-clicker-2')
 def capybara_clicker_2():
     faq_data = get_faqs_for_page('capybara-clicker-2')
