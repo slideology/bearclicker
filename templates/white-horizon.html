@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Play White Horizon On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="White Horizon: A visually stunning endless snowboarding game. Join a young snowboarder's breathtaking journey through snowy mountains and alpine forests.">
+{% endblock %}
+
+{% block og_title %}Play White Horizon On Bear Clicker Game{% endblock %}
+{% block og_description %}White Horizon: A visually stunning endless snowboarding game. Join a young snowboarder's breathtaking journey through snowy mountains and alpine forests.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/white-horizon-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/white-horizon-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="https://bearclicker.net/game/white-horizon",
+        title="White Horizon",
+        description="White Horizon: A visually stunning endless snowboarding game. Join a young snowboarder's breathtaking journey through snowy mountains and alpine forests."
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='white-horizon' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+
+    
+   <!-- FAQ Section -->
+{% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

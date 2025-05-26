@@ -534,6 +534,35 @@
     ],
     "conclusion": "Enjoy Lemon Clicker! A simple yet fun clicker game where clicking lemons earns points, improving your speed and patience while you play."
   },
+  "white-horizon": {
+    "faqs": [
+      {
+        "question": "What is White Horizon?",
+        "answer": "White Horizon is a beautifully designed, endless snowboarding game where you guide a young snowboarder through breathtaking journeys across snowy mountains and alpine forests. It's an arcade-style endless runner where you collect coins, perform amazing stunts, and capture runaway llamas!"
+      },
+      {
+        "question": "How do you play White Horizon?",
+        "answer": "Your goal in White Horizon is to snowboard as far as possible while collecting coins and completing various challenges. You'll glide through stunning landscapes, perform tricks for scores, and avoid obstacles like rocks and chasms to survive."
+      },
+      {
+        "question": "What makes the environments in White Horizon special?",
+        "answer": "The environments in White Horizon are ever-changing, making every run feel fresh! You'll snowboard through bright snowtops and tranquil forests, with visually appealing weather effects and a dynamic day-night cycle adding to the stunning winter landscapes."
+      },
+      {
+        "question": "Can I unlock different characters in White Horizon?",
+        "answer": "Yes, White Horizon features multiple unlockable characters! Each character comes with unique skill sets, such as faster speeds, quicker flips, or higher jumps, adding strategic depth to your gameplay as you collect coins to unlock them."
+      },
+      {
+        "question": "What are the controls for snowboarding and performing tricks?",
+        "answer": "Controls are simple: Click or tap to jump. If you hold the left mouse button, you can perform a backflip. Mastering these controls is crucial for performing a wide range of stunts like grinds and trick chains for better scores."
+      },
+      {
+        "question": "What happens if I hit llamas in the game?",
+        "answer": "Don't worry about hitting llamas – they don't pose a danger! In fact, hitting llamas actually earns you points, making them a fun collectible as you snowboard down the mountain."
+      }
+    ],
+    "conclusion": "White Horizon: A visually stunning endless snowboarding game. Join a young snowboarder's breathtaking journey through snowy mountains and alpine forests."
+  },
   "sprunki-idle-clicker": {
     "faqs": [
       {
