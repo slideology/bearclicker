@@ -563,6 +563,35 @@
     ],
     "conclusion": "White Horizon: A visually stunning endless snowboarding game. Join a young snowboarder's breathtaking journey through snowy mountains and alpine forests."
   },
+  "terradome": {
+    "faqs": [
+      {
+        "question": "What is Terradome?",
+        "answer": "Terradome is an exciting **survival game** that drops you onto a **lifeless planet**! Your mission is to build, upgrade, and expand your **oxygen-fueled dome** to create the very first spark of life in a dead world. It's all about your will to thrive and revive the galaxy."
+      },
+      {
+        "question": "How do you play Terradome and survive?",
+        "answer": "As the commander of the last surviving dome, your main goal is to **gather oxygen** and **mine vital resources**. You constantly **upgrade your dome** to expand your control and engineer life, transforming the dead world into a thriving biosphere through strategy and growth."
+      },
+      {
+        "question": "What kind of challenges will I face?",
+        "answer": "As you expand your dome, **mysterious life forms** will challenge your zone. You'll need to use your **blaster to defend**, grind, and boost material collection. You'll also discover new planets, each with unique layouts and escalating threats."
+      },
+      {
+        "question": "What are the main gameplay highlights of Terradome?",
+        "answer": "Key highlights include **oxygen collection and management**, **resource harvesting and upgrading**, **planetary conquest mechanics**, a **weapon-based grinding system**, **multiple planets to unlock and explore**, and encounters with **in-dome invaders**."
+      },
+      {
+        "question": "How do controls work in Terradome?",
+        "answer": "Playing Terradome is simple! You move the virtual cursor to move your character. The game also features automatic crafting, collecting, and building, allowing for a smooth and efficient gameplay loop."
+      },
+      {
+        "question": "Is Terradome similar to other building simulation games?",
+        "answer": "Yes, Terradome is an **incremental building sim** that shares similarities with games like The Final Earth 2, Idle Hotel Empire, and Ratopia. It focuses on persistent upgrades and continuous progression."
+      }
+    ],
+    "conclusion": "Terradome: A thrilling survival game! Build, upgrade, and expand your oxygen-fueled dome to revive the galaxy. Survive against mysterious life forms and conquer planets."
+  },
   "sprunki-idle-clicker": {
     "faqs": [
       {

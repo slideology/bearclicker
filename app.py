@@ -307,6 +307,15 @@ def capybara_clicker_2():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/terradome')
+def terradome():
+    faq_data = get_faqs_for_page('terradome')
+    return render_template('terradome.html',
+                         page_title='Terradome',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
+
 @app.route('/white-horizon')
 def white_horizon():
     faq_data = get_faqs_for_page('white-horizon')
