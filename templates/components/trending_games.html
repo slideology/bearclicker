@@ -23,6 +23,24 @@
                 </p>
             </div>
         </a>
+            <!-- Golf Hit Card -->
+        <a href="https://bearclicker.net/golf-hit" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+            <!-- 上方是游戏封面图 -->
+            <div class="relative">
+                <img src="{{ url_for('static', filename='images/games/golf-hit.png') }}" 
+                     alt="Golf Hit img"
+                     loading="lazy" 
+                     class="w-full aspect-[4/3] object-cover">
+                <!-- 悬停效果 -->
+                <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+            <!-- 下方是游戏标题 -->
+            <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                    {{ translations.get('trending', {}).get('golf_hit', 'Golf Hit') }}
+                </p>
+            </div>
+        </a>
             <!-- White Horizon Card -->
         <a href="https://bearclicker.net/white-horizon" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
             <!-- 上方是游戏封面图 -->
