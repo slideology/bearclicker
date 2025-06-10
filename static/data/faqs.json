@@ -592,6 +592,35 @@
     ],
     "conclusion": "White Horizon: A visually stunning endless snowboarding game. Join a young snowboarder's breathtaking journey through snowy mountains and alpine forests."
   },
+  "red-rush": {
+    "faqs": [
+      {
+        "question": "What is Red Rush?",
+        "answer": "Red Rush is a dynamic, fast-paced game where you control a spaceship racing through an endless world full of obstacles! It's an intense challenge that demands quick reflexes, and only the best will survive its escalating speed."
+      },
+      {
+        "question": "How do you play Red Rush?",
+        "answer": "In Red Rush, you use the left and right arrow keys to steer your spaceship. Your main goal is to avoid obstacles and dangerous red lanes. Crashing into anything instantly ends your game, so you need to act quickly and precisely to keep moving as long as possible."
+      },
+      {
+        "question": "Does the game get faster in Red Rush?",
+        "answer": "Yes, absolutely! The game pace in Red Rush gets harder every 15 seconds as its speed increases, constantly testing your reaction time and reflexes. You need to be ready and focused to handle the increasing intensity."
+      },
+      {
+        "question": "Are there different levels in Red Rush?",
+        "answer": "Yes, Red Rush features several levels! After surviving for 30 seconds in the game, you'll unlock a new, harder level. To beat them all, you need to stay alert and adapt to new challenges, including adversaries in advanced stages."
+      },
+      {
+        "question": "What kind of graphics does Red Rush have?",
+        "answer": "Red Rush features simple, attractive, and speed-focused graphics. The design prioritizes clear visuals that allow you to concentrate on the fast-paced gameplay and avoid obstacles effectively."
+      },
+      {
+        "question": "What skills do you need to master Red Rush?",
+        "answer": "Under intense pressure, Red Rush rewards players with acute eyes, calm nerves, and faultless reactions. Mastering the game requires sharp reflexes and quick decision-making to navigate its challenging environment."
+      }
+    ],
+    "conclusion": "Red Rush: A fast-paced spaceship racing game. Dive into the storm, hit your targets, and survive the chaos. Only the best make it out alive."
+  },
   "terradome": {
     "faqs": [
       {

@@ -351,7 +351,14 @@ def banana_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())  
-
+@app.route('/red-rush')
+def red_rush():
+    faq_data = get_faqs_for_page('red-rush')
+    return render_template('red-rush.html',
+                         page_title='Red Rush',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/poop-clicker-2')
 def poop_clicker_2():
     faq_data = get_faqs_for_page('poop-clicker-2')
