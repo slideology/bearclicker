@@ -621,6 +621,35 @@
     ],
     "conclusion": "Red Rush: A fast-paced spaceship racing game. Dive into the storm, hit your targets, and survive the chaos. Only the best make it out alive."
   },
+  "scrandle": {
+    "faqs": [
+      {
+        "question": "What is Scrandle?",
+        "answer": "Scrandle, short for 'Scran + Wordle,' is a fun and unique guessing game that tests your knowledge of football culture and matchday meals! Inspired by stadium food, it challenges you to guess which of two dishes is better rated by real crowd-sourced reviews."
+      },
+      {
+        "question": "How do you play Scrandle?",
+        "answer": "Playing Scrandle is simple: you're shown two photos of real stadium food items. Your task is to guess which one the crowd rated higher. Each correct guess builds your streak, but a wrong choice means Game Over for that round, similar to Wordle!"
+      },
+      {
+        "question": "What kind of food is in Scrandle?",
+        "answer": "Scrandle features 'football scran' – food found at football stadiums. This can range from classic soggy chips and sausage rolls to surprisingly gourmet burgers or loaded pies, all based on real fan-submitted pictures and reviews."
+      },
+      {
+        "question": "Why is Scrandle so addictive?",
+        "answer": "It's highly addictive because judging food just by its look is entertaining, especially stadium food! It also taps into the humor and passion of football fans, has a compelling streak mechanic like Wordle, and you even learn about popular meals at different clubs."
+      },
+      {
+        "question": "Is Scrandle a game for football fans?",
+        "answer": "Absolutely! Scrandle is perfect for football fans with a sense of humor, as it celebrates the quirks of football fan culture, especially the tradition of matchday meals in the UK."
+      },
+      {
+        "question": "What happens after each guess in Scrandle?",
+        "answer": "Win or lose, after every guess, you get to see the actual fan-submitted rating, review, and often hilarious commentary for both meals. This can even help you discover new stadiums to visit (or avoid!)."
+      }
+    ],
+    "conclusion": "Scrandle: A fun and unique guessing game that tests your knowledge of football culture and matchday meals! Inspired by stadium food, it challenges you to guess which of two dishes is better rated by real crowd-sourced reviews."
+  },
   "terradome": {
     "faqs": [
       {
