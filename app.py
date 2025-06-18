@@ -351,6 +351,15 @@ def banana_clicker():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())  
+
+@app.route('/stonecraft')
+def stonecraft():
+    faq_data = get_faqs_for_page('stonecraft')
+    return render_template('stonecraft.html',
+                         page_title='Stonecraft',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/red-rush')
 def red_rush():
     faq_data = get_faqs_for_page('red-rush')

@@ -650,6 +650,35 @@
     ],
     "conclusion": "Scrandle: A fun and unique guessing game that tests your knowledge of football culture and matchday meals! Inspired by stadium food, it challenges you to guess which of two dishes is better rated by real crowd-sourced reviews."
   },
+  "stonecraft": {
+    "faqs": [
+      {
+        "question": "What is Stonecraft?",
+        "answer": "Stonecraft is an addictive clicker game where your main goal is to gather resources, manufacture powerful tools, and build impressive instruments! You start your journey by simply clicking on a stone to break it apart."
+      },
+      {
+        "question": "How do you play Stonecraft?",
+        "answer": "To play Stonecraft, you use a pick to hit huge stones until they split. Inside, you'll find valuables that you can either sell for money or store in your warehouse. You also use specific materials to craft new tools, making it easier and faster to smash more stones."
+      },
+      {
+        "question": "What's the main purpose of playing Stonecraft?",
+        "answer": "The purpose of Stonecraft is the thrill of mining and creating! As you improve your mining skills, you gather rarer resources, which lets you make more efficient tools. The deeper you go, the more valuable your finds become, helping you hunt for even rarer riches."
+      },
+      {
+        "question": "What kind of progression is there in Stonecraft?",
+        "answer": "As you keep playing, you'll find that your valuable finds grow the deeper you investigate. This progression allows you to convert ordinary resources into powerful tools, continuously improving your ability to gather and create."
+      },
+      {
+        "question": "Are there any tips for playing efficiently?",
+        "answer": "Yes, some tricks include focusing on crafting axes and picks early for fast collecting. You also need to gather enough food before winter, as temperature greatly affects your survival. And consider letting tribal members automatically assemble and build for you!"
+      },
+      {
+        "question": "What makes Stonecraft enjoyable and rewarding?",
+        "answer": "The game is enjoyable and rewarding through the satisfying loop of gathering resources and mastering the creation of tools. This continuous improvement and discovery keep players hooked."
+      }
+    ],
+    "conclusion": "Stonecraft: An addictive clicker game where you gather resources, manufacture tools, and build powerful instruments. Start by clicking to break stone!"
+  },
   "terradome": {
     "faqs": [
       {
