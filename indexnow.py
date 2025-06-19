@@ -6,7 +6,7 @@ data = {
     "keyLocation": "https://bearclicker.net/79b10f40ab4848b5a84b4d154927ed13.txt",
     "urlList": [
        
-        "https://bearclicker.net/stonecraft"
+        "https://bearclicker.net/ssspicy"
        
        
     ]

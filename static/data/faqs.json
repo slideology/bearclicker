@@ -679,6 +679,35 @@
     ],
     "conclusion": "Stonecraft: An addictive clicker game where you gather resources, manufacture tools, and build powerful instruments. Start by clicking to break stone!"
   },
+  "ssspicy": {
+    "faqs": [
+      {
+        "question": "What is Ssspicy: The Chili-Chomping Snake Puzzle?",
+        "answer": "Ssspicy is a charming and funny mini puzzle game where you control a feisty snake that eats fiery chilies and solves quirky spatial challenges! Every bite adds hilarious twists like spicy dashes and unexpected chain reactions, making simple moves a brain-burning puzzle."
+      },
+      {
+        "question": "How do you play Ssspicy?",
+        "answer": "Your main goal in Ssspicy is to guide your snake to eat every chili on the stage and reach the exit hole. The trick is that chilies slide when pushed unless blocked, so you need to carefully plan your moves to make sure each chili stops where your snake can eat it without slipping away."
+      },
+      {
+        "question": "What happens after the snake eats a chili?",
+        "answer": "After consuming each chili, your snake breathes fire and automatically dashes backward! This 'spicy recoil' isn't just a funny detail; it's a critical puzzle-solving mechanic that can either create new challenges or accidentally mess up your progress."
+      },
+      {
+        "question": "Why is Ssspicy considered funny?",
+        "answer": "Ssspicy is really funny because your chili-eating snake breathes fire and launches itself backward like a rocket! Also, the food moves on its own unless blocked, often slipping into ridiculous spots, leading to unexpected and hilarious moments."
+      },
+      {
+        "question": "Do the levels get more difficult?",
+        "answer": "Yes, the levels in Ssspicy gradually grow more complex. They introduce new barriers, traps, and clever layouts that require bold but very careful planning to solve."
+      },
+      {
+        "question": "What are the main controls for Ssspicy?",
+        "answer": "Controls are simple: Use Arrow Keys or WASD to move the snake. If you make a mistake, press the Z Key to undo your last move, or the R Key to restart the current level."
+      }
+    ],
+    "conclusion": "Ssspicy: A charming and funny mini puzzle game where you control a feisty snake that eats fiery chilies and solves quirky spatial challenges! Every bite adds hilarious twists like spicy dashes and unexpected chain reactions, making simple moves a brain-burning puzzle."
+  },
   "terradome": {
     "faqs": [
       {

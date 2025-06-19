@@ -343,6 +343,14 @@ def chill_guy_clicker_3d():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/ssspicy')
+def ssspicy():
+    faq_data = get_faqs_for_page('ssspicy')
+    return render_template('ssspicy.html',
+                         page_title='Ssspicy',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/banana-clicker')
 def banana_clicker():
     faq_data = get_faqs_for_page('banana-clicker')
