@@ -351,6 +351,14 @@ def ssspicy():
                          dynamic_faqs=faq_data['faqs'],
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
+@app.route('/god-simulator')
+def god_simulator():
+    faq_data = get_faqs_for_page('god-simulator')
+    return render_template('god-simulator.html',
+                         page_title='God Simulator',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/banana-clicker')
 def banana_clicker():
     faq_data = get_faqs_for_page('banana-clicker')

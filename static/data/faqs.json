@@ -708,6 +708,35 @@
     ],
     "conclusion": "Ssspicy: A charming and funny mini puzzle game where you control a feisty snake that eats fiery chilies and solves quirky spatial challenges! Every bite adds hilarious twists like spicy dashes and unexpected chain reactions, making simple moves a brain-burning puzzle."
   },
+  "god-simulator": {
+    "faqs": [
+      {
+        "question": "What is God Simulator?",
+        "answer": "God Simulator is a unique blend of strategy and simulation where you take on a divine role, shaping a religion and guiding it through various historical ages. Unlike typical games with battles or cities, this one focuses entirely on belief systems, followers, and achieving global influence."
+      },
+      {
+        "question": "How do you create your religion in God Simulator?",
+        "answer": "You start by crafting your religion from scratch or by choosing from established foundational belief systems like Monotheism, Shamanism, Spiritualism, or Pantheon-based traditions. Then, you shape its evolution by developing doctrines, moral values, rituals, and symbols, all while adapting to diverse regional and cultural differences across the globe."
+      },
+      {
+        "question": "What challenges will my religion face?",
+        "answer": "As your religion expands, you'll encounter numerous challenges. These include rival ideologies, internal divisions (schisms), the impact of new technologies, and global disasters. Your strategic decisions will determine if your religion becomes a fleeting cult, a worldwide movement, or an enduring spiritual empire."
+      },
+      {
+        "question": "What are the core features of God Simulator?",
+        "answer": "Core features include **Deep Strategic Gameplay** where every decision impacts growth, **Global Expansion & Cultural Adaptation** to appeal across continents, **Dynamic Belief Systems** with customizable doctrines and values, **Historical & Modern Challenges** testing adaptability, and **Follower & Influence Management** to track faith, loyalty, and stability."
+      },
+      {
+        "question": "What kind of decisions will I make in God Simulator?",
+        "answer": "You'll make profound moral and philosophical decisions. For example, you decide how to handle dissent, interpret holy texts, or respond to scientific advancements. These choices shape your religion's path and its legacy through a rich mix of narrative events and cultural evolution."
+      },
+      {
+        "question": "Is God Simulator about managing armies or cities?",
+        "answer": "No, God Simulator isn't about micromanaging armies or cities. Instead, it's a cerebral and thought-provoking experience focused on managing ideas and influence. You'll spend your time developing doctrines, expanding your reach, and responding to complex philosophical and historical dilemmas."
+      }
+    ],
+    "conclusion": "God Simulator: A unique blend of strategy and simulation where you take on a divine role, shaping a religion and guiding it through various historical ages. Unlike typical games with battles or cities, this one focuses entirely on belief systems, followers, and achieving global influence."
+  },
   "terradome": {
     "faqs": [
       {
