@@ -343,6 +343,14 @@ def chill_guy_clicker_3d():
                          conclusion=faq_data['conclusion'],
                          translations=get_translations())
 
+@app.route('/dadish')
+def dadish():
+    faq_data = get_faqs_for_page('dadish')
+    return render_template('dadish.html',
+                         page_title='Dadish',
+                         dynamic_faqs=faq_data['faqs'],
+                         conclusion=faq_data['conclusion'],
+                         translations=get_translations())
 @app.route('/block-blast-3d')
 def block_blast_3d():
     faq_data = get_faqs_for_page('block-blast-3d')
