@@ -795,6 +795,35 @@
     ],
     "conclusion": "Dadish: A lighthearted and clever platform adventure game where you play as a radish dad on an important mission! Your mischievous kids have gone missing from the vegetable patch, and you need to jump, dodge, and 'sass-talk' your way through challenges to find them."
   },
+  "flying-kong": {
+    "faqs": [
+      {
+        "question": "What kind of game is Flying Kong?",
+        "answer": "Flying Kong is a thrilling 3D arcade endless runner game where you get to play as a flying gorilla on an exciting jungle adventure! Your mission is to dodge quirky obstacles, collect bananas, and chase high scores while enjoying endless hilarious moments."
+      },
+      {
+        "question": "How do you play Flying Kong?",
+        "answer": "In Flying Kong, your gorilla automatically moves forward through a lush, colorful jungle. You steer it left or right using the left mouse button to avoid both stationary and moving obstacles like chickens and pigs. At the same time, you collect as many delicious bananas as possible to boost your score!"
+      },
+      {
+        "question": "What are the main features of Flying Kong?",
+        "answer": "Key features include endless gameplay packed with fun and hilarious moments, a wide range of unlockable skins (hatched from eggs for extra excitement), vibrant 3D environments with colorful backgrounds and quirky animal designs, progressive difficulty, and simple, easy-to-use controls."
+      },
+      {
+        "question": "Does Flying Kong get more challenging?",
+        "answer": "Yes, as you soar deeper into the adventure, Flying Kong becomes tougher to master! The game increases its difficulty with faster movement and more obstacles, requiring quick reflexes to guide your Kong without bumping into hazards."
+      },
+      {
+        "question": "Can I customize my Flying Kong?",
+        "answer": "Yes, you can! Flying Kong offers a wide range of unlockable skins that are 'hatched from eggs.' You can use your collected bananas to acquire these cool in-game items and customize your gorilla's look, adding to the game's excitement."
+      },
+      {
+        "question": "What are the controls for Flying Kong?",
+        "answer": "The controls for Flying Kong are very simple: you use just the left mouse button to control your character's movement, steering it left or right to dodge obstacles and collect bananas."
+      }
+    ],
+    "conclusion": "Flying Kong: A thrilling 3D arcade endless runner game where you get to play as a flying gorilla on an exciting jungle adventure! Your mission is to dodge quirky obstacles, collect bananas, and chase high scores while enjoying endless hilarious moments."
+  },
   "terradome": {
     "faqs": [
       {
