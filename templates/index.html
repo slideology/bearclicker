@@ -3,36 +3,39 @@
 {% block title %}Bear Clicker Game | Bear Clicker Is Out Now!!!{% endblock %}
 
 {% block meta_description %}
-<meta name="description" content="BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net">
+<meta name="description"
+    content="BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net">
 {% endblock %}
 
 {% block og_title %}Bear Clicker Game | Bear Clicker Is Out Now!!!{% endblock %}
-{% block og_description %}BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net{% endblock %}
+{% block og_description %}BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun
+sound effects, and immerse yourself on bearclicker net{% endblock %}
 
 {% block content %}
 <div class="relative overflow-hidden">
-    {% with 
-        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
-        blob_gradient_1="from-pink-500 to-purple-500",
-        blob_gradient_2="from-purple-500 to-indigo-500",
-        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
-        game_url="https://s.clicker-game.com/games/bear-clicker/bear-clicker.html",
-        title="Bear Clicker",
-        description="BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound effects, and immerse yourself on bearclicker net",
-        open_in_new_tab=False
+    {% with
+    gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+    blob_gradient_1="from-pink-500 to-purple-500",
+    blob_gradient_2="from-purple-500 to-indigo-500",
+    title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+    game_url="https://hidden-limit-36fe.slideology0816.workers.dev/",
+    title="Bear Clicker",
+    description="BearClicker, A New Bear Clicker Game Online, Create unique bear compositions, experience fun sound
+    effects, and immerse yourself on bearclicker net",
+    open_in_new_tab=False
     %}
-        {% include 'components/hero.html' %}
+    {% include 'components/hero.html' %}
     {% endwith %}
 
- 
-    
+
+
     <!-- Trending Games Section -->
     {% with current_page='index' %}
     {% include 'components/trending_games.html' %}
     {% endwith %}
 
-    
-   <!-- FAQ Section -->
-{% include 'components/faq_section.html' %}
+
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
 </div>
 {% endblock %}
