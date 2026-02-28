@@ -4,6 +4,11 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pizza-clicker",
+      "title": "Pizza Clicker",
+      "url": "https://cookie-clicker2.com/pizza-clicker.embed"
+    },
+    {
       "id": "astro-robot-clicker",
       "title": "Astro Robot Clicker",
       "url": "https://stimulationclicker.com/astro-robot-clicker.embed"
@@ -192,7 +197,8 @@
       "id": "italian-brainrot-playground",
       "title": "Italian Brainrot Playground",
       "url": "https://playhop.com/dist-app/425172?utm_source=distrib&utm_medium=bravekieu&clid=12252674"
-    },{
+    },
+    {
       "id": "cat-paw-taba-clicker",
       "title": "Cat Paw Taba Clicker",
       "url": "https://st.8games.net/12/8g/igra-lapka-kliker"

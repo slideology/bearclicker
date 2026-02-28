@@ -1310,5 +1310,15 @@ def game_api_route():
     game_id = request.args.get('gameId')
     return game_api(game_id=game_id)
 
+
+@app.route('/pizza-clicker')
+def pizza_clicker():
+    faq_data = get_faqs_for_page('pizza-clicker')
+    return render_template('pizza-clicker.html',
+                         page_title='Pizza Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

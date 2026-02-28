@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Pizza Clicker: Bake & Upgrade Endless Pizzas!{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Bake endless pizzas by clicking! Earn money to buy upgrades like fresh ingredients & mysterious creatures. Build your pizza empire and become a baking tycoo...">
+{% endblock %}
+
+{% block og_title %}Pizza Clicker: Bake & Upgrade Endless Pizzas!{% endblock %}
+{% block og_description %}Bake endless pizzas by clicking! Earn money to buy upgrades like fresh ingredients & mysterious creatures. Build your pizza empire and become a baking tycoo...{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/pizza-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/pizza-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/pizza-clicker",
+        title="Pizza Clicker",
+        description="Bake endless pizzas by clicking! Earn money to buy upgrades like fresh ingredients & mysterious creatures. Build your pizza empire and become a baking tycoo...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+    <!-- Recommended Videos (using placeholders) -->
+    {% with videos=[
+        {'video_id': 'IYVD4uNfQc4'},
+        {'video_id': 'HoYN60Cj2BY'},
+        {'video_id': 'ewRR3ZrcLAA'},
+        {'video_id': 'MOU2XjPPW90'}
+    ] %}
+    {% include 'components/trending_videos.html' %}
+    {% endwith %}
+
+    <!-- Trending Games Section -->
+    {% with current_page='pizza-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
