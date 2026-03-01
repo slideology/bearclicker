@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Bake Cookies & Build an Empire! Play Free Idle Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Click to bake cookies and build a massive empire in this addictive idle game. Buy upgrades, factories & farms to automate production. Free, no ads, no download.">
+{% endblock %}
+
+{% block og_title %}Bake Cookies & Build an Empire! Play Free Idle Game{% endblock %}
+{% block og_description %}Click to bake cookies and build a massive empire in this addictive idle game. Buy upgrades, factories & farms to automate production. Free, no ads, no download.{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/cookie-clicker-2-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/cookie-clicker-2-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/cookie-clicker-2",
+        title="Cookie Clicker 2",
+        description="Click to bake cookies and build a massive empire in this addictive idle game. Buy upgrades, factories & farms to automate production. Free, no ads, no download.",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+    <!-- Recommended Videos (using placeholders) -->
+    {% with videos=[
+        {'video_id': 'IYVD4uNfQc4'},
+        {'video_id': 'HoYN60Cj2BY'},
+        {'video_id': 'ewRR3ZrcLAA'},
+        {'video_id': 'MOU2XjPPW90'}
+    ] %}
+    {% include 'components/trending_videos.html' %}
+    {% endwith %}
+
+    <!-- Trending Games Section -->
+    {% with current_page='cookie-clicker-2' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

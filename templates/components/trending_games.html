@@ -35,6 +35,32 @@
             Trending games like {{ page_title }}
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 sm:gap-3">
+            <!-- Cookie Clicker 2 Card -->
+            <a href="https://bearclicker.net/cookie-clicker-2" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/cookie-clicker-2.jpg') }}" 
+                         alt="Cookie Clicker 2 img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('cookie_clicker_2', 'Cookie Clicker 2') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Cookie Clicker2.Com Card -->
+            <a href="https://bearclicker.net/cookie-clicker2.com" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/cookie-clicker2.com.jpg') }}" 
+                         alt="Cookie Clicker2.Com img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('cookie_clicker2.com', 'Cookie Clicker2.Com') }}
+                    </p>
+                </div>
+            </a>
             <!-- Pizza Clicker Card -->
             <a href="https://bearclicker.net/pizza-clicker" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
                 <div class="relative">

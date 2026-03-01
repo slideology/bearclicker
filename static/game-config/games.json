@@ -4,6 +4,16 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "cookie-clicker-2",
+      "title": "Cookie Clicker 2",
+      "url": "https://cookie-clicker2.com/cookie-clicker-2.embed"
+    },
+    {
+      "id": "cookie-clicker2.com",
+      "title": "Cookie Clicker2.Com",
+      "url": "https://cookie-clicker2.com/cookie-clicker-2.embed"
+    },
+    {
       "id": "pizza-clicker",
       "title": "Pizza Clicker",
       "url": "https://cookie-clicker2.com/pizza-clicker.embed"

@@ -1320,5 +1320,25 @@ def pizza_clicker():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/cookie-clicker2.com')
+def cookie_clicker2_com():
+    faq_data = get_faqs_for_page('cookie-clicker2.com')
+    return render_template('cookie-clicker2.com.html',
+                         page_title='Cookie Clicker2.Com',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-clicker-2')
+def cookie_clicker_2():
+    faq_data = get_faqs_for_page('cookie-clicker-2')
+    return render_template('cookie-clicker-2.html',
+                         page_title='Cookie Clicker 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
