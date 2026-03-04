@@ -19,7 +19,11 @@ class TemplateGenerator:
             return False
             
         try:
-            response = requests.get(url, stream=True, timeout=10)
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": "https://html5.gamemonetize.com/"
+            }
+            response = requests.get(url, headers=headers, stream=True, timeout=10)
             response.raise_for_status()
             with open(dest_path, 'wb') as f:
                 for chunk in response.iter_content(1024):
@@ -64,12 +68,9 @@ class TemplateGenerator:
         html_content = self._create_html_content(slug, optimized_tdk)
         html_path = os.path.join(self.templates_dir, f"{slug}.html")
         
-        if not os.path.exists(html_path):
-            with open(html_path, 'w', encoding='utf-8') as f:
-                f.write(html_content)
-            logging.info(f"Created template at {html_path}")
-        else:
-            logging.info(f"Template {html_path} already exists. Skipping HTML generation.")
+        with open(html_path, 'w', encoding='utf-8') as f:
+            f.write(html_content)
+        logging.info(f"Generated template at {html_path}")
 
         # 4. Modify app.py to add route
         self._add_route_to_app(slug)
@@ -81,6 +82,8 @@ class TemplateGenerator:
         # 6. Update trending_games.html
         trending_html = os.path.join(self.base_dir, "templates", "components", "trending_games.html")
         self._update_trending_games(trending_html, slug, display_title)
+        
+        return True
 
     def _create_html_content(self, slug, tdk):
         title = tdk.get('title', '').replace('"', '&quot;')
@@ -120,15 +123,6 @@ class TemplateGenerator:
         {{% include 'components/hero.html' %}}
     {{% endwith %}}
 
-    <!-- Recommended Videos (using placeholders) -->
-    {{% with videos=[
-        {{'video_id': 'IYVD4uNfQc4'}},
-        {{'video_id': 'HoYN60Cj2BY'}},
-        {{'video_id': 'ewRR3ZrcLAA'}},
-        {{'video_id': 'MOU2XjPPW90'}}
-    ] %}}
-    {{% include 'components/trending_videos.html' %}}
-    {{% endwith %}}
 
     <!-- Trending Games Section -->
     {{% with current_page='{slug}' %}}

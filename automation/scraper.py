@@ -14,6 +14,38 @@ class GameScraper:
         self.processed_log = processed_log
         self.processed_games = self._load_processed_games()
 
+    def get_deep_iframe(self, url, depth=0, max_depth=3):
+        """Recursively fetch nested iframes to find the actual game source URL."""
+        if depth > max_depth or not url:
+            return url
+            
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"}
+            resp = requests.get(url, headers=headers, timeout=10)
+            soup = BeautifulSoup(resp.content, "html.parser")
+            
+            iframe = soup.find("iframe")
+            if not iframe or not iframe.get("src"):
+                return url
+                
+            src = iframe.get("src")
+            if src.startswith("//"):
+                src = "https:" + src
+            elif src.startswith("/"):
+                parsed = urllib.parse.urlparse(url)
+                src = urllib.parse.urljoin(f"{parsed.scheme}://{parsed.netloc}", src)
+                
+            # Known game CDNs directly returned
+            known_hosts = ["html5.gamemonetize.com", "gamedistribution.com", "gamesnacks.com", "poki.com", "crazygames.com"]
+            if any(host in src for host in known_hosts):
+                return src
+                
+            return self.get_deep_iframe(src, depth + 1, max_depth)
+            
+        except Exception as e:
+            logging.warning(f"Deep scrap error at depth {depth} for {url}: {e}")
+            return url
+
     def _load_processed_games(self):
         if os.path.exists(self.processed_log):
             try:
@@ -84,11 +116,12 @@ class GameScraper:
             if base_iframe_src.startswith('/'):
                 parsed_url = urllib.parse.urlparse(url)
                 base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
-                data['iframe_src'] = urllib.parse.urljoin(base_url, base_iframe_src)
-            else:
-                data['iframe_src'] = base_iframe_src
+                base_iframe_src = urllib.parse.urljoin(base_url, base_iframe_src)
+                
+            # Perform Deep Scraping to bypass Cloudflare and get direct CDN link
+            data['iframe_src'] = self.get_deep_iframe(base_iframe_src)
             
-            # OG Image
+            # OG Image fallback
             og_image = soup.find('meta', property='og:image')
             if og_image and og_image['content']:
                 img_url = og_image['content']
@@ -99,6 +132,14 @@ class GameScraper:
                 data['image_url'] = img_url
             else:
                 data['image_url'] = ""
+
+            # If we know the deep iframe, try to get a better high-res game image from the CDN directly
+            if data.get('iframe_src'):
+                import re
+                if "gamemonetize.com" in data['iframe_src']:
+                    match = re.search(r"gamemonetize\.com/([a-z0-9]+)", data['iframe_src'])
+                    if match:
+                        data['image_url'] = f"https://img.gamemonetize.com/{match.group(1)}/512x384.jpg"
 
             # Favicon
             favicon = soup.find('link', rel=lambda x: x and 'icon' in x)

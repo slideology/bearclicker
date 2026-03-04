@@ -35,6 +35,58 @@
             Trending games like {{ page_title }}
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 sm:gap-3">
+            <!-- 2048 Card -->
+            <a href="https://bearclicker.net/2048" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/2048.jpg') }}" 
+                         alt="2048 img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('2048', '2048') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Sudoku Card -->
+            <a href="https://bearclicker.net/sudoku" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/sudoku.jpg') }}" 
+                         alt="Sudoku img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('sudoku', 'Sudoku') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Cookie Tap Card -->
+            <a href="https://bearclicker.net/cookie-tap" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/cookie-tap.jpg') }}" 
+                         alt="Cookie Tap img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('cookie_tap', 'Cookie Tap') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Among Us Clicker Card -->
+            <a href="https://bearclicker.net/among-us-clicker" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/among-us-clicker.jpg') }}" 
+                         alt="Among Us Clicker img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('among_us_clicker', 'Among Us Clicker') }}
+                    </p>
+                </div>
+            </a>
             <!-- Cookie Clicker 2 Card -->
             <a href="https://bearclicker.net/cookie-clicker-2" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
                 <div class="relative">

@@ -4261,5 +4261,186 @@
       }
     ],
     "conclusion": "We hope this FAQ helps you on your journey to becoming the ultimate cookie overlord!"
+  },
+  "among-us-clicker": {
+    "faqs": [
+      {
+        "question": "What is the main objective in Among Us Clicker?",
+        "answer": "Your primary goal is to quickly click on characters (impostors and crew members) as they appear to earn points, while carefully avoiding bombs."
+      },
+      {
+        "question": "How do I play Among Us Clicker?",
+        "answer": "Simply use your mouse or touch input to click on the characters that appear on screen before they disappear."
+      },
+      {
+        "question": "What should I avoid clicking in the game?",
+        "answer": "You must avoid clicking on the bombs that appear, as they will cause you to blow up and end your game."
+      },
+      {
+        "question": "Is there a penalty for missing characters?",
+        "answer": "Yes, if you fail to click and ignore more than three characters that appear, your game session will end."
+      },
+      {
+        "question": "How can I maximize my score in Among Us Clicker?",
+        "answer": "Focus on quick reactions, prioritize clicking all appearing characters, and remain vigilant to avoid bombs to maintain your game and earn more points."
+      },
+      {
+        "question": "Is Among Us Clicker a free game to play?",
+        "answer": "Yes, Among Us Clicker is a fun and completely free game for everyone to enjoy."
+      },
+      {
+        "question": "Are there different types of characters to interact with?",
+        "answer": "You will encounter both colorful impostors and crew members; you should click on either type to collect points."
+      }
+    ],
+    "conclusion": "We hope this FAQ helps you navigate and enjoy your time in Among Us Clicker!"
+  },
+  "cookie-tap": {
+    "faqs": [
+      {
+        "question": "How do I play Cookie Tap?",
+        "answer": "Simply tap or click the large cookie on your screen to earn points and progress."
+      },
+      {
+        "question": "What is the main objective of Cookie Tap?",
+        "answer": "Your goal is to tap enough to discover attractive fruits and other interesting surprises within the game."
+      },
+      {
+        "question": "Are there any special controls besides tapping?",
+        "answer": "Cookie Tap primarily uses simple tap or click interactions. No complex keyboard shortcuts are required."
+      },
+      {
+        "question": "Can I play Cookie Tap on a touchscreen device?",
+        "answer": "Yes, Cookie Tap is fully optimized for touchscreens, making it enjoyable on mobile phones and tablets."
+      },
+      {
+        "question": "What kind of \"interesting things\" can I expect to find?",
+        "answer": "As you tap, you'll uncover a variety of attractive fruits and unlock new visual elements and discoveries."
+      },
+      {
+        "question": "Are there any tips for faster progression?",
+        "answer": "Focus on consistent tapping to accumulate points quickly, which will help you discover new items faster."
+      },
+      {
+        "question": "Is there an option for automatic tapping?",
+        "answer": "Cookie Tap is designed around active tapping, so there isn't an auto-tap feature. Your manual taps are key to progression."
+      },
+      {
+        "question": "Does Cookie Tap offer any accessibility features for players?",
+        "answer": "The game features large, easy-to-tap elements and can be played with a mouse, trackpad, or touchscreen for broad accessibility."
+      }
+    ],
+    "conclusion": "We hope these FAQs help you enjoy your tapping adventure in Cookie Tap!"
+  },
+  "sudoku": {
+    "faqs": [
+      {
+        "question": "What is the main goal when playing Sudoku?",
+        "answer": "The objective is to fill a 9x9 grid with numbers from 1 to 9, ensuring each number appears only once in each row, column, and 3x3 subgrid."
+      },
+      {
+        "question": "How do I input numbers into the Sudoku grid?",
+        "answer": "Select an empty cell and then choose the number you wish to place from the available options, usually via a number pad or selection tool."
+      },
+      {
+        "question": "What is the purpose of 'tray filling in empty spots' or making notes?",
+        "answer": "This feature, often called 'pencil marks' or 'candidates,' allows you to temporarily note all possible numbers that could fit in a cell, helping you deduce the correct solution."
+      },
+      {
+        "question": "How do I activate the pencil mark feature using the 'large black dot' button?",
+        "answer": "Click the button with the large black dot to switch to pencil mark mode. Then, select a cell and add the potential numbers. Click it again to switch back to final number entry."
+      },
+      {
+        "question": "What are some good strategies for new Sudoku players?",
+        "answer": "Start by looking for rows, columns, or 3x3 blocks that have many numbers already filled. Use the process of elimination to find cells where only one number can fit."
+      },
+      {
+        "question": "Is there a way to correct an incorrect number placement?",
+        "answer": "Most Sudoku games offer an 'undo' button or feature, allowing you to revert your last move if you make a mistake."
+      },
+      {
+        "question": "What should I do if I find myself stuck on a difficult puzzle?",
+        "answer": "Try revisiting previous cells to double-check your work, or use the pencil mark feature more extensively to find hidden possibilities. Some games also offer hints."
+      },
+      {
+        "question": "Do Sudoku puzzles have a time limit?",
+        "answer": "Generally, Sudoku puzzles in this game do not have a time limit, allowing you to solve at your own pace."
+      }
+    ],
+    "conclusion": "We hope this FAQ helps you master the art of Sudoku and enjoy countless hours of brain-teasing fun!"
+  },
+  "2048": {
+    "faqs": [
+      {
+        "question": "What is the objective of the game 2048?",
+        "answer": "The main goal is to merge numbered tiles by sliding them across the board, aiming to create a single tile with the number 2048 before the board becomes full."
+      },
+      {
+        "question": "How do I control the tiles in 2048?",
+        "answer": "You use the arrow keys (Up, Down, Left, Right) on your keyboard to slide all tiles simultaneously in the chosen direction."
+      },
+      {
+        "question": "How do new tiles appear on the board?",
+        "answer": "After every valid move, a new tile (either a '2' or a '4') will randomly appear in an empty spot on the game board."
+      },
+      {
+        "question": "What's a good strategy for reaching a high score in 2048?",
+        "answer": "A common strategy is to keep your highest-value tile in one of the corners and build a 'snake' or chain of descending numbers towards it, minimizing movement of the high-value tile."
+      },
+      {
+        "question": "How is my score calculated in 2048?",
+        "answer": "Your score increases each time two identical tiles merge. The value added to your total score is the sum of the two merged tiles (e.g., merging two '8's adds 16 points)."
+      },
+      {
+        "question": "What happens when I can no longer make any moves?",
+        "answer": "If the board fills up and there are no adjacent tiles of the same value that can merge, the game concludes."
+      },
+      {
+        "question": "Are there any accessibility features available for 2048?",
+        "answer": "The game primarily relies on simple arrow key inputs, making it navigable for keyboard users. Tile values are also clearly displayed with distinct colors."
+      },
+      {
+        "question": "Can I undo a move or restart the game?",
+        "answer": "Most versions of 2048 do not offer an 'undo' function. To restart, you would typically look for a 'New Game' or 'Restart' option within the game interface."
+      }
+    ],
+    "conclusion": "We hope these FAQs help you master the art of 2048 and achieve impressive scores!"
+  },
+  "cookie-clicker2": {
+    "faqs": [
+      {
+        "question": "What is Bear Clicker 2?",
+        "answer": "Bear Clicker 2 is a free online idle game where players bake cookies to build an empire across the universe."
+      },
+      {
+        "question": "How do I start playing and earn cookies?",
+        "answer": "You begin by clicking the giant cookie on the screen to earn one cookie per tap."
+      },
+      {
+        "question": "How can I increase my cookie production?",
+        "answer": "Spend your earned cookies on assets like cursors, factories, and farms, or purchase upgrades to boost your production rate."
+      },
+      {
+        "question": "What kind of assets can I buy?",
+        "answer": "You can purchase various assets, including cursors, grandmas, farms, and factories, which automatically generate cookies for you."
+      },
+      {
+        "question": "What do upgrades do?",
+        "answer": "Upgrades improve the efficiency of your clicks and purchased buildings, significantly increasing your cookie output."
+      },
+      {
+        "question": "Are there goals or achievements in the game?",
+        "answer": "Yes, Bear Clicker 2 features hundreds of achievements and milestones to unlock as you progress."
+      },
+      {
+        "question": "Is Bear Clicker 2 free to play?",
+        "answer": "Absolutely! The game is entirely free, requires no download or sign-in, and is completely ad-free."
+      },
+      {
+        "question": "How does automation work?",
+        "answer": "After purchasing assets like Cursors, they will automatically produce cookies for you, even when you're not actively clicking or interacting with the game."
+      }
+    ],
+    "conclusion": "We hope this FAQ helps you on your quest for universal cookie domination!"
   }
 }

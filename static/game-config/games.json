@@ -4,6 +4,31 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "cookie-clicker2",
+      "title": "Cookie Clicker2",
+      "url": "/cookie-clicker2.embed"
+    },
+    {
+      "id": "2048",
+      "title": "2048",
+      "url": "https://games-online.io/game/2048/"
+    },
+    {
+      "id": "sudoku",
+      "title": "Sudoku",
+      "url": "https://html5-games.io/game/sudoku/"
+    },
+    {
+      "id": "cookie-tap",
+      "title": "Cookie Tap",
+      "url": "https://html5.gamedistribution.com/rvvASMiM/06635e21230a456a936b1ff03d66de0e/?gd_sdk_referrer_url=https://cookie-clicker2.com/cookie-tap"
+    },
+    {
+      "id": "among-us-clicker",
+      "title": "Among Us Clicker",
+      "url": "https://html5.gamemonetize.com/1owly98yxb0v19xq01pq1a5n4kooq9jr/"
+    },
+    {
       "id": "cookie-clicker-2",
       "title": "Cookie Clicker 2",
       "url": "https://cookie-clicker2.com/cookie-clicker-2.embed"

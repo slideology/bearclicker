@@ -1340,5 +1340,55 @@ def cookie_clicker_2():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/among-us-clicker')
+def among_us_clicker():
+    faq_data = get_faqs_for_page('among-us-clicker')
+    return render_template('among-us-clicker.html',
+                         page_title='Among Us Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-tap')
+def cookie_tap():
+    faq_data = get_faqs_for_page('cookie-tap')
+    return render_template('cookie-tap.html',
+                         page_title='Cookie Tap',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/sudoku')
+def sudoku():
+    faq_data = get_faqs_for_page('sudoku')
+    return render_template('sudoku.html',
+                         page_title='Sudoku',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/2048')
+def game_2048():
+    faq_data = get_faqs_for_page('2048')
+    return render_template('2048.html',
+                         page_title='2048',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-clicker2')
+def cookie_clicker2():
+    faq_data = get_faqs_for_page('cookie-clicker2')
+    return render_template('cookie-clicker2.html',
+                         page_title='Cookie Clicker2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
