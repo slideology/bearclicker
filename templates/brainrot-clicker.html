@@ -3,30 +3,35 @@
 {% block title %}Play Brainrot Clicker On Bear Clicker{% endblock %}
 
 {% block meta_description %}
-<meta name="description" content="Dive into Brainrot Clicker's absurd world! Tap into chaos, earn upgrades, and watch your brainpower rot in this weirdly addictive idle game.">
+<meta name="description"
+    content="Dive into Brainrot Clicker's absurd world! Tap into chaos, earn upgrades, and watch your brainpower rot in this weirdly addictive idle game.">
 {% endblock %}
 
 {% block og_title %}Play Brainrot Clicker On Bear Clicker{% endblock %}
-{% block og_description %}Dive into Brainrot Clicker's absurd world! Tap into chaos, earn upgrades, and watch your brainpower rot in this weirdly addictive idle game.{% endblock %}
+{% block og_description %}Dive into Brainrot Clicker's absurd world! Tap into chaos, earn upgrades, and watch your
+brainpower rot in this weirdly addictive idle game.{% endblock %}
 
 {% block favicon %}
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/brainrot-clicker-favicon.png') }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/brainrot-clicker-apple-touch-icon.png') }}">
+<link rel="icon" type="image/png"
+    href="{{ url_for('static', filename='images/favicon/brainrot-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180"
+    href="{{ url_for('static', filename='images/favicon/brainrot-clicker-apple-touch-icon.png') }}">
 {% endblock %}
 
 {% block content %}
 <div class="relative overflow-hidden">
-    {% with 
-        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
-        blob_gradient_1="from-pink-500 to-purple-500",
-        blob_gradient_2="from-purple-500 to-indigo-500",
-        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
-        game_url="https://playhop.com/dist-app/426147?utm_source=distrib&amp;utm_medium=bravekieu",
-        title="Brainrot Clicker",
-        description="Dive into Brainrot Clicker's absurd world! Tap into chaos, earn upgrades, and watch your brainpower rot in this weirdly addictive idle game.",
-        open_in_new_tab=True
+    {% with
+    gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+    blob_gradient_1="from-pink-500 to-purple-500",
+    blob_gradient_2="from-purple-500 to-indigo-500",
+    title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+    game_url="https://bearclicker.net/game/brainrot-clicker",
+    title="Brainrot Clicker",
+    description="Dive into Brainrot Clicker's absurd world! Tap into chaos, earn upgrades, and watch your brainpower rot
+    in this weirdly addictive idle game.",
+    open_in_new_tab=False
     %}
-        {% include 'components/hero.html' %}
+    {% include 'components/hero.html' %}
     {% endwith %}
 
 
@@ -34,10 +39,10 @@
     {% with current_page='brainrot-clicker' %}
     {% include 'components/trending_games.html' %}
     {% endwith %}
-    
 
-    
-   <!-- FAQ Section -->
-{% include 'components/faq_section.html' %}
+
+
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
 </div>
 {% endblock %}

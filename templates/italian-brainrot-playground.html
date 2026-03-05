@@ -3,30 +3,35 @@
 {% block title %}Play Italian Brainrot Playground On Bear Clicker{% endblock %}
 
 {% block meta_description %}
-<meta name="description" content="Italian Brainrot: Playground is a casual sandbox simulator inspired by the viral meme, combining freeform creativity with hilarious physics and chaotic battles.">
+<meta name="description"
+    content="Italian Brainrot: Playground is a casual sandbox simulator inspired by the viral meme, combining freeform creativity with hilarious physics and chaotic battles.">
 {% endblock %}
 
 {% block og_title %}Play Italian Brainrot Playground On Bear Clicker{% endblock %}
-{% block og_description %}Italian Brainrot: Playground is a casual sandbox simulator inspired by the viral meme, combining freeform creativity with hilarious physics and chaotic battles.{% endblock %}
+{% block og_description %}Italian Brainrot: Playground is a casual sandbox simulator inspired by the viral meme,
+combining freeform creativity with hilarious physics and chaotic battles.{% endblock %}
 
 {% block favicon %}
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/italian-brainrot-playground-favicon.png') }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/italian-brainrot-playground-apple-touch-icon.png') }}">
+<link rel="icon" type="image/png"
+    href="{{ url_for('static', filename='images/favicon/italian-brainrot-playground-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180"
+    href="{{ url_for('static', filename='images/favicon/italian-brainrot-playground-apple-touch-icon.png') }}">
 {% endblock %}
 
 {% block content %}
 <div class="relative overflow-hidden">
-    {% with 
-        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
-        blob_gradient_1="from-pink-500 to-purple-500",
-        blob_gradient_2="from-purple-500 to-indigo-500",
-        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
-        game_url="https://playhop.com/dist-app/425172?utm_source=distrib&utm_medium=bravekieu&clid=12252674",
-        title="Italian Brainrot Playground",
-        description="Italian Brainrot: Playground is a casual sandbox simulator inspired by the viral meme, combining freeform creativity with hilarious physics and chaotic battles.",
-        open_in_new_tab=True
+    {% with
+    gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+    blob_gradient_1="from-pink-500 to-purple-500",
+    blob_gradient_2="from-purple-500 to-indigo-500",
+    title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+    game_url="https://bearclicker.net/game/italian-brainrot-playground",
+    title="Italian Brainrot Playground",
+    description="Italian Brainrot: Playground is a casual sandbox simulator inspired by the viral meme, combining
+    freeform creativity with hilarious physics and chaotic battles.",
+    open_in_new_tab=False
     %}
-        {% include 'components/hero.html' %}
+    {% include 'components/hero.html' %}
     {% endwith %}
 
 
@@ -34,10 +39,10 @@
     {% with current_page='italian-brainrot-playground' %}
     {% include 'components/trending_games.html' %}
     {% endwith %}
-    
 
-    
-   <!-- FAQ Section -->
-{% include 'components/faq_section.html' %}
+
+
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
 </div>
 {% endblock %}

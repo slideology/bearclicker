@@ -4,6 +4,11 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pokemon-gamma-emerald",
+      "title": "Pokemon Gamma Emerald",
+      "url": "https://pokemongammaemeraldgame.com/"
+    },
+    {
       "id": "flying-gorilla",
       "title": "Flying Gorilla",
       "url": "https://www.googletagmanager.com/ns.html?id=GTM-NBMRDKQ"
