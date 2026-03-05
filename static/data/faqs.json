@@ -4266,181 +4266,268 @@
     "faqs": [
       {
         "question": "What is the main objective in Among Us Clicker?",
-        "answer": "Your primary goal is to quickly click on characters (impostors and crew members) as they appear to earn points, while carefully avoiding bombs."
+        "answer": "Your primary goal is to quickly click on and remove both impostors and crew members as they appear to earn points."
       },
       {
         "question": "How do I play Among Us Clicker?",
-        "answer": "Simply use your mouse or touch input to click on the characters that appear on screen before they disappear."
+        "answer": "To play, simply use your mouse or touch screen to click on the characters (impostors and crew members) that pop up on the screen."
       },
       {
-        "question": "What should I avoid clicking in the game?",
-        "answer": "You must avoid clicking on the bombs that appear, as they will cause you to blow up and end your game."
+        "question": "What should I avoid doing to keep playing?",
+        "answer": "Be careful not to click on any bombs, as they will cause your game to end. Also, ensure you don't let more than three characters go unclicked."
       },
       {
-        "question": "Is there a penalty for missing characters?",
-        "answer": "Yes, if you fail to click and ignore more than three characters that appear, your game session will end."
+        "question": "How do I earn points in the game?",
+        "answer": "You earn points by successfully clicking on and eliminating the impostor and crew member characters from the screen."
       },
       {
-        "question": "How can I maximize my score in Among Us Clicker?",
-        "answer": "Focus on quick reactions, prioritize clicking all appearing characters, and remain vigilant to avoid bombs to maintain your game and earn more points."
+        "question": "Are there any tips for achieving a high score?",
+        "answer": "Stay alert and react quickly to all appearing characters. Prioritize clicking them before too many accumulate, and always watch out for bombs."
       },
       {
-        "question": "Is Among Us Clicker a free game to play?",
-        "answer": "Yes, Among Us Clicker is a fun and completely free game for everyone to enjoy."
+        "question": "What causes the game to end?",
+        "answer": "The game will end if you accidentally click on a bomb, or if you fail to click on more than three characters that appear on your screen."
       },
       {
-        "question": "Are there different types of characters to interact with?",
-        "answer": "You will encounter both colorful impostors and crew members; you should click on either type to collect points."
+        "question": "Is Among Us Clicker accessible for all players?",
+        "answer": "Yes, Among Us Clicker is designed as a fun and free game for players of all ages, requiring only basic clicking and observation skills."
       }
     ],
-    "conclusion": "We hope this FAQ helps you navigate and enjoy your time in Among Us Clicker!"
+    "conclusion": "Enjoy your time clicking away and uncovering all the fun that Among Us Clicker has to offer!"
   },
   "cookie-tap": {
     "faqs": [
       {
         "question": "How do I play Cookie Tap?",
-        "answer": "Simply tap or click the large cookie on your screen to earn points and progress."
+        "answer": "Simply click or tap the large cookie on the screen to earn points and progress through the game."
       },
       {
         "question": "What is the main objective of Cookie Tap?",
-        "answer": "Your goal is to tap enough to discover attractive fruits and other interesting surprises within the game."
+        "answer": "Your goal is to tap as many cookies as possible to unlock new content, discover interesting things, and reveal attractive fruits."
       },
       {
-        "question": "Are there any special controls besides tapping?",
-        "answer": "Cookie Tap primarily uses simple tap or click interactions. No complex keyboard shortcuts are required."
+        "question": "Are there any strategies to earn points faster?",
+        "answer": "Focus on purchasing upgrades that increase your tap power and unlock automatic production to maximize your point generation over time."
       },
       {
-        "question": "Can I play Cookie Tap on a touchscreen device?",
-        "answer": "Yes, Cookie Tap is fully optimized for touchscreens, making it enjoyable on mobile phones and tablets."
+        "question": "How do I unlock new content and fruits?",
+        "answer": "Accumulate enough points to purchase upgrades and new items from the in-game shop. These purchases will reveal new visuals and features."
       },
       {
-        "question": "What kind of \"interesting things\" can I expect to find?",
-        "answer": "As you tap, you'll uncover a variety of attractive fruits and unlock new visual elements and discoveries."
+        "question": "What are the controls for Cookie Tap?",
+        "answer": "The primary control is a simple click or tap on the main cookie. All other interactions, such as buying upgrades, are performed by clicking on UI elements."
       },
       {
-        "question": "Are there any tips for faster progression?",
-        "answer": "Focus on consistent tapping to accumulate points quickly, which will help you discover new items faster."
+        "question": "Does Cookie Tap offer any accessibility options?",
+        "answer": "The game is designed with simple one-click/tap interaction for broad accessibility. Future updates may introduce additional visual or auditory customization options."
       },
       {
-        "question": "Is there an option for automatic tapping?",
-        "answer": "Cookie Tap is designed around active tapping, so there isn't an auto-tap feature. Your manual taps are key to progression."
-      },
-      {
-        "question": "Does Cookie Tap offer any accessibility features for players?",
-        "answer": "The game features large, easy-to-tap elements and can be played with a mouse, trackpad, or touchscreen for broad accessibility."
+        "question": "Can I play Cookie Tap on different devices?",
+        "answer": "Yes, Cookie Tap is designed to be playable across various web-enabled devices, supporting both mouse clicks and touch input for your convenience."
       }
     ],
-    "conclusion": "We hope these FAQs help you enjoy your tapping adventure in Cookie Tap!"
+    "conclusion": "We hope this FAQ helps you enjoy your time tapping and discovering all the fun in Cookie Tap!"
   },
   "sudoku": {
     "faqs": [
       {
-        "question": "What is the main goal when playing Sudoku?",
-        "answer": "The objective is to fill a 9x9 grid with numbers from 1 to 9, ensuring each number appears only once in each row, column, and 3x3 subgrid."
+        "question": "What is the main objective of Sudoku?",
+        "answer": "The goal is to fill a 9x9 grid with digits from 1 to 9, ensuring each number appears only once in every row, column, and 3x3 subgrid."
       },
       {
-        "question": "How do I input numbers into the Sudoku grid?",
-        "answer": "Select an empty cell and then choose the number you wish to place from the available options, usually via a number pad or selection tool."
+        "question": "What are the basic rules for playing Sudoku?",
+        "answer": "Place numbers 1 through 9 into the empty cells. Each number must appear exactly once in each row, each column, and each of the nine 3x3 blocks."
       },
       {
-        "question": "What is the purpose of 'tray filling in empty spots' or making notes?",
-        "answer": "This feature, often called 'pencil marks' or 'candidates,' allows you to temporarily note all possible numbers that could fit in a cell, helping you deduce the correct solution."
+        "question": "Do you have any tips for solving difficult Sudoku puzzles?",
+        "answer": "A helpful strategy is to use 'pencil marks' to note all possible candidate numbers for an empty cell. Then, look for cells where only one number is logically possible."
       },
       {
-        "question": "How do I activate the pencil mark feature using the 'large black dot' button?",
-        "answer": "Click the button with the large black dot to switch to pencil mark mode. Then, select a cell and add the potential numbers. Click it again to switch back to final number entry."
+        "question": "How do I use the 'pencil mark' or 'note' feature in the game?",
+        "answer": "To mark potential numbers, click the button with the large black dot, then select the numbers you believe could fit into that specific cell."
       },
       {
-        "question": "What are some good strategies for new Sudoku players?",
-        "answer": "Start by looking for rows, columns, or 3x3 blocks that have many numbers already filled. Use the process of elimination to find cells where only one number can fit."
+        "question": "What if I make an error while playing? Can I undo my moves?",
+        "answer": "Yes, most Sudoku games include an undo function or an eraser tool, allowing you to correct mistakes or clear a cell."
       },
       {
-        "question": "Is there a way to correct an incorrect number placement?",
-        "answer": "Most Sudoku games offer an 'undo' button or feature, allowing you to revert your last move if you make a mistake."
+        "question": "Can I choose different difficulty levels for the puzzles?",
+        "answer": "Many Sudoku games offer various difficulty settings, such as Easy, Medium, or Hard, which control the number of pre-filled cells at the start."
       },
       {
-        "question": "What should I do if I find myself stuck on a difficult puzzle?",
-        "answer": "Try revisiting previous cells to double-check your work, or use the pencil mark feature more extensively to find hidden possibilities. Some games also offer hints."
-      },
-      {
-        "question": "Do Sudoku puzzles have a time limit?",
-        "answer": "Generally, Sudoku puzzles in this game do not have a time limit, allowing you to solve at your own pace."
+        "question": "Is this game accessible for all players?",
+        "answer": "Sudoku is designed to be intuitive and logic-based, with clear visual elements and straightforward input, aiming for broad accessibility."
       }
     ],
-    "conclusion": "We hope this FAQ helps you master the art of Sudoku and enjoy countless hours of brain-teasing fun!"
+    "conclusion": "Enjoy the satisfying challenge of completing each grid and sharpening your logical thinking!"
   },
   "2048": {
     "faqs": [
       {
-        "question": "What is the objective of the game 2048?",
-        "answer": "The main goal is to merge numbered tiles by sliding them across the board, aiming to create a single tile with the number 2048 before the board becomes full."
+        "question": "What is the main objective of 2048?",
+        "answer": "The primary goal is to combine numbered tiles on a grid to reach a single tile with the number 2048. You can continue playing after reaching 2048 to achieve an even higher score."
       },
       {
-        "question": "How do I control the tiles in 2048?",
-        "answer": "You use the arrow keys (Up, Down, Left, Right) on your keyboard to slide all tiles simultaneously in the chosen direction."
+        "question": "How do I move the tiles in 2048?",
+        "answer": "You control the game using your keyboard's arrow keys (Up, Down, Left, Right). Pressing an arrow key will slide all tiles on the board in that direction."
       },
       {
-        "question": "How do new tiles appear on the board?",
-        "answer": "After every valid move, a new tile (either a '2' or a '4') will randomly appear in an empty spot on the game board."
+        "question": "What happens when two tiles with the same number touch?",
+        "answer": "When two tiles with identical numbers collide during a move, they merge into a single new tile with a value equal to the sum of the two original tiles (e.g., two '2's become a '4', two '4's become an '8')."
       },
       {
-        "question": "What's a good strategy for reaching a high score in 2048?",
-        "answer": "A common strategy is to keep your highest-value tile in one of the corners and build a 'snake' or chain of descending numbers towards it, minimizing movement of the high-value tile."
+        "question": "What is a good strategy to achieve a high score?",
+        "answer": "A popular strategy is to keep your highest-numbered tile in one of the corners of the grid and try to build up other tiles towards it, always prioritizing moves that create merges."
       },
       {
-        "question": "How is my score calculated in 2048?",
-        "answer": "Your score increases each time two identical tiles merge. The value added to your total score is the sum of the two merged tiles (e.g., merging two '8's adds 16 points)."
+        "question": "How do new tiles appear on the game board?",
+        "answer": "After every valid move you make (one that results in tiles moving or merging), a new tile, either a '2' or a '4', will randomly appear in an empty spot on the grid."
       },
       {
-        "question": "What happens when I can no longer make any moves?",
-        "answer": "If the board fills up and there are no adjacent tiles of the same value that can merge, the game concludes."
+        "question": "How do I lose the game in 2048?",
+        "answer": "You lose when the entire grid becomes filled with tiles and there are no more possible moves. This means no adjacent tiles have the same number to merge, and no empty spaces remain for new tiles."
       },
       {
-        "question": "Are there any accessibility features available for 2048?",
-        "answer": "The game primarily relies on simple arrow key inputs, making it navigable for keyboard users. Tile values are also clearly displayed with distinct colors."
+        "question": "Can I undo a move if I make a mistake?",
+        "answer": "Currently, there is no built-in undo feature in 2048. Each move is permanent, so it's best to plan your actions carefully before executing them."
       },
       {
-        "question": "Can I undo a move or restart the game?",
-        "answer": "Most versions of 2048 do not offer an 'undo' function. To restart, you would typically look for a 'New Game' or 'Restart' option within the game interface."
+        "question": "Are there any accessibility features for 2048?",
+        "answer": "The game is designed with simple arrow-key controls and clear, high-contrast numbering on its tiles, making it straightforward and visually accessible for a wide range of players."
       }
     ],
-    "conclusion": "We hope these FAQs help you master the art of 2048 and achieve impressive scores!"
+    "conclusion": "Master the grid and combine tiles to reach 2048 and beyond in this engaging puzzle experience!"
   },
   "cookie-clicker2": {
     "faqs": [
       {
-        "question": "What is Bear Clicker 2?",
-        "answer": "Bear Clicker 2 is a free online idle game where players bake cookies to build an empire across the universe."
+        "question": "How do I play Cookie Clicker2.Com?",
+        "answer": "Start by clicking the giant cookie on the screen to bake cookies. As you accumulate more, you can purchase assets and upgrades to automate and accelerate your cookie production."
       },
       {
-        "question": "How do I start playing and earn cookies?",
-        "answer": "You begin by clicking the giant cookie on the screen to earn one cookie per tap."
+        "question": "What are the basic controls for Cookie Clicker2.Com?",
+        "answer": "The primary control is simply clicking the large cookie on your screen. All other interactions, such as purchasing upgrades or assets, are done through the game's interface."
       },
       {
-        "question": "How can I increase my cookie production?",
-        "answer": "Spend your earned cookies on assets like cursors, factories, and farms, or purchase upgrades to boost your production rate."
+        "question": "How can I increase my cookie production efficiently?",
+        "answer": "Initially, focus on manual clicks. Once you have enough cookies, buy assets like Cursors and buildings (factories, farms, grandmas) to generate cookies automatically. Prioritize upgrades to boost both manual clicks and automatic production."
       },
       {
-        "question": "What kind of assets can I buy?",
-        "answer": "You can purchase various assets, including cursors, grandmas, farms, and factories, which automatically generate cookies for you."
+        "question": "Can I earn cookies even when I'm not actively playing?",
+        "answer": "Yes! Cookie Clicker2.Com is an idle game. Once you purchase assets like Cursors and buildings, they will continue to produce cookies for you even when you're away from the game."
       },
       {
-        "question": "What do upgrades do?",
-        "answer": "Upgrades improve the efficiency of your clicks and purchased buildings, significantly increasing your cookie output."
+        "question": "Are there any long-term goals or achievements in Cookie Clicker2.Com?",
+        "answer": "Absolutely! The game features hundreds of achievements and milestones to unlock as you progress, offering continuous goals and rewards for your cookie empire."
       },
       {
-        "question": "Are there goals or achievements in the game?",
-        "answer": "Yes, Bear Clicker 2 features hundreds of achievements and milestones to unlock as you progress."
+        "question": "Is Cookie Clicker2.Com free to play, and does it require downloads or sign-ups?",
+        "answer": "Yes, Cookie Clicker2.Com is completely free to play. There are no ads, no downloads required, and you don't need to sign in to start baking cookies."
       },
       {
-        "question": "Is Bear Clicker 2 free to play?",
-        "answer": "Absolutely! The game is entirely free, requires no download or sign-in, and is completely ad-free."
-      },
-      {
-        "question": "How does automation work?",
-        "answer": "After purchasing assets like Cursors, they will automatically produce cookies for you, even when you're not actively clicking or interacting with the game."
+        "question": "What should I buy first to get started?",
+        "answer": "After clicking manually to gather some cookies, your first purchase should ideally be a Cursor. It costs 15 cookies and will automatically click for you, providing a steady base income."
       }
     ],
-    "conclusion": "We hope this FAQ helps you on your quest for universal cookie domination!"
+    "conclusion": "Dive into the delicious world of Cookie Clicker2.Com and build your ultimate cookie empire!"
+  },
+  "orbit-kick": {
+    "faqs": [
+      {
+        "question": "What is the main objective in Orbit Kick?",
+        "answer": "Your primary goal is to launch perfect kicks to send the ball as far as possible, even into space, earning coins and unlocking new content."
+      },
+      {
+        "question": "How do I kick the ball with maximum power?",
+        "answer": "Watch the power meter carefully and click or tap at the precise moment to achieve maximum power and the perfect angle for your kick."
+      },
+      {
+        "question": "Can I control the ball after I kick it?",
+        "answer": "Yes, once the ball is in flight, use swipe mechanics to make small adjustments to its trajectory, helping it bounce further and travel longer distances."
+      },
+      {
+        "question": "How can I earn bonus coins?",
+        "answer": "Aim to send the ball directly into the net to earn a x2 bonus on your coins."
+      },
+      {
+        "question": "What happens when I reach distance milestones?",
+        "answer": "Reaching specific distance milestones, such as 1000m or 2000m, automatically unlocks new levels, cities, and different ball types."
+      },
+      {
+        "question": "What should I upgrade first to improve my kicks?",
+        "answer": "Focus on upgrades that increase your kick power and initial launch distance to maximize your coin earnings and overall progress."
+      },
+      {
+        "question": "Is Orbit Kick easy to pick up and play?",
+        "answer": "Yes, Orbit Kick is designed as a casual arcade game with simple, intuitive controls, making it easy for anyone to enjoy the endless world-kicking adventure."
+      }
+    ],
+    "conclusion": "We hope this FAQ helps you master your kicks and enjoy your journey across the world in Orbit Kick!"
+  },
+  "steal-a-brainrot": {
+    "faqs": [
+      {
+        "question": "What is the main objective in Steal A Brainrot?",
+        "answer": "In Steal A Brainrot, your primary goal is to collect rare Brainrot, protect your acquired stash within your base, and climb the leaderboards to become the most renowned thief."
+      },
+      {
+        "question": "How do I acquire new Brainrot and generate money?",
+        "answer": "You can obtain Brainrot by stealing from other players or purchasing new ones from the conveyor belt. Placing your collected Brainrot on ceremonial pillars will generate money for you over time."
+      },
+      {
+        "question": "What are the best ways to protect my base and collection?",
+        "answer": "Defend your base by strategically setting up traps and locks, upgrading your defenses, and deploying shields. You can also use your hammer to directly attack any invaders."
+      },
+      {
+        "question": "How can I improve my stealing and escaping tactics?",
+        "answer": "Utilize boosts such as speed and invisibility to outbid opponents for rare Brainrot or make quick getaways. Press the G key for a swift escape when you're in a tight spot."
+      },
+      {
+        "question": "What can I spend the money I earn on?",
+        "answer": "Your earnings can be used to buy new Brainrot, purchase essential defensive upgrades like traps and locks, and enhance the overall protection of your base."
+      },
+      {
+        "question": "What are the basic controls for playing Steal A Brainrot?",
+        "answer": "Movement typically uses WASD keys, you can interact with objects using E or F, and your hammer is used for attacking. The G key is specifically for activating your escape ability."
+      },
+      {
+        "question": "Is Steal A Brainrot suitable for all ages?",
+        "answer": "Yes, Steal A Brainrot is designed as a casual game, making it perfect for kids and meme lovers who enjoy lighthearted stealing, defending, and competitive leaderboard climbing."
+      }
+    ],
+    "conclusion": "We hope this FAQ helps you become the ultimate Brainrot collector and master thief!"
+  },
+  "flying-gorilla": {
+    "faqs": [
+      {
+        "question": "What is the main goal in Flying Gorilla?",
+        "answer": "Your primary objective is to fly the gorilla as far as possible, navigating through various obstacles to achieve the longest distance."
+      },
+      {
+        "question": "How do I control the gorilla during flight?",
+        "answer": "The game features simple controls to steer your flying ape, allowing you to move it and avoid hazards in its path."
+      },
+      {
+        "question": "What happens if I collide with an obstacle?",
+        "answer": "Hitting an obstacle will typically end your current flight, and you'll need to start a new attempt to achieve a greater distance."
+      },
+      {
+        "question": "Why should I collect bananas?",
+        "answer": "Collecting bananas is crucial! Accumulating a certain number of bananas will convert them into valuable gold coins, which can be used for in-game benefits."
+      },
+      {
+        "question": "Are there different levels or stages to complete?",
+        "answer": "Flying Gorilla is an 'endless runner' style game, meaning there are no distinct levels to complete. The challenge is to continuously achieve new personal best distances."
+      },
+      {
+        "question": "Do you have any tips for flying further?",
+        "answer": "Focus on anticipating upcoming obstacles and making small, precise movements. Prioritize avoiding collisions while also trying to collect bananas when safe."
+      },
+      {
+        "question": "Is there a way to pause the game during a flight?",
+        "answer": "Most endless runner games offer a pause option, typically accessible via a button on the screen, allowing you to temporarily halt your flight and resume when ready."
+      }
+    ],
+    "conclusion": "Get ready to soar to new heights and master the skies with your flying gorilla!"
   }
 }

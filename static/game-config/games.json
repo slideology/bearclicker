@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "flying-gorilla",
+      "title": "Flying Gorilla",
+      "url": "https://www.googletagmanager.com/ns.html?id=GTM-NBMRDKQ"
+    },
+    {
+      "id": "steal-a-brainrot",
+      "title": "Steal A Brainrot",
+      "url": "https://st.8games.net/9/8g/igra-ukradi-brejnrot-original-3d/"
+    },
+    {
+      "id": "orbit-kick",
+      "title": "Orbit Kick",
+      "url": "https://gamea.azgame.io/orbit-kick/"
+    },
+    {
       "id": "cookie-clicker2",
       "title": "Cookie Clicker2",
       "url": "/cookie-clicker2.embed"

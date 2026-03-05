@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
-{% block title %}Play Sudoku Online Free - Daily Logic Puzzles{% endblock %}
+{% block title %}Sudoku - Play Logic Puzzles Online for Free{% endblock %}
 
 {% block meta_description %}
-<meta name="description" content="Challenge your mind with free Sudoku puzzles! Fill the 9x9 grid with numbers 1-9, no duplicates. Play online daily logic games and become a Sudoku master. S...">
+<meta name="description" content="Solve 9x9 Sudoku grids by filling numbers 1-9 without duplicates in rows, columns, and blocks. Challenge your logic skills with this free online puzzle game...">
 {% endblock %}
 
-{% block og_title %}Play Sudoku Online Free - Daily Logic Puzzles{% endblock %}
-{% block og_description %}Challenge your mind with free Sudoku puzzles! Fill the 9x9 grid with numbers 1-9, no duplicates. Play online daily logic games and become a Sudoku master. S...{% endblock %}
+{% block og_title %}Sudoku - Play Logic Puzzles Online for Free{% endblock %}
+{% block og_description %}Solve 9x9 Sudoku grids by filling numbers 1-9 without duplicates in rows, columns, and blocks. Challenge your logic skills with this free online puzzle game...{% endblock %}
 
 {% block favicon %}
 <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/sudoku-favicon.png') }}">
@@ -23,7 +23,7 @@
         title_gradient="from-pink-500 via-purple-500 to-indigo-500",
         game_url="/game/sudoku",
         title="Sudoku",
-        description="Challenge your mind with free Sudoku puzzles! Fill the 9x9 grid with numbers 1-9, no duplicates. Play online daily logic games and become a Sudoku master. S...",
+        description="Solve 9x9 Sudoku grids by filling numbers 1-9 without duplicates in rows, columns, and blocks. Challenge your logic skills with this free online puzzle game...",
         open_in_new_tab=False
     %}
         {% include 'components/hero.html' %}

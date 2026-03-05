@@ -13,42 +13,93 @@ class TemplateGenerator:
         self.favicon_dir = os.path.join(base_dir, "static", "images", "favicon")
         self.data_dir = os.path.join(base_dir, "static", "data")
         self.app_py_path = os.path.join(base_dir, "app.py")
+        
+        # Load image mapping
+        self.image_map = {}
+        map_path = os.path.join(self.data_dir, "game_images_map.json")
+        try:
+            if os.path.exists(map_path):
+                with open(map_path, "r", encoding="utf-8") as f:
+                    self.image_map = json.load(f)
+        except Exception as e:
+            logging.error(f"Could not load game_images_map.json: {e}")
 
-    def _download_image(self, url, dest_path):
-        if not url:
+    def _process_image_assets(self, source_url, slug):
+        if not source_url:
             return False
             
+        import tempfile
+        from PIL import Image
+        
+        # Download to temp
+        temp_img = os.path.join(tempfile.gettempdir(), f"{slug}_dl.img")
         try:
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                "Referer": "https://html5.gamemonetize.com/"
-            }
-            response = requests.get(url, headers=headers, stream=True, timeout=10)
+            headers = {"User-Agent": "Mozilla/5.0"}
+            response = requests.get(source_url, headers=headers, stream=True, timeout=10)
             response.raise_for_status()
-            with open(dest_path, 'wb') as f:
+            with open(temp_img, 'wb') as f:
                 for chunk in response.iter_content(1024):
                     f.write(chunk)
-            logging.info(f"Downloaded image to {dest_path}")
+                    
+            img = Image.open(temp_img)
+            img = img.convert("RGBA")
+            bg = Image.new("RGBA", img.size, (255,255,255,255))
+            img = Image.alpha_composite(bg, img).convert("RGB")
+            
+            w, h = img.size
+            
+            # 1. 512x384 (4:3) Thumbnail
+            # Crop to 4:3 first
+            target_w, target_h = w, int(w * 0.75)
+            if target_h > h:
+                target_h = h
+                target_w = int(h * 1.3333333333333333)
+            left = (w - target_w) / 2
+            top = (h - target_h) / 2
+            right = (w + target_w) / 2
+            bottom = (h + target_h) / 2
+            
+            thumb = img.crop((left, top, right, bottom))
+            thumb = thumb.resize((512, 384), Image.Resampling.LANCZOS)
+            thumb.save(os.path.join(self.images_dir, f"{slug}.jpg"), "JPEG", quality=85)
+            
+            # 2. 180x180 (1:1) icon
+            min_dim = min(w, h)
+            left = (w - min_dim) / 2
+            top = (h - min_dim) / 2
+            right = (w + min_dim) / 2
+            bottom = (h + min_dim) / 2
+            
+            icon = img.crop((left, top, right, bottom))
+            icon = icon.resize((180, 180), Image.Resampling.LANCZOS)
+            icon_path = os.path.join(self.favicon_dir, f"{slug}-favicon.png")
+            icon.save(icon_path, "PNG")
+            
+            import shutil
+            shutil.copy(icon_path, os.path.join(self.favicon_dir, f"{slug}-apple-touch-icon.png"))
+            
+            logging.info(f"Successfully downloaded and cropped images for {slug} based on library source")
             return True
         except Exception as e:
-            logging.error(f"Failed to download image from {url}: {e}")
+            logging.error(f"Failed to process image assets for {slug}: {e}")
             return False
+        finally:
+            if os.path.exists(temp_img):
+                os.remove(temp_img)
 
     def generate_page(self, game_data, optimized_tdk, faqs_data):
         slug = game_data['slug']
         logging.info(f"Starting deployment generation for {slug}")
         
-        # 1. Download Images
-        img_url = game_data.get('image_url')
-        favicon_url = game_data.get('favicon_url', img_url)
-        
         display_title = slug.replace('-', ' ').title()
         
-        if img_url:
-            self._download_image(img_url, os.path.join(self.images_dir, f"{slug}.jpg"))
-        if favicon_url:
-            self._download_image(favicon_url, os.path.join(self.favicon_dir, f"{slug}-favicon.png"))
-            self._download_image(favicon_url, os.path.join(self.favicon_dir, f"{slug}-apple-touch-icon.png"))
+        # Determine raw image source preferring the site scraped image map
+        img_source = self.image_map.get(slug)
+        if not img_source:
+             img_source = game_data.get('image_url')
+             
+        # Generate thumbnail and favicons
+        self._process_image_assets(img_source, slug)
         
         # 2. Update FAQs JSON
         faqs_path = os.path.join(self.data_dir, "faqs.json")

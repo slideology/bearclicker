@@ -1390,5 +1390,35 @@ def cookie_clicker2():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/orbit-kick')
+def orbit_kick():
+    faq_data = get_faqs_for_page('orbit-kick')
+    return render_template('orbit-kick.html',
+                         page_title='Orbit Kick',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/steal-a-brainrot')
+def steal_a_brainrot():
+    faq_data = get_faqs_for_page('steal-a-brainrot')
+    return render_template('steal-a-brainrot.html',
+                         page_title='Steal A Brainrot',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/flying-gorilla')
+def flying_gorilla():
+    faq_data = get_faqs_for_page('flying-gorilla')
+    return render_template('flying-gorilla.html',
+                         page_title='Flying Gorilla',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
