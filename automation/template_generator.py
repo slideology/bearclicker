@@ -158,6 +158,8 @@ class TemplateGenerator:
 {{% block og_title %}}{title}{{% endblock %}}
 {{% block og_description %}}{desc}{{% endblock %}}
 
+{{% block og_image %}}https://bearclicker.net/static/images/games/{slug}.jpg{{% endblock %}}
+
 {{% block favicon %}}
 <link rel="icon" type="image/png" href="{{{{ url_for('static', filename='images/favicon/{slug}-favicon.png') }}}}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{{{ url_for('static', filename='images/favicon/{slug}-apple-touch-icon.png') }}}}">
@@ -323,5 +325,13 @@ def {function_name}():
                 f.write(updated)
                 
             logging.info(f"Added {slug} to sitemap.xml with date {today}")
+            
+            # Ping Google to notify of sitemap update
+            try:
+                ping_url = "https://www.google.com/ping?sitemap=https://bearclicker.net/sitemap.xml"
+                requests.get(ping_url, timeout=5)
+                logging.info("Pinged Google to re-crawl sitemap.xml")
+            except Exception:
+                pass  # Non-fatal, don't raise
         except Exception as e:
             logging.error(f"Failed to update sitemap.xml: {e}")

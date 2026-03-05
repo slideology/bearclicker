@@ -99,6 +99,18 @@ def get_targets_for_today(target_count=3):
 def run_daily_update():
     logging.info("Starting Daily Update Pipeline...")
     
+    # Step 0: Refresh game image map from source site
+    logging.info("Refreshing game image map from cookie-clicker2.com...")
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("build_image_map", "build_image_map.py")
+        bim = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(bim)
+        bim.build_image_map()
+        logging.info("Image map refreshed successfully.")
+    except Exception as e:
+        logging.warning(f"Failed to refresh image map (non-fatal, will use existing map): {e}")
+    
     targets = get_targets_for_today(3)
     
     if not targets:
