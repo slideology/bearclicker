@@ -134,6 +134,10 @@ class TemplateGenerator:
         trending_html = os.path.join(self.base_dir, "templates", "components", "trending_games.html")
         self._update_trending_games(trending_html, slug, display_title)
         
+        # 7. Update sitemap.xml
+        sitemap_path = os.path.join(self.base_dir, "static", "sitemap.xml")
+        self._update_sitemap(sitemap_path, slug)
+        
         return True
 
     def _create_html_content(self, slug, tdk):
@@ -288,3 +292,36 @@ def {function_name}():
                 logging.info(f"Added {slug} to trending_games.html")
         except Exception as e:
             logging.error(f"Failed to update trending_games.html: {e}")
+
+    def _update_sitemap(self, path, slug):
+        """将新游戏的 URL 追加到 sitemap.xml 中（如尚未存在）"""
+        try:
+            from datetime import date
+            today = date.today().isoformat()
+            new_url = f"https://bearclicker.net/{slug}"
+            
+            with open(path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                
+            # Skip if already in sitemap
+            if new_url in content:
+                logging.info(f"{slug} already exists in sitemap.xml, skipping.")
+                return
+                
+            # Build new url block
+            new_entry = f"""    <url>
+        <loc>{new_url}</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+"""
+            # Insert before closing </urlset> tag
+            updated = content.replace("</urlset>", new_entry + "</urlset>")
+            
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(updated)
+                
+            logging.info(f"Added {slug} to sitemap.xml with date {today}")
+        except Exception as e:
+            logging.error(f"Failed to update sitemap.xml: {e}")
