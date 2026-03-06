@@ -165,7 +165,7 @@ def run_daily_update():
 
     # Final wrap up
     # 1. Push to indexnow
-    indexnow_success = False
+    indexnow_success = None
     if success_records:
         import sys
         sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

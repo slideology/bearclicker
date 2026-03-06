@@ -34,7 +34,7 @@ class WebhookSender:
                     {
                         "tag": "note",
                         "elements": [
-                            {"tag": "plain_text", "content": f"IndexNow 推送状态: {'✅ 成功' if summary.get('indexnow_status') else '❌ 失败'}"}
+                            {"tag": "plain_text", "content": f"IndexNow 推送状态: {'✅ 成功' if summary.get('indexnow_status') is True else ('❌ 失败' if summary.get('indexnow_status') is False else '⚪ 无数据不需要推送')}"}
                         ]
                     }
                 ]

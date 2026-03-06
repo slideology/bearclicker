@@ -91,7 +91,11 @@ class GameScraper:
         """Extract metadata, iframe, and images from a single game page."""
         logging.info(f"Scraping {url}...")
         try:
-            response = requests.get(url, timeout=10)
+            # Add User-Agent to masquerade as a normal browser, preventing blocks specifically on Github Actions
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+            }
+            response = requests.get(url, headers=headers, timeout=15)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
             
