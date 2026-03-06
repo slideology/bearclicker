@@ -158,6 +158,7 @@ class TemplateGenerator:
 
 {{% block meta_description %}}
 <meta name="description" content="{desc}">
+<link rel="canonical" href="https://bearclicker.net/{slug}">
 {{% endblock %}}
 
 {{% block og_title %}}{title}{{% endblock %}}

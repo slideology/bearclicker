@@ -1,9 +1,6 @@
 name: Daily Game Auto Scraper
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     # 每天 UTC 01:45 执行 (北京时间 09:45)
     - cron: '45 1 * * *'
