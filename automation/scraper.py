@@ -66,7 +66,9 @@ class GameScraper:
         """Fetch all URLs from the sitemap"""
         logging.info(f"Fetching sitemap from {self.sitemap_url}")
         try:
-            response = requests.get(self.sitemap_url, timeout=10)
+            import cloudscraper
+            scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True})
+            response = scraper.get(self.sitemap_url, timeout=15)
             response.raise_for_status()
             
             root = ET.fromstring(response.content)
@@ -91,11 +93,14 @@ class GameScraper:
         """Extract metadata, iframe, and images from a single game page."""
         logging.info(f"Scraping {url}...")
         try:
-            # Add User-Agent to masquerade as a normal browser, preventing blocks specifically on Github Actions
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
-            }
-            response = requests.get(url, headers=headers, timeout=15)
+            # Use cloudscraper to bypass advanced Anti-Bot/Cloudflare shields commonly encountered in CI IPs
+            import cloudscraper
+            scraper = cloudscraper.create_scraper(browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'desktop': True
+            })
+            response = scraper.get(url, timeout=20)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
             

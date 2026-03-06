@@ -17,7 +17,9 @@ def get_latest_games_from_source():
     url = "https://cookie-clicker2.com/new-games"
     new_slugs = []
     try:
-        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        import cloudscraper
+        scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True})
+        resp = scraper.get(url, timeout=15)
         soup = BeautifulSoup(resp.content, "html.parser")
         games = soup.find_all("a", href=True)
         
