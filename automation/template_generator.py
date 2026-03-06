@@ -14,6 +14,11 @@ class TemplateGenerator:
         self.data_dir = os.path.join(base_dir, "static", "data")
         self.app_py_path = os.path.join(base_dir, "app.py")
         
+        # Ensure all necessary output directories exist
+        for d in [self.templates_dir, self.images_dir, self.favicon_dir, self.data_dir]:
+            os.makedirs(d, exist_ok=True)
+
+        
         # Load image mapping
         self.image_map = {}
         map_path = os.path.join(self.data_dir, "game_images_map.json")
