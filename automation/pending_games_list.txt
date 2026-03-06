@@ -1,10 +1,6 @@
-https://cookie-clicker2.com/pokemon
-https://cookie-clicker2.com/onet-connect-classic
-https://cookie-clicker2.com/candy-match-3
 https://cookie-clicker2.com/worms-zone
 https://cookie-clicker2.com/monster-go
 https://cookie-clicker2.com/sheep-fight
-https://cookie-clicker2.com/darwins-yearbook-games
 https://cookie-clicker2.com/10x10-farming
 https://cookie-clicker2.com/crazy-monsters-memory
 https://cookie-clicker2.com/alphabet-memory-game
@@ -148,7 +144,6 @@ https://cookie-clicker2.com/among-stacky-runner
 https://cookie-clicker2.com/diskio
 https://cookie-clicker2.com/slope-game
 https://cookie-clicker2.com/fit-and-go-shape-puzzle
-https://cookie-clicker2.com/cupcake-games
 https://cookie-clicker2.com/10x10-winter-gems
 https://cookie-clicker2.com/funny-bone-surgery
 https://cookie-clicker2.com/pop-it-master
@@ -1029,7 +1024,6 @@ https://cookie-clicker2.com/candy-match-3
 https://cookie-clicker2.com/worms-zone
 https://cookie-clicker2.com/monster-go
 https://cookie-clicker2.com/sheep-fight
-https://cookie-clicker2.com/darwins-yearbook-games
 https://cookie-clicker2.com/10x10-farming
 https://cookie-clicker2.com/crazy-monsters-memory
 https://cookie-clicker2.com/alphabet-memory-game
@@ -1173,7 +1167,6 @@ https://cookie-clicker2.com/among-stacky-runner
 https://cookie-clicker2.com/diskio
 https://cookie-clicker2.com/slope-game
 https://cookie-clicker2.com/fit-and-go-shape-puzzle
-https://cookie-clicker2.com/cupcake-games
 https://cookie-clicker2.com/10x10-winter-gems
 https://cookie-clicker2.com/funny-bone-surgery
 https://cookie-clicker2.com/pop-it-master
@@ -2055,3 +2048,4 @@ https://cookie-clicker2.com/games/idle-games
 https://cookie-clicker2.com/pokemon
 https://cookie-clicker2.com/onet-connect-classic
 https://cookie-clicker2.com/candy-match-3
+https://cookie-clicker2.com/destroy-the-planet
