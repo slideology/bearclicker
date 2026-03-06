@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 
-{% block title %}Play Chicken Jockey Clicker On Bear Clicker Game{% endblock %}
+{% block title %}Play Chicken Jockey Clicker - Play Chicken Jockey Clicke...{% endblock %}
 
 {% block meta_description %}
-<meta name="description" content="Chicken Jockey Clicker: Fun idle gameplay meets Minecraft anarchy! Click to get rich, gain upgrades, and grow unstoppable pixelated poultry knights in a frenzy.">
+<meta name="description" content="Enjoy Have you tried a fun idle clicker? Try Chicken Jockey Clicker. Minecraft anarchy meets idle play! Click to get rich, gain upgrades, and see your knigh...">
 {% endblock %}
 
-{% block og_title %}Play Chicken Jockey Clicker On Bear Clicker Game{% endblock %}
-{% block og_description %}Chicken Jockey Clicker: Fun idle gameplay meets Minecraft anarchy! Click to get rich, gain upgrades, and grow unstoppable pixelated poultry knights in a frenzy.{% endblock %}
+{% block og_title %}Play Chicken Jockey Clicker - Play Chicken Jockey Clicke...{% endblock %}
+{% block og_description %}Enjoy Have you tried a fun idle clicker? Try Chicken Jockey Clicker. Minecraft anarchy meets idle play! Click to get rich, gain upgrades, and see your knigh...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/chicken-jockey-clicker.jpg{% endblock %}
 
 {% block favicon %}
 <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/chicken-jockey-clicker-favicon.png') }}">
@@ -21,9 +23,9 @@
         blob_gradient_1="from-pink-500 to-purple-500",
         blob_gradient_2="from-purple-500 to-indigo-500",
         title_gradient="from-pink-500 via-purple-500 to-indigo-500",
-        game_url="https://bearclicker.net/game/chicken-jockey-clicker",
+        game_url="/game/chicken-jockey-clicker",
         title="Chicken Jockey Clicker",
-        description="Chicken Jockey Clicker: Fun idle gameplay meets Minecraft anarchy! Click to get rich, gain upgrades, and grow unstoppable pixelated poultry knights in a frenzy.",
+        description="Enjoy Have you tried a fun idle clicker? Try Chicken Jockey Clicker. Minecraft anarchy meets idle play! Click to get rich, gain upgrades, and see your knigh...",
         open_in_new_tab=False
     %}
         {% include 'components/hero.html' %}
@@ -35,9 +37,7 @@
     {% include 'components/trending_games.html' %}
     {% endwith %}
     
-
-    
-   <!-- FAQ Section -->
-{% include 'components/faq_section.html' %}
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
 </div>
 {% endblock %}
