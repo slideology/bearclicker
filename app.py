@@ -1450,5 +1450,35 @@ def wave_road():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/supermarket-master')
+def supermarket_master():
+    faq_data = get_faqs_for_page('supermarket-master')
+    return render_template('supermarket-master.html',
+                         page_title='Supermarket Master',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/mineclicker')
+def mineclicker():
+    faq_data = get_faqs_for_page('mineclicker')
+    return render_template('mineclicker.html',
+                         page_title='Mineclicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/color-rush')
+def color_rush():
+    faq_data = get_faqs_for_page('color-rush')
+    return render_template('color-rush.html',
+                         page_title='Color Rush',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
