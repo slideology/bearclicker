@@ -268,7 +268,7 @@ def {function_name}():
                 lines = f.readlines()
             
             content = "".join(lines)
-            if f"/{slug}" in content:
+            if f'href="https://bearclicker.net/{slug}"' in content:
                 return # Already exists
                 
             components = f"""            <!-- {title} Card -->
