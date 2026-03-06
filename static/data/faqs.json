@@ -4509,5 +4509,80 @@
       }
     ],
     "conclusion": "Get ready to soar to new heights and master the skies with your flying gorilla!"
+  },
+  "animal-rampage-3d": {
+    "faqs": [
+      {
+        "question": "How to play Animal Rampage 3D?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Animal Rampage 3D."
+      },
+      {
+        "question": "Is Animal Rampage 3D free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Animal Rampage 3D on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Animal Rampage 3D?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Animal Rampage 3D and share your high scores with friends!"
+  },
+  "sprunki": {
+    "faqs": [
+      {
+        "question": "How to play Sprunki?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Sprunki."
+      },
+      {
+        "question": "Is Sprunki free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Sprunki on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Sprunki?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Sprunki and share your high scores with friends!"
+  },
+  "wave-road": {
+    "faqs": [
+      {
+        "question": "How to play Wave Road?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Wave Road."
+      },
+      {
+        "question": "Is Wave Road free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Wave Road on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Wave Road?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Wave Road and share your high scores with friends!"
   }
 }

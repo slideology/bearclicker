@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "wave-road",
+      "title": "Wave Road",
+      "url": "https://cookie-clicker2.com/wave-road.embed"
+    },
+    {
+      "id": "sprunki",
+      "title": "Sprunki",
+      "url": "https://cookie-clicker2.com/sprunki.embed"
+    },
+    {
+      "id": "animal-rampage-3d",
+      "title": "Animal Rampage 3D",
+      "url": "https://cookie-clicker2.com/animal-rampage-3d.embed"
+    },
+    {
       "id": "pokemon-gamma-emerald",
       "title": "Pokemon Gamma Emerald",
       "url": "https://pokemongammaemeraldgame.com/"

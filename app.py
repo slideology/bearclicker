@@ -1420,5 +1420,35 @@ def flying_gorilla():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/animal-rampage-3d')
+def animal_rampage_3d():
+    faq_data = get_faqs_for_page('animal-rampage-3d')
+    return render_template('animal-rampage-3d.html',
+                         page_title='Animal Rampage 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/sprunki')
+def sprunki():
+    faq_data = get_faqs_for_page('sprunki')
+    return render_template('sprunki.html',
+                         page_title='Sprunki',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/wave-road')
+def wave_road():
+    faq_data = get_faqs_for_page('wave-road')
+    return render_template('wave-road.html',
+                         page_title='Wave Road',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
