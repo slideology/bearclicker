@@ -38,7 +38,7 @@ def get_latest_games_from_source():
 
 def load_processed_games():
     """读取已生成发布的游戏"""
-    games_json_path = os.path.join(".", "static", "game-config", "games.json")
+    games_json_path = os.path.join("..", "static", "game-config", "games.json")
     try:
         with open(games_json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
