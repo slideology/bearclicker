@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Play Color Rush - Play Color Rush On Cookie Clicker 2 Un...{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Never miss Color Rush, a bright and fast-paced action game. Enter the colorful game world and overcome all the trials. This exciting running game take...">
+{% endblock %}
+
+{% block og_title %}Play Color Rush - Play Color Rush On Cookie Clicker 2 Un...{% endblock %}
+{% block og_description %}Enjoy Never miss Color Rush, a bright and fast-paced action game. Enter the colorful game world and overcome all the trials. This exciting running game take...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/color-rush.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/color-rush-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/color-rush-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/color-rush",
+        title="Color Rush",
+        description="Enjoy Never miss Color Rush, a bright and fast-paced action game. Enter the colorful game world and overcome all the trials. This exciting running game take...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='color-rush' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

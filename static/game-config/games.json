@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "color-rush",
+      "title": "Color Rush",
+      "url": "https://cookie-clicker2.com/color-rush.embed"
+    },
+    {
+      "id": "mineclicker",
+      "title": "Mineclicker",
+      "url": "https://cookie-clicker2.com/mineclicker.embed"
+    },
+    {
+      "id": "supermarket-master",
+      "title": "Supermarket Master",
+      "url": "https://cookie-clicker2.com/supermarket-master.embed"
+    },
+    {
       "id": "wave-road",
       "title": "Wave Road",
       "url": "https://cookie-clicker2.com/wave-road.embed"
