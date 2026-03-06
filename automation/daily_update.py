@@ -123,7 +123,7 @@ def run_daily_update():
     
     scraper = GameScraper()
     optimizer = AIOptimizer()
-    generator = TemplateGenerator(base_dir=".")
+    generator = TemplateGenerator(base_dir="..")
     
     success_records = []
     failed_records = []
