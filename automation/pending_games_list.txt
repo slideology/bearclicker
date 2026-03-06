@@ -750,7 +750,6 @@ https://cookie-clicker2.com/merge-town
 https://cookie-clicker2.com/idle-dairy-farm-tycoon
 https://cookie-clicker2.com/drive-in-cinema-idle-game
 https://cookie-clicker2.com/deep-space-idle
-https://cookie-clicker2.com/chicken-jockey-clicker
 https://cookie-clicker2.com/chicken-jockey-combat
 https://cookie-clicker2.com/ski-frenzy
 https://cookie-clicker2.com/slope-2
@@ -889,7 +888,6 @@ https://cookie-clicker2.com/monopoly-table-clicker
 https://cookie-clicker2.com/color-tiles
 https://cookie-clicker2.com/growdenio
 https://cookie-clicker2.com/launch-the-rockets-clicker
-https://cookie-clicker2.com/steal-a-brainrot
 https://cookie-clicker2.com/pickcrafter
 https://cookie-clicker2.com/frog-clicker
 https://cookie-clicker2.com/pico-clicker
@@ -961,7 +959,6 @@ https://cookie-clicker2.com/hamster-clicker-infinite-wheel
 https://cookie-clicker2.com/evolution-of-toca-boca-clicker
 https://cookie-clicker2.com/bat-smash
 https://cookie-clicker2.com/chihuahua-clicker
-https://cookie-clicker2.com/orbit-kick
 https://cookie-clicker2.com/fluffy-clicker
 https://cookie-clicker2.com/tap-drift
 https://cookie-clicker2.com/wheelie-party
@@ -1773,7 +1770,6 @@ https://cookie-clicker2.com/merge-town
 https://cookie-clicker2.com/idle-dairy-farm-tycoon
 https://cookie-clicker2.com/drive-in-cinema-idle-game
 https://cookie-clicker2.com/deep-space-idle
-https://cookie-clicker2.com/chicken-jockey-clicker
 https://cookie-clicker2.com/chicken-jockey-combat
 https://cookie-clicker2.com/ski-frenzy
 https://cookie-clicker2.com/slope-2
@@ -1912,7 +1908,6 @@ https://cookie-clicker2.com/monopoly-table-clicker
 https://cookie-clicker2.com/color-tiles
 https://cookie-clicker2.com/growdenio
 https://cookie-clicker2.com/launch-the-rockets-clicker
-https://cookie-clicker2.com/steal-a-brainrot
 https://cookie-clicker2.com/pickcrafter
 https://cookie-clicker2.com/frog-clicker
 https://cookie-clicker2.com/pico-clicker
@@ -1984,7 +1979,6 @@ https://cookie-clicker2.com/hamster-clicker-infinite-wheel
 https://cookie-clicker2.com/evolution-of-toca-boca-clicker
 https://cookie-clicker2.com/bat-smash
 https://cookie-clicker2.com/chihuahua-clicker
-https://cookie-clicker2.com/orbit-kick
 https://cookie-clicker2.com/fluffy-clicker
 https://cookie-clicker2.com/tap-drift
 https://cookie-clicker2.com/wheelie-party
@@ -2041,9 +2035,3 @@ https://cookie-clicker2.com/destroy-the-planet
 https://cookie-clicker2.com/pokemon
 https://cookie-clicker2.com/onet-connect-classic
 https://cookie-clicker2.com/candy-match-3
-https://cookie-clicker2.com/destroy-the-planethttps://cookie-clicker2.com/orbit-kick
-https://cookie-clicker2.com/steal-a-brainrot
-https://cookie-clicker2.com/chicken-jockey-clicker
-https://cookie-clicker2.com/orbit-kick
-https://cookie-clicker2.com/steal-a-brainrot
-https://cookie-clicker2.com/chicken-jockey-clicker
