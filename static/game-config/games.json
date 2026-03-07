@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "10x10-farming",
+      "title": "10X10 Farming",
+      "url": "https://cookie-clicker2.com/10x10-farming.embed"
+    },
+    {
+      "id": "kaizo-cookie-clicker",
+      "title": "Kaizo Cookie Clicker",
+      "url": "https://cookie-clicker2.com/kaizo-cookie-clicker.embed"
+    },
+    {
+      "id": "traffic-road",
+      "title": "Traffic Road",
+      "url": "https://cookie-clicker2.com/traffic-road.embed"
+    },
+    {
       "id": "color-rush",
       "title": "Color Rush",
       "url": "https://cookie-clicker2.com/color-rush.embed"

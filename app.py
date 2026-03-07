@@ -1480,5 +1480,35 @@ def color_rush():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/traffic-road')
+def traffic_road():
+    faq_data = get_faqs_for_page('traffic-road')
+    return render_template('traffic-road.html',
+                         page_title='Traffic Road',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/kaizo-cookie-clicker')
+def kaizo_cookie_clicker():
+    faq_data = get_faqs_for_page('kaizo-cookie-clicker')
+    return render_template('kaizo-cookie-clicker.html',
+                         page_title='Kaizo Cookie Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/10x10-farming')
+def game_10x10_farming():
+    faq_data = get_faqs_for_page('10x10-farming')
+    return render_template('10x10-farming.html',
+                         page_title='10X10 Farming',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

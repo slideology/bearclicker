@@ -4659,5 +4659,80 @@
       }
     ],
     "conclusion": "Enjoy playing Color Rush and share your high scores with friends!"
+  },
+  "traffic-road": {
+    "faqs": [
+      {
+        "question": "How to play Traffic Road?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Traffic Road."
+      },
+      {
+        "question": "Is Traffic Road free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Traffic Road on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Traffic Road?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Traffic Road and share your high scores with friends!"
+  },
+  "kaizo-cookie-clicker": {
+    "faqs": [
+      {
+        "question": "How to play Kaizo Cookie Clicker?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Kaizo Cookie Clicker."
+      },
+      {
+        "question": "Is Kaizo Cookie Clicker free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Kaizo Cookie Clicker on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Kaizo Cookie Clicker?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Kaizo Cookie Clicker and share your high scores with friends!"
+  },
+  "10x10-farming": {
+    "faqs": [
+      {
+        "question": "How to play 10X10 Farming?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with 10X10 Farming."
+      },
+      {
+        "question": "Is 10X10 Farming free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play 10X10 Farming on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for 10X10 Farming?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing 10X10 Farming and share your high scores with friends!"
   }
 }

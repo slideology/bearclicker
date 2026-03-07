@@ -35,6 +35,45 @@
             Trending games like {{ page_title }}
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 sm:gap-3">
+            <!-- 10X10 Farming Card -->
+            <a href="https://bearclicker.net/10x10-farming" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/10x10-farming.jpg') }}" 
+                         alt="10X10 Farming img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('10x10_farming', '10X10 Farming') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Kaizo Cookie Clicker Card -->
+            <a href="https://bearclicker.net/kaizo-cookie-clicker" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/kaizo-cookie-clicker.jpg') }}" 
+                         alt="Kaizo Cookie Clicker img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('kaizo_cookie_clicker', 'Kaizo Cookie Clicker') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Traffic Road Card -->
+            <a href="https://bearclicker.net/traffic-road" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/traffic-road.jpg') }}" 
+                         alt="Traffic Road img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('traffic_road', 'Traffic Road') }}
+                    </p>
+                </div>
+            </a>
             <!-- Color Rush Card -->
             <a href="https://bearclicker.net/color-rush" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
                 <div class="relative">
