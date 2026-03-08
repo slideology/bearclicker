@@ -1510,5 +1510,35 @@ def game_10x10_farming():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/crazy-monsters-memory')
+def crazy_monsters_memory():
+    faq_data = get_faqs_for_page('crazy-monsters-memory')
+    return render_template('crazy-monsters-memory.html',
+                         page_title='Crazy Monsters Memory',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/alphabet-memory-game')
+def alphabet_memory_game():
+    faq_data = get_faqs_for_page('alphabet-memory-game')
+    return render_template('alphabet-memory-game.html',
+                         page_title='Alphabet Memory Game',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/vegetables-collection')
+def vegetables_collection():
+    faq_data = get_faqs_for_page('vegetables-collection')
+    return render_template('vegetables-collection.html',
+                         page_title='Vegetables Collection',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

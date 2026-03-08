@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "vegetables-collection",
+      "title": "Vegetables Collection",
+      "url": "https://cookie-clicker2.com/vegetables-collection.embed"
+    },
+    {
+      "id": "alphabet-memory-game",
+      "title": "Alphabet Memory Game",
+      "url": "https://cookie-clicker2.com/alphabet-memory-game.embed"
+    },
+    {
+      "id": "crazy-monsters-memory",
+      "title": "Crazy Monsters Memory",
+      "url": "https://cookie-clicker2.com/crazy-monsters-memory.embed"
+    },
+    {
       "id": "10x10-farming",
       "title": "10X10 Farming",
       "url": "https://cookie-clicker2.com/10x10-farming.embed"
