@@ -4809,5 +4809,80 @@
       }
     ],
     "conclusion": "Enjoy playing Vegetables Collection and share your high scores with friends!"
+  },
+  "reversi": {
+    "faqs": [
+      {
+        "question": "How to play Reversi?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Reversi."
+      },
+      {
+        "question": "Is Reversi free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Reversi on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Reversi?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Reversi and share your high scores with friends!"
+  },
+  "happy-halloween": {
+    "faqs": [
+      {
+        "question": "How to play Happy Halloween?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Happy Halloween."
+      },
+      {
+        "question": "Is Happy Halloween free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Happy Halloween on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Happy Halloween?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Happy Halloween and share your high scores with friends!"
+  },
+  "hero-rescue": {
+    "faqs": [
+      {
+        "question": "How to play Hero Rescue?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Hero Rescue."
+      },
+      {
+        "question": "Is Hero Rescue free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Hero Rescue on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Hero Rescue?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Hero Rescue and share your high scores with friends!"
   }
 }

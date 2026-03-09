@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "hero-rescue",
+      "title": "Hero Rescue",
+      "url": "https://cookie-clicker2.com/hero-rescue.embed"
+    },
+    {
+      "id": "happy-halloween",
+      "title": "Happy Halloween",
+      "url": "https://cookie-clicker2.com/happy-halloween.embed"
+    },
+    {
+      "id": "reversi",
+      "title": "Reversi",
+      "url": "https://cookie-clicker2.com/reversi.embed"
+    },
+    {
       "id": "vegetables-collection",
       "title": "Vegetables Collection",
       "url": "https://cookie-clicker2.com/vegetables-collection.embed"

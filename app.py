@@ -1540,5 +1540,35 @@ def vegetables_collection():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/reversi')
+def reversi():
+    faq_data = get_faqs_for_page('reversi')
+    return render_template('reversi.html',
+                         page_title='Reversi',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/happy-halloween')
+def happy_halloween():
+    faq_data = get_faqs_for_page('happy-halloween')
+    return render_template('happy-halloween.html',
+                         page_title='Happy Halloween',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/hero-rescue')
+def hero_rescue():
+    faq_data = get_faqs_for_page('hero-rescue')
+    return render_template('hero-rescue.html',
+                         page_title='Hero Rescue',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

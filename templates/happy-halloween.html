@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Play Happy Halloween - Play Happy Halloween On Cookie Cl...{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Happy Halloween is a game of flipping the same creepy pictures of Halloween day. The difficulty increases with the cluttered images, you have to quick...">
+<link rel="canonical" href="https://bearclicker.net/happy-halloween">
+{% endblock %}
+
+{% block og_title %}Play Happy Halloween - Play Happy Halloween On Cookie Cl...{% endblock %}
+{% block og_description %}Enjoy Happy Halloween is a game of flipping the same creepy pictures of Halloween day. The difficulty increases with the cluttered images, you have to quick...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/happy-halloween.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/happy-halloween-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/happy-halloween-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/happy-halloween",
+        title="Happy Halloween",
+        description="Enjoy Happy Halloween is a game of flipping the same creepy pictures of Halloween day. The difficulty increases with the cluttered images, you have to quick...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='happy-halloween' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
