@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "gold-miner-bros",
+      "title": "Gold Miner Bros",
+      "url": "https://cookie-clicker2.com/gold-miner-bros.embed"
+    },
+    {
+      "id": "basketball-stars",
+      "title": "Basketball Stars",
+      "url": "https://cookie-clicker2.com/basketball-stars.embed"
+    },
+    {
+      "id": "word-wood",
+      "title": "Word Wood",
+      "url": "https://cookie-clicker2.com/word-wood.embed"
+    },
+    {
       "id": "hero-rescue",
       "title": "Hero Rescue",
       "url": "https://cookie-clicker2.com/hero-rescue.embed"

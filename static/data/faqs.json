@@ -4884,5 +4884,80 @@
       }
     ],
     "conclusion": "Enjoy playing Hero Rescue and share your high scores with friends!"
+  },
+  "word-wood": {
+    "faqs": [
+      {
+        "question": "How to play Word Wood?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Word Wood."
+      },
+      {
+        "question": "Is Word Wood free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Word Wood on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Word Wood?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Word Wood and share your high scores with friends!"
+  },
+  "basketball-stars": {
+    "faqs": [
+      {
+        "question": "How to play Basketball Stars?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Basketball Stars."
+      },
+      {
+        "question": "Is Basketball Stars free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Basketball Stars on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Basketball Stars?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Basketball Stars and share your high scores with friends!"
+  },
+  "gold-miner-bros": {
+    "faqs": [
+      {
+        "question": "How to play Gold Miner Bros?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Gold Miner Bros."
+      },
+      {
+        "question": "Is Gold Miner Bros free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Gold Miner Bros on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Gold Miner Bros?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Gold Miner Bros and share your high scores with friends!"
   }
 }

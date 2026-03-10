@@ -1570,5 +1570,35 @@ def hero_rescue():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/word-wood')
+def word_wood():
+    faq_data = get_faqs_for_page('word-wood')
+    return render_template('word-wood.html',
+                         page_title='Word Wood',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/basketball-stars')
+def basketball_stars():
+    faq_data = get_faqs_for_page('basketball-stars')
+    return render_template('basketball-stars.html',
+                         page_title='Basketball Stars',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/gold-miner-bros')
+def gold_miner_bros():
+    faq_data = get_faqs_for_page('gold-miner-bros')
+    return render_template('gold-miner-bros.html',
+                         page_title='Gold Miner Bros',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
