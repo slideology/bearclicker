@@ -53,15 +53,17 @@ class AIOptimizer:
         """
         logging.info(f"Optimizing TDK for {game_data.get('slug')}")
         
-        system_prompt = (
-            "You are an expert SEO copywriter for a gaming website. "
-            "Your task is to rewrite the meta title and description for a web game to maximize CTR and search rankings. "
-            "STRICT RULES:\n"
-            "1. Meta Title MUST be UNDER 60 characters.\n"
-            "2. Meta Description MUST be UNDER 160 characters.\n"
-            "3. DO NOT include any competitor names like 'Cookie Clicker 2' or 'Cookie Clicker'. Replace them with 'Bear Clicker' or remove them entirely.\n"
-            "4. Output ONLY valid JSON with keys: 'title', 'description', 'keywords'."
-        )
+        system_prompt = """
+        You are an elite SEO expert for an unblocked games website (bearclicker.net).
+        Your task is to rewrite the provided game title and description to make them highly attractive and SEO-optimized.
+        
+        CRITICAL RULES:
+        1. "title": MUST be strictly UNDER 60 characters. Do not include the site name. Make it catchy (e.g., "Play [Game Name] Unblocked Online").
+        2. "description": MUST be between 120 and 155 characters. Include the game name and keywords like "unblocked", "play online", "free".
+        3. "keywords": Provide 5-8 comma-separated highly relevant keywords.
+        4. DO NOT include any competitor names like 'Cookie Clicker 2' or 'Cookie Clicker'. Replace them with 'Bear Clicker' or remove them entirely.
+        5. Return ONLY valid JSON format.
+        """
         
         user_prompt = f"""
         Original Title: {game_data.get('original_title')}
@@ -81,12 +83,19 @@ class AIOptimizer:
                 title = optimized.get('title', game_data.get('original_title'))
                 desc = optimized.get('description', game_data.get('original_description'))
                 
-                if len(title) > 60:
-                    logging.warning(f"AI generated title too long ({len(title)} chars). Truncating.")
-                    title = title[:56] + "..."
-                if len(desc) > 160:
+                if len(title) > 65:
+                    logging.warning(f"AI generated title too long ({len(title)} chars).")
+                    # Try to find a natural break point or just use the game name
+                    if " - " in title:
+                        title = title.split(" - ")[0]
+                    elif "|" in title:
+                        title = title.split("|")[0]
+                    else:
+                        title = title[:60] + "..."
+                        
+                if len(desc) > 165:
                     logging.warning(f"AI generated desc too long ({len(desc)} chars). Truncating.")
-                    desc = desc[:156] + "..."
+                    desc = desc[:160] + "..."
                     
                 return {
                     "title": title,

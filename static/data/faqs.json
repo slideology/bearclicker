@@ -4262,34 +4262,34 @@
     "faqs": [
       {
         "question": "What is the main objective in Among Us Clicker?",
-        "answer": "Your primary goal is to quickly click on and remove both impostors and crew members as they appear to earn points."
+        "answer": "Your primary goal is to quickly click on the appearing astronauts, both impostors and crew members, to remove them and earn points. The more you click, the higher your score!"
       },
       {
-        "question": "How do I play Among Us Clicker?",
-        "answer": "To play, simply use your mouse or touch screen to click on the characters (impostors and crew members) that pop up on the screen."
+        "question": "How do I control the game?",
+        "answer": "Among Us Clicker is played simply by using your mouse to click on the characters as they appear on the screen. It's all about quick reflexes!"
       },
       {
-        "question": "What should I avoid doing to keep playing?",
-        "answer": "Be careful not to click on any bombs, as they will cause your game to end. Also, ensure you don't let more than three characters go unclicked."
+        "question": "Are there any objects I should avoid clicking?",
+        "answer": "Yes, absolutely! You must avoid clicking on the bombs that appear. Clicking a bomb will cause it to explode and end your game immediately."
       },
       {
-        "question": "How do I earn points in the game?",
-        "answer": "You earn points by successfully clicking on and eliminating the impostor and crew member characters from the screen."
+        "question": "What happens if I miss too many characters?",
+        "answer": "Be careful not to ignore more than three characters that appear. If you let too many slip by without clicking, your current game session will conclude."
       },
       {
-        "question": "Are there any tips for achieving a high score?",
-        "answer": "Stay alert and react quickly to all appearing characters. Prioritize clicking them before too many accumulate, and always watch out for bombs."
+        "question": "How can I achieve a high score in Among Us Clicker?",
+        "answer": "To maximize your points, focus on rapid and accurate clicking of all characters while vigilantly avoiding any bombs. Speed and precision are key!"
       },
       {
-        "question": "What causes the game to end?",
-        "answer": "The game will end if you accidentally click on a bomb, or if you fail to click on more than three characters that appear on your screen."
+        "question": "Is there more to do than just clicking characters?",
+        "answer": "As you accumulate points in Among Us Clicker, you'll unlock opportunities to explore new elements and expand the vibrant world surrounding the characters."
       },
       {
         "question": "Is Among Us Clicker accessible for all players?",
-        "answer": "Yes, Among Us Clicker is designed as a fun and free game for players of all ages, requiring only basic clicking and observation skills."
+        "answer": "With its straightforward click-based gameplay, Among Us Clicker is designed to be easy to pick up and enjoy for players of various ages and skill levels."
       }
     ],
-    "conclusion": "Enjoy your time clicking away and uncovering all the fun that Among Us Clicker has to offer!"
+    "conclusion": "We hope this FAQ helps you navigate the exciting world of Among Us Clicker. Have fun clicking!"
   },
   "cookie-tap": {
     "faqs": [
@@ -5038,27 +5038,35 @@
   "hex-a-mong": {
     "faqs": [
       {
-        "question": "How to play Hex A Mong?",
-        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Hex A Mong."
+        "question": "What is the main objective in Hex A Mong?",
+        "answer": "In Hex A Mong, your goal is to continuously run on the hexagonal platforms in space, avoid falling, and survive for as long as possible to achieve the highest score."
       },
       {
-        "question": "Is Hex A Mong free to play?",
-        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+        "question": "How do I control my astronaut in Hex A Mong?",
+        "answer": "You control your astronaut using the arrow keys on your keyboard to navigate across the various hexagonal platforms."
       },
       {
-        "question": "Can I play Hex A Mong on my phone?",
-        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+        "question": "What happens if I slow down or stop moving?",
+        "answer": "If you slow down or completely stop, the hexagons beneath your character may disappear, causing you to fall through the current floor."
       },
       {
-        "question": "What is the best strategy for Hex A Mong?",
-        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+        "question": "Are there any safety nets if I fall from a platform?",
+        "answer": "Yes, the game is designed with three distinct floors. If you fall from one floor, you will land on the one directly below it, giving you additional chances to continue your run."
       },
       {
-        "question": "Do my progress save automatically?",
-        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+        "question": "What's a good strategy to maximize my time in Hex A Mong?",
+        "answer": "The best strategy is to maintain continuous movement and constantly scout for the safest and longest possible route across the hexagons. Hesitation can quickly lead to a fall."
+      },
+      {
+        "question": "How do I improve my score in Hex A Mong?",
+        "answer": "Your score is directly tied to how long you can stay on the platforms. Focus on fluid movement, strategic routing, and making the most of all three floors to extend your game time."
+      },
+      {
+        "question": "Is there a specific ending or win condition for Hex A Mong?",
+        "answer": "Hex A Mong is an endless runner game. There isn't a traditional 'ending'; instead, the primary goal is to set a personal best time and challenge yourself to last longer with each playthrough."
       }
     ],
-    "conclusion": "Enjoy playing Hex A Mong and share your high scores with friends!"
+    "conclusion": "We hope this FAQ helps you master the art of survival in Hex A Mong and achieve stellar high scores!"
   },
   "geometry-dash": {
     "faqs": [
