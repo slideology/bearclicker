@@ -1600,5 +1600,35 @@ def gold_miner_bros():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/plants-vs-zombies-2')
+def plants_vs_zombies_2():
+    faq_data = get_faqs_for_page('plants-vs-zombies-2')
+    return render_template('plants-vs-zombies-2.html',
+                         page_title='Plants Vs Zombies 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/sugar-heroes')
+def sugar_heroes():
+    faq_data = get_faqs_for_page('sugar-heroes')
+    return render_template('sugar-heroes.html',
+                         page_title='Sugar Heroes',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pop-the-eggs')
+def pop_the_eggs():
+    faq_data = get_faqs_for_page('pop-the-eggs')
+    return render_template('pop-the-eggs.html',
+                         page_title='Pop The Eggs',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

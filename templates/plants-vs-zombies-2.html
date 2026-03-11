@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Play Plants Vs Zombies 2 - Play Plants Vs Zombies 2 On C...{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Plants vs zombies 2 is a fun free game. Plant lots of plants and flowers, each with its own ability to destroy zombi. Additionally, you can level up t...">
+<link rel="canonical" href="https://bearclicker.net/plants-vs-zombies-2">
+{% endblock %}
+
+{% block og_title %}Play Plants Vs Zombies 2 - Play Plants Vs Zombies 2 On C...{% endblock %}
+{% block og_description %}Enjoy Plants vs zombies 2 is a fun free game. Plant lots of plants and flowers, each with its own ability to destroy zombi. Additionally, you can level up t...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/plants-vs-zombies-2.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/plants-vs-zombies-2-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/plants-vs-zombies-2-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/plants-vs-zombies-2",
+        title="Plants Vs Zombies 2",
+        description="Enjoy Plants vs zombies 2 is a fun free game. Plant lots of plants and flowers, each with its own ability to destroy zombi. Additionally, you can level up t...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='plants-vs-zombies-2' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

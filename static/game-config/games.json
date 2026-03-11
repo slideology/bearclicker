@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pop-the-eggs",
+      "title": "Pop The Eggs",
+      "url": "https://cookie-clicker2.com/pop-the-eggs.embed"
+    },
+    {
+      "id": "sugar-heroes",
+      "title": "Sugar Heroes",
+      "url": "https://cookie-clicker2.com/sugar-heroes.embed"
+    },
+    {
+      "id": "plants-vs-zombies-2",
+      "title": "Plants Vs Zombies 2",
+      "url": "https://cookie-clicker2.com/plants-vs-zombies-2.embed"
+    },
+    {
       "id": "gold-miner-bros",
       "title": "Gold Miner Bros",
       "url": "https://cookie-clicker2.com/gold-miner-bros.embed"
