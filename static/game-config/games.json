@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "super-mario-bros",
+      "title": "Super Mario Bros",
+      "url": "https://cookie-clicker2.com/super-mario-bros.embed"
+    },
+    {
+      "id": "fallerzio",
+      "title": "Fallerzio",
+      "url": "https://cookie-clicker2.com/fallerzio.embed"
+    },
+    {
+      "id": "crazypartyio",
+      "title": "Crazypartyio",
+      "url": "https://cookie-clicker2.com/crazypartyio.embed"
+    },
+    {
       "id": "deep-io",
       "title": "Deep Io",
       "url": "https://cookie-clicker2.com/deep-io.embed"

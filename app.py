@@ -1660,5 +1660,35 @@ def deep_io():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/crazypartyio')
+def crazypartyio():
+    faq_data = get_faqs_for_page('crazypartyio')
+    return render_template('crazypartyio.html',
+                         page_title='Crazypartyio',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/fallerzio')
+def fallerzio():
+    faq_data = get_faqs_for_page('fallerzio')
+    return render_template('fallerzio.html',
+                         page_title='Fallerzio',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/super-mario-bros')
+def super_mario_bros():
+    faq_data = get_faqs_for_page('super-mario-bros')
+    return render_template('super-mario-bros.html',
+                         page_title='Super Mario Bros',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

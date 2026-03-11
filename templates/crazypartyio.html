@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Crazypartyio - Play Crazypartyio On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy CrazyParty.io is a new exciting game for everyone.
+Control your character, choose other players and throw them out of the area. Try to survive to the...">
+<link rel="canonical" href="https://bearclicker.net/crazypartyio">
+{% endblock %}
+
+{% block og_title %}Crazypartyio - Play Crazypartyio On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy CrazyParty.io is a new exciting game for everyone.
+Control your character, choose other players and throw them out of the area. Try to survive to the...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/crazypartyio.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/crazypartyio-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/crazypartyio-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/crazypartyio",
+        title="Crazypartyio",
+        description="Enjoy CrazyParty.io is a new exciting game for everyone.
+Control your character, choose other players and throw them out of the area. Try to survive to the...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='crazypartyio' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
