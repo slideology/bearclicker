@@ -16,7 +16,13 @@ class WebhookSender:
             success_games = summary.get("success_games", [])
             failed_games = summary.get("failed_games", [])
             
-            success_text = "\n".join([f"• [{g['title']}]({g['url'].replace('bearclicker.net', 'bearclicker-ebon.vercel.app')})" for g in success_games]) if success_games else "无"
+            # 每个游戏同时显示正式域名和 Vercel 预览域名两个链接
+            success_text = "\n".join([
+                f"• {g['title']}  "
+                f"[正式]({g['url']})  "
+                f"[预览]({g['url'].replace('bearclicker.net', 'bearclicker-ebon.vercel.app')})"
+                for g in success_games
+            ]) if success_games else "无"
             failed_text = "\n".join([f"• {g}" for g in failed_games]) if failed_games else "无"
             
             # Assembly of the card elements
