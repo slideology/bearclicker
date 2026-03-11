@@ -5039,34 +5039,38 @@
     "faqs": [
       {
         "question": "What is the main objective in Hex A Mong?",
-        "answer": "In Hex A Mong, your goal is to continuously run on the hexagonal platforms in space, avoid falling, and survive for as long as possible to achieve the highest score."
+        "answer": "Your goal is to continuously run across hexagonal platforms in space, aiming to survive and find the longest route without falling."
       },
       {
-        "question": "How do I control my astronaut in Hex A Mong?",
-        "answer": "You control your astronaut using the arrow keys on your keyboard to navigate across the various hexagonal platforms."
+        "question": "How do I control my character in Hex A Mong?",
+        "answer": "You control your astronaut, referred to as an 'a mong', using the arrow keys on your keyboard for movement."
       },
       {
-        "question": "What happens if I slow down or stop moving?",
-        "answer": "If you slow down or completely stop, the hexagons beneath your character may disappear, causing you to fall through the current floor."
+        "question": "What happens if I fall off a hexagon?",
+        "answer": "If you fall from a platform, you will land on one of the three lower floors, allowing you to continue the adventure."
       },
       {
-        "question": "Are there any safety nets if I fall from a platform?",
-        "answer": "Yes, the game is designed with three distinct floors. If you fall from one floor, you will land on the one directly below it, giving you additional chances to continue your run."
+        "question": "Are there any tips for staying on the platforms longer?",
+        "answer": "Keep moving consistently and maintain your momentum. Slowing down or stopping will cause you to fall, so continuous running is key."
       },
       {
-        "question": "What's a good strategy to maximize my time in Hex A Mong?",
-        "answer": "The best strategy is to maintain continuous movement and constantly scout for the safest and longest possible route across the hexagons. Hesitation can quickly lead to a fall."
+        "question": "How many recovery floors are there?",
+        "answer": "There are three distinct floors beneath the main playing area that serve as landing spots if your astronaut falls."
       },
       {
-        "question": "How do I improve my score in Hex A Mong?",
-        "answer": "Your score is directly tied to how long you can stay on the platforms. Focus on fluid movement, strategic routing, and making the most of all three floors to extend your game time."
+        "question": "Who is the character I play as?",
+        "answer": "You play as an astronaut character, referred to as an 'a mong', navigating the space environment."
       },
       {
-        "question": "Is there a specific ending or win condition for Hex A Mong?",
-        "answer": "Hex A Mong is an endless runner game. There isn't a traditional 'ending'; instead, the primary goal is to set a personal best time and challenge yourself to last longer with each playthrough."
+        "question": "Does the game get more challenging?",
+        "answer": "The challenge comes from continuously finding the optimal route and maintaining speed to go the longest without falling."
+      },
+      {
+        "question": "Why is continuous movement important?",
+        "answer": "To prevent falling through the hexagons, you must keep your astronaut moving at all times. Hesitation can lead to a fall."
       }
     ],
-    "conclusion": "We hope this FAQ helps you master the art of survival in Hex A Mong and achieve stellar high scores!"
+    "conclusion": "We hope these answers help you master the exciting world of Hex A Mong!"
   },
   "geometry-dash": {
     "faqs": [
