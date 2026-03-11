@@ -5034,5 +5034,80 @@
       }
     ],
     "conclusion": "Enjoy playing Pop The Eggs and share your high scores with friends!"
+  },
+  "hex-a-mong": {
+    "faqs": [
+      {
+        "question": "How to play Hex A Mong?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Hex A Mong."
+      },
+      {
+        "question": "Is Hex A Mong free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Hex A Mong on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Hex A Mong?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Hex A Mong and share your high scores with friends!"
+  },
+  "geometry-dash": {
+    "faqs": [
+      {
+        "question": "How to play Geometry Dash?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Geometry Dash."
+      },
+      {
+        "question": "Is Geometry Dash free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Geometry Dash on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Geometry Dash?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Geometry Dash and share your high scores with friends!"
+  },
+  "deep-io": {
+    "faqs": [
+      {
+        "question": "How to play Deep Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Deep Io."
+      },
+      {
+        "question": "Is Deep Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Deep Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Deep Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Deep Io and share your high scores with friends!"
   }
 }

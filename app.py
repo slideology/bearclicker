@@ -1630,5 +1630,35 @@ def pop_the_eggs():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/hex-a-mong')
+def hex_a_mong():
+    faq_data = get_faqs_for_page('hex-a-mong')
+    return render_template('hex-a-mong.html',
+                         page_title='Hex A Mong',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/geometry-dash')
+def geometry_dash():
+    faq_data = get_faqs_for_page('geometry-dash')
+    return render_template('geometry-dash.html',
+                         page_title='Geometry Dash',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/deep-io')
+def deep_io():
+    faq_data = get_faqs_for_page('deep-io')
+    return render_template('deep-io.html',
+                         page_title='Deep Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

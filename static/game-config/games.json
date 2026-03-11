@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "deep-io",
+      "title": "Deep Io",
+      "url": "https://cookie-clicker2.com/deep-io.embed"
+    },
+    {
+      "id": "geometry-dash",
+      "title": "Geometry Dash",
+      "url": "https://cookie-clicker2.com/geometry-dash.embed"
+    },
+    {
+      "id": "hex-a-mong",
+      "title": "Hex A Mong",
+      "url": "https://cookie-clicker2.com/hex-a-mong.embed"
+    },
+    {
       "id": "pop-the-eggs",
       "title": "Pop The Eggs",
       "url": "https://cookie-clicker2.com/pop-the-eggs.embed"
