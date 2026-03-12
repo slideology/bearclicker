@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "jelly-crush",
+      "title": "Jelly Crush",
+      "url": "https://cookie-clicker2.com/jelly-crush.embed"
+    },
+    {
+      "id": "pull-pin",
+      "title": "Pull Pin",
+      "url": "https://cookie-clicker2.com/pull-pin.embed"
+    },
+    {
+      "id": "fruit-slice",
+      "title": "Fruit Slice",
+      "url": "https://cookie-clicker2.com/fruit-slice.embed"
+    },
+    {
       "id": "ultimate-tic-tac-toe",
       "title": "Ultimate Tic Tac Toe",
       "url": "https://cookie-clicker2.com/ultimate-tic-tac-toe.embed"

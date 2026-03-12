@@ -1720,5 +1720,35 @@ def ultimate_tic_tac_toe():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/fruit-slice')
+def fruit_slice():
+    faq_data = get_faqs_for_page('fruit-slice')
+    return render_template('fruit-slice.html',
+                         page_title='Fruit Slice',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pull-pin')
+def pull_pin():
+    faq_data = get_faqs_for_page('pull-pin')
+    return render_template('pull-pin.html',
+                         page_title='Pull Pin',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/jelly-crush')
+def jelly_crush():
+    faq_data = get_faqs_for_page('jelly-crush')
+    return render_template('jelly-crush.html',
+                         page_title='Jelly Crush',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

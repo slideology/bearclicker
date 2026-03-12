@@ -5271,5 +5271,80 @@
       }
     ],
     "conclusion": "Enjoy playing Ultimate Tic Tac Toe and share your high scores with friends!"
+  },
+  "fruit-slice": {
+    "faqs": [
+      {
+        "question": "How to play Fruit Slice?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Fruit Slice."
+      },
+      {
+        "question": "Is Fruit Slice free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Fruit Slice on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Fruit Slice?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Fruit Slice and share your high scores with friends!"
+  },
+  "pull-pin": {
+    "faqs": [
+      {
+        "question": "How to play Pull Pin?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pull Pin."
+      },
+      {
+        "question": "Is Pull Pin free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pull Pin on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pull Pin?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pull Pin and share your high scores with friends!"
+  },
+  "jelly-crush": {
+    "faqs": [
+      {
+        "question": "How to play Jelly Crush?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Jelly Crush."
+      },
+      {
+        "question": "Is Jelly Crush free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Jelly Crush on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Jelly Crush?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Jelly Crush and share your high scores with friends!"
   }
 }
