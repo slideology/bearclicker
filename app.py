@@ -1690,5 +1690,35 @@ def super_mario_bros():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/checkers')
+def checkers():
+    faq_data = get_faqs_for_page('checkers')
+    return render_template('checkers.html',
+                         page_title='Checkers',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/words-finder')
+def words_finder():
+    faq_data = get_faqs_for_page('words-finder')
+    return render_template('words-finder.html',
+                         page_title='Words Finder',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/ultimate-tic-tac-toe')
+def ultimate_tic_tac_toe():
+    faq_data = get_faqs_for_page('ultimate-tic-tac-toe')
+    return render_template('ultimate-tic-tac-toe.html',
+                         page_title='Ultimate Tic Tac Toe',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

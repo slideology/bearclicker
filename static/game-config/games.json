@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "ultimate-tic-tac-toe",
+      "title": "Ultimate Tic Tac Toe",
+      "url": "https://cookie-clicker2.com/ultimate-tic-tac-toe.embed"
+    },
+    {
+      "id": "words-finder",
+      "title": "Words Finder",
+      "url": "https://cookie-clicker2.com/words-finder.embed"
+    },
+    {
+      "id": "checkers",
+      "title": "Checkers",
+      "url": "https://cookie-clicker2.com/checkers.embed"
+    },
+    {
       "id": "super-mario-bros",
       "title": "Super Mario Bros",
       "url": "https://cookie-clicker2.com/super-mario-bros.embed"

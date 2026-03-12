@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Ultimate Tic Tac Toe - Play Ultimate Tic Tac Toe On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Ultimate Tic Tac Toe is a strategy. The game is arranged on a traditional 3 X 3 grid, a 5 X 5, or a 7 X 7 grid.
+Choose to play alone against the mach...">
+<link rel="canonical" href="https://bearclicker.net/ultimate-tic-tac-toe">
+{% endblock %}
+
+{% block og_title %}Ultimate Tic Tac Toe - Play Ultimate Tic Tac Toe On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Ultimate Tic Tac Toe is a strategy. The game is arranged on a traditional 3 X 3 grid, a 5 X 5, or a 7 X 7 grid.
+Choose to play alone against the mach...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/ultimate-tic-tac-toe.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/ultimate-tic-tac-toe-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/ultimate-tic-tac-toe-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/ultimate-tic-tac-toe",
+        title="Ultimate Tic Tac Toe",
+        description="Enjoy Ultimate Tic Tac Toe is a strategy. The game is arranged on a traditional 3 X 3 grid, a 5 X 5, or a 7 X 7 grid.
+Choose to play alone against the mach...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='ultimate-tic-tac-toe' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
