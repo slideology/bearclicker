@@ -5346,5 +5346,80 @@
       }
     ],
     "conclusion": "Enjoy playing Jelly Crush and share your high scores with friends!"
+  },
+  "temple-runner": {
+    "faqs": [
+      {
+        "question": "How to play Temple Runner?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Temple Runner."
+      },
+      {
+        "question": "Is Temple Runner free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Temple Runner on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Temple Runner?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Temple Runner and share your high scores with friends!"
+  },
+  "doodle-jump": {
+    "faqs": [
+      {
+        "question": "How to play Doodle Jump?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Doodle Jump."
+      },
+      {
+        "question": "Is Doodle Jump free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Doodle Jump on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Doodle Jump?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Doodle Jump and share your high scores with friends!"
+  },
+  "duck-shooter": {
+    "faqs": [
+      {
+        "question": "How to play Duck Shooter?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Duck Shooter."
+      },
+      {
+        "question": "Is Duck Shooter free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Duck Shooter on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Duck Shooter?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Duck Shooter and share your high scores with friends!"
   }
 }

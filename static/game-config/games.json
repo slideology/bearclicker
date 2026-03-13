@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "duck-shooter",
+      "title": "Duck Shooter",
+      "url": "https://cookie-clicker2.com/duck-shooter.embed"
+    },
+    {
+      "id": "doodle-jump",
+      "title": "Doodle Jump",
+      "url": "https://cookie-clicker2.com/doodle-jump.embed"
+    },
+    {
+      "id": "temple-runner",
+      "title": "Temple Runner",
+      "url": "https://cookie-clicker2.com/temple-runner.embed"
+    },
+    {
       "id": "jelly-crush",
       "title": "Jelly Crush",
       "url": "https://cookie-clicker2.com/jelly-crush.embed"

@@ -1750,5 +1750,35 @@ def jelly_crush():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/temple-runner')
+def temple_runner():
+    faq_data = get_faqs_for_page('temple-runner')
+    return render_template('temple-runner.html',
+                         page_title='Temple Runner',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/doodle-jump')
+def doodle_jump():
+    faq_data = get_faqs_for_page('doodle-jump')
+    return render_template('doodle-jump.html',
+                         page_title='Doodle Jump',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/duck-shooter')
+def duck_shooter():
+    faq_data = get_faqs_for_page('duck-shooter')
+    return render_template('duck-shooter.html',
+                         page_title='Duck Shooter',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
