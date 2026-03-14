@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "zumba-mania",
+      "title": "Zumba Mania",
+      "url": "https://cookie-clicker2.com/zumba-mania.embed"
+    },
+    {
+      "id": "g-switch-3",
+      "title": "G Switch 3",
+      "url": "https://cookie-clicker2.com/g-switch-3.embed"
+    },
+    {
+      "id": "super-pineapple-pen",
+      "title": "Super Pineapple Pen",
+      "url": "https://cookie-clicker2.com/super-pineapple-pen.embed"
+    },
+    {
       "id": "duck-shooter",
       "title": "Duck Shooter",
       "url": "https://cookie-clicker2.com/duck-shooter.embed"

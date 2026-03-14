@@ -1780,5 +1780,35 @@ def duck_shooter():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/super-pineapple-pen')
+def super_pineapple_pen():
+    faq_data = get_faqs_for_page('super-pineapple-pen')
+    return render_template('super-pineapple-pen.html',
+                         page_title='Super Pineapple Pen',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/g-switch-3')
+def g_switch_3():
+    faq_data = get_faqs_for_page('g-switch-3')
+    return render_template('g-switch-3.html',
+                         page_title='G Switch 3',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/zumba-mania')
+def zumba_mania():
+    faq_data = get_faqs_for_page('zumba-mania')
+    return render_template('zumba-mania.html',
+                         page_title='Zumba Mania',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
