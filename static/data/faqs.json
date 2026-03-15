@@ -5496,5 +5496,80 @@
       }
     ],
     "conclusion": "Enjoy playing Zumba Mania and share your high scores with friends!"
+  },
+  "paperio-2": {
+    "faqs": [
+      {
+        "question": "How to play Paperio 2?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Paperio 2."
+      },
+      {
+        "question": "Is Paperio 2 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Paperio 2 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Paperio 2?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Paperio 2 and share your high scores with friends!"
+  },
+  "crowd-city": {
+    "faqs": [
+      {
+        "question": "How to play Crowd City?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Crowd City."
+      },
+      {
+        "question": "Is Crowd City free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Crowd City on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Crowd City?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Crowd City and share your high scores with friends!"
+  },
+  "master-chess": {
+    "faqs": [
+      {
+        "question": "How to play Master Chess?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Master Chess."
+      },
+      {
+        "question": "Is Master Chess free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Master Chess on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Master Chess?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Master Chess and share your high scores with friends!"
   }
 }

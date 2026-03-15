@@ -1810,5 +1810,35 @@ def zumba_mania():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/paperio-2')
+def paperio_2():
+    faq_data = get_faqs_for_page('paperio-2')
+    return render_template('paperio-2.html',
+                         page_title='Paperio 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/crowd-city')
+def crowd_city():
+    faq_data = get_faqs_for_page('crowd-city')
+    return render_template('crowd-city.html',
+                         page_title='Crowd City',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/master-chess')
+def master_chess():
+    faq_data = get_faqs_for_page('master-chess')
+    return render_template('master-chess.html',
+                         page_title='Master Chess',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

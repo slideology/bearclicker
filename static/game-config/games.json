@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "master-chess",
+      "title": "Master Chess",
+      "url": "https://cookie-clicker2.com/master-chess.embed"
+    },
+    {
+      "id": "crowd-city",
+      "title": "Crowd City",
+      "url": "https://cookie-clicker2.com/crowd-city.embed"
+    },
+    {
+      "id": "paperio-2",
+      "title": "Paperio 2",
+      "url": "https://cookie-clicker2.com/paperio-2.embed"
+    },
+    {
       "id": "zumba-mania",
       "title": "Zumba Mania",
       "url": "https://cookie-clicker2.com/zumba-mania.embed"
