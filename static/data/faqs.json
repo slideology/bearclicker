@@ -5571,5 +5571,80 @@
       }
     ],
     "conclusion": "Enjoy playing Master Chess and share your high scores with friends!"
+  },
+  "run-3": {
+    "faqs": [
+      {
+        "question": "How to play Run 3?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Run 3."
+      },
+      {
+        "question": "Is Run 3 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Run 3 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Run 3?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Run 3 and share your high scores with friends!"
+  },
+  "slither-dragon-io": {
+    "faqs": [
+      {
+        "question": "How to play Slither Dragon Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Slither Dragon Io."
+      },
+      {
+        "question": "Is Slither Dragon Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Slither Dragon Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Slither Dragon Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Slither Dragon Io and share your high scores with friends!"
+  },
+  "catch-dots": {
+    "faqs": [
+      {
+        "question": "How to play Catch Dots?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Catch Dots."
+      },
+      {
+        "question": "Is Catch Dots free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Catch Dots on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Catch Dots?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Catch Dots and share your high scores with friends!"
   }
 }

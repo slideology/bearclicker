@@ -1840,5 +1840,35 @@ def master_chess():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/run-3')
+def run_3():
+    faq_data = get_faqs_for_page('run-3')
+    return render_template('run-3.html',
+                         page_title='Run 3',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/slither-dragon-io')
+def slither_dragon_io():
+    faq_data = get_faqs_for_page('slither-dragon-io')
+    return render_template('slither-dragon-io.html',
+                         page_title='Slither Dragon Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/catch-dots')
+def catch_dots():
+    faq_data = get_faqs_for_page('catch-dots')
+    return render_template('catch-dots.html',
+                         page_title='Catch Dots',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

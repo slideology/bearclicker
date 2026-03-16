@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "catch-dots",
+      "title": "Catch Dots",
+      "url": "https://cookie-clicker2.com/catch-dots.embed"
+    },
+    {
+      "id": "slither-dragon-io",
+      "title": "Slither Dragon Io",
+      "url": "https://cookie-clicker2.com/slither-dragon-io.embed"
+    },
+    {
+      "id": "run-3",
+      "title": "Run 3",
+      "url": "https://cookie-clicker2.com/run-3.embed"
+    },
+    {
       "id": "master-chess",
       "title": "Master Chess",
       "url": "https://cookie-clicker2.com/master-chess.embed"
