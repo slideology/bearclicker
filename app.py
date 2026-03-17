@@ -1696,6 +1696,11 @@ def goo_goo_gaga_clicker():
     faq_data = get_faqs_for_page('goo-goo-gaga-clicker')
     return render_template('goo-goo-gaga-clicker.html',
                          page_title='Goo Goo Gaga Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
 @app.route('/checkers')
 def checkers():
     faq_data = get_faqs_for_page('checkers')
