@@ -4,6 +4,11 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "goo-goo-gaga-clicker",
+      "title": "Goo Goo Gaga Clicker",
+      "url": "https://gamea.azgame.io/goo-goo-gaga-clicker/"
+    },
+    {
       "id": "super-mario-bros",
       "title": "Super Mario Bros",
       "url": "https://cookie-clicker2.com/super-mario-bros.embed"
