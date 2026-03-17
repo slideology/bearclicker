@@ -5197,41 +5197,491 @@
     ],
     "conclusion": "Enjoy playing Super Mario Bros and share your high scores with friends!"
   },
+  "checkers": {
+    "faqs": [
+      {
+        "question": "How to play Checkers?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Checkers."
+      },
+      {
+        "question": "Is Checkers free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Checkers on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Checkers?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Checkers and share your high scores with friends!"
+  },
+  "words-finder": {
+    "faqs": [
+      {
+        "question": "How to play Words Finder?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Words Finder."
+      },
+      {
+        "question": "Is Words Finder free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Words Finder on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Words Finder?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Words Finder and share your high scores with friends!"
+  },
+  "ultimate-tic-tac-toe": {
+    "faqs": [
+      {
+        "question": "How to play Ultimate Tic Tac Toe?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Ultimate Tic Tac Toe."
+      },
+      {
+        "question": "Is Ultimate Tic Tac Toe free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Ultimate Tic Tac Toe on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Ultimate Tic Tac Toe?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Ultimate Tic Tac Toe and share your high scores with friends!"
+  },
+  "fruit-slice": {
+    "faqs": [
+      {
+        "question": "How to play Fruit Slice?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Fruit Slice."
+      },
+      {
+        "question": "Is Fruit Slice free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Fruit Slice on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Fruit Slice?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Fruit Slice and share your high scores with friends!"
+  },
+  "pull-pin": {
+    "faqs": [
+      {
+        "question": "How to play Pull Pin?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pull Pin."
+      },
+      {
+        "question": "Is Pull Pin free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pull Pin on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pull Pin?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pull Pin and share your high scores with friends!"
+  },
+  "jelly-crush": {
+    "faqs": [
+      {
+        "question": "How to play Jelly Crush?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Jelly Crush."
+      },
+      {
+        "question": "Is Jelly Crush free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Jelly Crush on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Jelly Crush?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Jelly Crush and share your high scores with friends!"
+  },
+  "temple-runner": {
+    "faqs": [
+      {
+        "question": "How to play Temple Runner?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Temple Runner."
+      },
+      {
+        "question": "Is Temple Runner free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Temple Runner on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Temple Runner?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Temple Runner and share your high scores with friends!"
+  },
+  "doodle-jump": {
+    "faqs": [
+      {
+        "question": "How to play Doodle Jump?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Doodle Jump."
+      },
+      {
+        "question": "Is Doodle Jump free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Doodle Jump on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Doodle Jump?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Doodle Jump and share your high scores with friends!"
+  },
+  "duck-shooter": {
+    "faqs": [
+      {
+        "question": "How to play Duck Shooter?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Duck Shooter."
+      },
+      {
+        "question": "Is Duck Shooter free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Duck Shooter on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Duck Shooter?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Duck Shooter and share your high scores with friends!"
+  },
+  "super-pineapple-pen": {
+    "faqs": [
+      {
+        "question": "How to play Super Pineapple Pen?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Super Pineapple Pen."
+      },
+      {
+        "question": "Is Super Pineapple Pen free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Super Pineapple Pen on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Super Pineapple Pen?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Super Pineapple Pen and share your high scores with friends!"
+  },
+  "g-switch-3": {
+    "faqs": [
+      {
+        "question": "How to play G Switch 3?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with G Switch 3."
+      },
+      {
+        "question": "Is G Switch 3 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play G Switch 3 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for G Switch 3?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing G Switch 3 and share your high scores with friends!"
+  },
+  "zumba-mania": {
+    "faqs": [
+      {
+        "question": "How to play Zumba Mania?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Zumba Mania."
+      },
+      {
+        "question": "Is Zumba Mania free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Zumba Mania on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Zumba Mania?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Zumba Mania and share your high scores with friends!"
+  },
+  "paperio-2": {
+    "faqs": [
+      {
+        "question": "How to play Paperio 2?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Paperio 2."
+      },
+      {
+        "question": "Is Paperio 2 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Paperio 2 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Paperio 2?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Paperio 2 and share your high scores with friends!"
+  },
+  "crowd-city": {
+    "faqs": [
+      {
+        "question": "How to play Crowd City?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Crowd City."
+      },
+      {
+        "question": "Is Crowd City free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Crowd City on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Crowd City?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Crowd City and share your high scores with friends!"
+  },
+  "master-chess": {
+    "faqs": [
+      {
+        "question": "How to play Master Chess?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Master Chess."
+      },
+      {
+        "question": "Is Master Chess free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Master Chess on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Master Chess?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Master Chess and share your high scores with friends!"
+  },
+  "run-3": {
+    "faqs": [
+      {
+        "question": "How to play Run 3?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Run 3."
+      },
+      {
+        "question": "Is Run 3 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Run 3 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Run 3?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Run 3 and share your high scores with friends!"
+  },
+  "slither-dragon-io": {
+    "faqs": [
+      {
+        "question": "How to play Slither Dragon Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Slither Dragon Io."
+      },
+      {
+        "question": "Is Slither Dragon Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Slither Dragon Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Slither Dragon Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Slither Dragon Io and share your high scores with friends!"
+  },
+  "catch-dots": {
+    "faqs": [
+      {
+        "question": "How to play Catch Dots?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Catch Dots."
+      },
+      {
+        "question": "Is Catch Dots free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Catch Dots on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Catch Dots?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Catch Dots and share your high scores with friends!"
+  },
   "goo-goo-gaga-clicker": {
     "faqs": [
       {
-        "question": "What is the main objective in Goo Goo Gaga Clicker?",
-        "answer": "The primary goal is to click repeatedly for points, purchase upgrades, and grow your empire endlessly by unlocking funny Goo Goo Gaga and Santa figure skins. There are no fixed levels or complex rules."
+        "question": "What is Goo Goo Gaga Clicker?",
+        "answer": "Goo Goo Gaga Clicker is a humorous meme-inspired idle clicker game where you click to earn points, purchase upgrades, and unlock bizarre Santa figure skins."
       },
       {
-        "question": "How do I control Goo Goo Gaga Clicker?",
-        "answer": "The controls are very simple: just click or tap on the screen to generate points."
+        "question": "How do I play Goo Goo Gaga Clicker?",
+        "answer": "Simply click on the Goo Goo Gaga character to generate points. Use those points to buy upgrades like Cursor, Auto Click, and Mr Clicker to boost your production automatically."
       },
       {
-        "question": "What kind of characters can I unlock in the game?",
-        "answer": "You can unlock 16 funny characters, including bizarre Goo Goo Gaga skins and strange Santa figures like Biker Santa, Slime Santa, and Spider Santa."
+        "question": "Is Goo Goo Gaga Clicker free?",
+        "answer": "Yes! Goo Goo Gaga Clicker is completely free to play online directly in your browser, no downloads required."
       },
       {
-        "question": "How can I increase my point generation or automate gameplay?",
-        "answer": "You can purchase various upgrades, such as autoclickers to generate points automatically or enhancements to boost your click power, allowing for faster progression."
+        "question": "Can I play Goo Goo Gaga Clicker on mobile?",
+        "answer": "Absolutely! The game is fully responsive and works on both desktop computers and mobile devices."
       },
       {
-        "question": "What does the \"Ascend\" option do?",
-        "answer": "The Ascend option allows you to reset your current game progression in exchange for an Ascension Multiplier, which will significantly boost your point generation in subsequent playthroughs."
+        "question": "How many characters are in Goo Goo Gaga Clicker?",
+        "answer": "There are 16 funny characters to unlock, including Biker Santa, Slime Santa, Spider Santa, and more."
       },
       {
-        "question": "Does the game feature any special events or dynamic elements?",
-        "answer": "Yes, the game includes various weather events like Rain, Sunny, Snowing, Star Rain, and Windy, adding a dynamic touch to the minimalist visuals."
+        "question": "What is the Ascend option?",
+        "answer": "The Ascend option resets your current points and upgrades in exchange for an Ascension Multiplier, which boosts your future production significantly."
       },
       {
-        "question": "What is the visual style of Goo Goo Gaga Clicker?",
-        "answer": "The game features 2D minimalist and simple visuals, focusing on humorous character designs and clear gameplay elements."
+        "question": "What upgrades are available?",
+        "answer": "You can purchase autoclickers, click power upgrades, and advanced options like Emperor Clicker, Goo Goo Gaga Temple, and God Clicker as you progress."
       },
       {
-        "question": "Is Goo Goo Gaga Clicker suitable for new players?",
-        "answer": "Absolutely! Its simple click-based gameplay, lack of complex rules, and straightforward controls make it very easy for anyone to pick up and enjoy immediately."
+        "question": "What is the golden Goo Goo Gaga?",
+        "answer": "The legendary golden Goo Goo Gaga occasionally appears on screen. Click it for a massive point bonus!"
       }
     ],
-    "conclusion": "We hope this FAQ helps you jump right into the humorous fun of Goo Goo Gaga Clicker!"
+    "conclusion": "Enjoy the endless idle fun of Goo Goo Gaga Clicker and see how far you can upgrade your empire!"
   }
 }

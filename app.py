@@ -1696,6 +1696,181 @@ def goo_goo_gaga_clicker():
     faq_data = get_faqs_for_page('goo-goo-gaga-clicker')
     return render_template('goo-goo-gaga-clicker.html',
                          page_title='Goo Goo Gaga Clicker',
+@app.route('/checkers')
+def checkers():
+    faq_data = get_faqs_for_page('checkers')
+    return render_template('checkers.html',
+                         page_title='Checkers',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/words-finder')
+def words_finder():
+    faq_data = get_faqs_for_page('words-finder')
+    return render_template('words-finder.html',
+                         page_title='Words Finder',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/ultimate-tic-tac-toe')
+def ultimate_tic_tac_toe():
+    faq_data = get_faqs_for_page('ultimate-tic-tac-toe')
+    return render_template('ultimate-tic-tac-toe.html',
+                         page_title='Ultimate Tic Tac Toe',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/fruit-slice')
+def fruit_slice():
+    faq_data = get_faqs_for_page('fruit-slice')
+    return render_template('fruit-slice.html',
+                         page_title='Fruit Slice',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pull-pin')
+def pull_pin():
+    faq_data = get_faqs_for_page('pull-pin')
+    return render_template('pull-pin.html',
+                         page_title='Pull Pin',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/jelly-crush')
+def jelly_crush():
+    faq_data = get_faqs_for_page('jelly-crush')
+    return render_template('jelly-crush.html',
+                         page_title='Jelly Crush',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/temple-runner')
+def temple_runner():
+    faq_data = get_faqs_for_page('temple-runner')
+    return render_template('temple-runner.html',
+                         page_title='Temple Runner',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/doodle-jump')
+def doodle_jump():
+    faq_data = get_faqs_for_page('doodle-jump')
+    return render_template('doodle-jump.html',
+                         page_title='Doodle Jump',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/duck-shooter')
+def duck_shooter():
+    faq_data = get_faqs_for_page('duck-shooter')
+    return render_template('duck-shooter.html',
+                         page_title='Duck Shooter',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/super-pineapple-pen')
+def super_pineapple_pen():
+    faq_data = get_faqs_for_page('super-pineapple-pen')
+    return render_template('super-pineapple-pen.html',
+                         page_title='Super Pineapple Pen',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/g-switch-3')
+def g_switch_3():
+    faq_data = get_faqs_for_page('g-switch-3')
+    return render_template('g-switch-3.html',
+                         page_title='G Switch 3',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/zumba-mania')
+def zumba_mania():
+    faq_data = get_faqs_for_page('zumba-mania')
+    return render_template('zumba-mania.html',
+                         page_title='Zumba Mania',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/paperio-2')
+def paperio_2():
+    faq_data = get_faqs_for_page('paperio-2')
+    return render_template('paperio-2.html',
+                         page_title='Paperio 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/crowd-city')
+def crowd_city():
+    faq_data = get_faqs_for_page('crowd-city')
+    return render_template('crowd-city.html',
+                         page_title='Crowd City',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/master-chess')
+def master_chess():
+    faq_data = get_faqs_for_page('master-chess')
+    return render_template('master-chess.html',
+                         page_title='Master Chess',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/run-3')
+def run_3():
+    faq_data = get_faqs_for_page('run-3')
+    return render_template('run-3.html',
+                         page_title='Run 3',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/slither-dragon-io')
+def slither_dragon_io():
+    faq_data = get_faqs_for_page('slither-dragon-io')
+    return render_template('slither-dragon-io.html',
+                         page_title='Slither Dragon Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/catch-dots')
+def catch_dots():
+    faq_data = get_faqs_for_page('catch-dots')
+    return render_template('catch-dots.html',
+                         page_title='Catch Dots',
                          dynamic_faqs=faq_data.get('faqs', []),
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
