@@ -40,6 +40,14 @@
                 <div class="relative">
                     <img src="{{ url_for('static', filename='images/games/goo-goo-gaga-clicker.jpg') }}" 
                          alt="Goo Goo Gaga Clicker img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('goo_goo_gaga_clicker', 'Goo Goo Gaga Clicker') }}
+                    </p>
+                </div>
+            </a>
             <!-- Catch Dots Card -->
             <a href="https://bearclicker.net/catch-dots" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
                 <div class="relative">
@@ -49,7 +57,6 @@
                 </div>
                 <div class="p-2 bg-gray-100 dark:bg-gray-800">
                     <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
-                        {{ translations.get('trending', {}).get('goo_goo_gaga_clicker', 'Goo Goo Gaga Clicker') }}
                         {{ translations.get('trending', {}).get('catch_dots', 'Catch Dots') }}
                     </p>
                 </div>
