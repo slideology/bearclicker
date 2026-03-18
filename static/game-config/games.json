@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "space-blaze",
+      "title": "Space Blaze",
+      "url": "https://cookie-clicker2.com/space-blaze.embed"
+    },
+    {
+      "id": "extreme-thumb-war",
+      "title": "Extreme Thumb War",
+      "url": "https://cookie-clicker2.com/extreme-thumb-war.embed"
+    },
+    {
+      "id": "neon-360",
+      "title": "Neon 360",
+      "url": "https://cookie-clicker2.com/neon-360.embed"
+    },
+    {
       "id": "cookie-blast",
       "title": "Cookie Blast",
       "url": "https://cookie-clicker2.com/cookie-blast.embed"

@@ -5758,5 +5758,80 @@
       }
     ],
     "conclusion": "Enjoy playing Cookie Blast and share your high scores with friends!"
+  },
+  "neon-360": {
+    "faqs": [
+      {
+        "question": "How to play Neon 360?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Neon 360."
+      },
+      {
+        "question": "Is Neon 360 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Neon 360 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Neon 360?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Neon 360 and share your high scores with friends!"
+  },
+  "extreme-thumb-war": {
+    "faqs": [
+      {
+        "question": "How to play Extreme Thumb War?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Extreme Thumb War."
+      },
+      {
+        "question": "Is Extreme Thumb War free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Extreme Thumb War on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Extreme Thumb War?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Extreme Thumb War and share your high scores with friends!"
+  },
+  "space-blaze": {
+    "faqs": [
+      {
+        "question": "How to play Space Blaze?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Space Blaze."
+      },
+      {
+        "question": "Is Space Blaze free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Space Blaze on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Space Blaze?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Space Blaze and share your high scores with friends!"
   }
 }

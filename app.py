@@ -1910,5 +1910,35 @@ def cookie_blast():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/neon-360')
+def neon_360():
+    faq_data = get_faqs_for_page('neon-360')
+    return render_template('neon-360.html',
+                         page_title='Neon 360',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/extreme-thumb-war')
+def extreme_thumb_war():
+    faq_data = get_faqs_for_page('extreme-thumb-war')
+    return render_template('extreme-thumb-war.html',
+                         page_title='Extreme Thumb War',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/space-blaze')
+def space_blaze():
+    faq_data = get_faqs_for_page('space-blaze')
+    return render_template('space-blaze.html',
+                         page_title='Space Blaze',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
