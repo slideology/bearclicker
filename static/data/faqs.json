@@ -5683,5 +5683,80 @@
       }
     ],
     "conclusion": "Enjoy the endless idle fun of Goo Goo Gaga Clicker and see how far you can upgrade your empire!"
+  },
+  "flammy": {
+    "faqs": [
+      {
+        "question": "How to play Flammy?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Flammy."
+      },
+      {
+        "question": "Is Flammy free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Flammy on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Flammy?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Flammy and share your high scores with friends!"
+  },
+  "jump-color": {
+    "faqs": [
+      {
+        "question": "How to play Jump Color?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Jump Color."
+      },
+      {
+        "question": "Is Jump Color free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Jump Color on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Jump Color?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Jump Color and share your high scores with friends!"
+  },
+  "cookie-blast": {
+    "faqs": [
+      {
+        "question": "How to play Cookie Blast?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Cookie Blast."
+      },
+      {
+        "question": "Is Cookie Blast free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Cookie Blast on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Cookie Blast?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Cookie Blast and share your high scores with friends!"
   }
 }

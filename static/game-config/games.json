@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "cookie-blast",
+      "title": "Cookie Blast",
+      "url": "https://cookie-clicker2.com/cookie-blast.embed"
+    },
+    {
+      "id": "jump-color",
+      "title": "Jump Color",
+      "url": "https://cookie-clicker2.com/jump-color.embed"
+    },
+    {
+      "id": "flammy",
+      "title": "Flammy",
+      "url": "https://cookie-clicker2.com/flammy.embed"
+    },
+    {
       "id": "goo-goo-gaga-clicker",
       "title": "Goo Goo Gaga Clicker",
       "url": "https://gamea.azgame.io/goo-goo-gaga-clicker/"

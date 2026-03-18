@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Jump Color - Play Jump Color On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Click the screen so that the color ball is jumping. With this Jump Color game, the ball will change color, avoiding touching other colors will destroy...">
+<link rel="canonical" href="https://bearclicker.net/jump-color">
+{% endblock %}
+
+{% block og_title %}Jump Color - Play Jump Color On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Click the screen so that the color ball is jumping. With this Jump Color game, the ball will change color, avoiding touching other colors will destroy...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/jump-color.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/jump-color-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/jump-color-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/jump-color",
+        title="Jump Color",
+        description="Enjoy Click the screen so that the color ball is jumping. With this Jump Color game, the ball will change color, avoiding touching other colors will destroy...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='jump-color' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
