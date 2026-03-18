@@ -1880,5 +1880,35 @@ def catch_dots():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/flammy')
+def flammy():
+    faq_data = get_faqs_for_page('flammy')
+    return render_template('flammy.html',
+                         page_title='Flammy',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/jump-color')
+def jump_color():
+    faq_data = get_faqs_for_page('jump-color')
+    return render_template('jump-color.html',
+                         page_title='Jump Color',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-blast')
+def cookie_blast():
+    faq_data = get_faqs_for_page('cookie-blast')
+    return render_template('cookie-blast.html',
+                         page_title='Cookie Blast',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
