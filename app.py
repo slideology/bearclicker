@@ -1940,5 +1940,35 @@ def space_blaze():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/stickman-hook')
+def stickman_hook():
+    faq_data = get_faqs_for_page('stickman-hook')
+    return render_template('stickman-hook.html',
+                         page_title='Stickman Hook',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/stickman-vector')
+def stickman_vector():
+    faq_data = get_faqs_for_page('stickman-vector')
+    return render_template('stickman-vector.html',
+                         page_title='Stickman Vector',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/8-ball-pool')
+def game_8_ball_pool():
+    faq_data = get_faqs_for_page('8-ball-pool')
+    return render_template('8-ball-pool.html',
+                         page_title='8 Ball Pool',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

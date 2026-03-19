@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "8-ball-pool",
+      "title": "8 Ball Pool",
+      "url": "https://cookie-clicker2.com/8-ball-pool.embed"
+    },
+    {
+      "id": "stickman-vector",
+      "title": "Stickman Vector",
+      "url": "https://cookie-clicker2.com/stickman-vector.embed"
+    },
+    {
+      "id": "stickman-hook",
+      "title": "Stickman Hook",
+      "url": "https://cookie-clicker2.com/stickman-hook.embed"
+    },
+    {
       "id": "space-blaze",
       "title": "Space Blaze",
       "url": "https://cookie-clicker2.com/space-blaze.embed"

@@ -35,6 +35,45 @@
             Trending games like {{ page_title }}
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 sm:gap-3">
+            <!-- 8 Ball Pool Card -->
+            <a href="https://bearclicker.net/8-ball-pool" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/8-ball-pool.jpg') }}" 
+                         alt="8 Ball Pool img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('8_ball_pool', '8 Ball Pool') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Stickman Vector Card -->
+            <a href="https://bearclicker.net/stickman-vector" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/stickman-vector.jpg') }}" 
+                         alt="Stickman Vector img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('stickman_vector', 'Stickman Vector') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Stickman Hook Card -->
+            <a href="https://bearclicker.net/stickman-hook" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/stickman-hook.jpg') }}" 
+                         alt="Stickman Hook img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('stickman_hook', 'Stickman Hook') }}
+                    </p>
+                </div>
+            </a>
             <!-- Space Blaze Card -->
             <a href="https://bearclicker.net/space-blaze" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
                 <div class="relative">

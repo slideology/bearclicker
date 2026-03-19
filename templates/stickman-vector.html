@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Stickman Vector - Play Stickman Vector On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Stickman Vector game with attractive characters. Overcome many obstacles and winding journeys.
+Complete many levels and keep the life alive to the en...">
+<link rel="canonical" href="https://bearclicker.net/stickman-vector">
+{% endblock %}
+
+{% block og_title %}Stickman Vector - Play Stickman Vector On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Stickman Vector game with attractive characters. Overcome many obstacles and winding journeys.
+Complete many levels and keep the life alive to the en...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/stickman-vector.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/stickman-vector-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/stickman-vector-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/stickman-vector",
+        title="Stickman Vector",
+        description="Enjoy Stickman Vector game with attractive characters. Overcome many obstacles and winding journeys.
+Complete many levels and keep the life alive to the en...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='stickman-vector' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

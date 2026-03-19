@@ -5833,5 +5833,80 @@
       }
     ],
     "conclusion": "Enjoy playing Space Blaze and share your high scores with friends!"
+  },
+  "stickman-hook": {
+    "faqs": [
+      {
+        "question": "How to play Stickman Hook?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Stickman Hook."
+      },
+      {
+        "question": "Is Stickman Hook free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Stickman Hook on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Stickman Hook?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Stickman Hook and share your high scores with friends!"
+  },
+  "stickman-vector": {
+    "faqs": [
+      {
+        "question": "How to play Stickman Vector?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Stickman Vector."
+      },
+      {
+        "question": "Is Stickman Vector free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Stickman Vector on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Stickman Vector?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Stickman Vector and share your high scores with friends!"
+  },
+  "8-ball-pool": {
+    "faqs": [
+      {
+        "question": "How to play 8 Ball Pool?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with 8 Ball Pool."
+      },
+      {
+        "question": "Is 8 Ball Pool free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play 8 Ball Pool on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for 8 Ball Pool?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing 8 Ball Pool and share your high scores with friends!"
   }
 }
