@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "stickman-shooter-2",
+      "title": "Stickman Shooter 2",
+      "url": "https://cookie-clicker2.com/stickman-shooter-2.embed"
+    },
+    {
+      "id": "space-hunting",
+      "title": "Space Hunting",
+      "url": "https://cookie-clicker2.com/space-hunting.embed"
+    },
+    {
+      "id": "moto-maniac-2",
+      "title": "Moto Maniac 2",
+      "url": "https://cookie-clicker2.com/moto-maniac-2.embed"
+    },
+    {
       "id": "8-ball-pool",
       "title": "8 Ball Pool",
       "url": "https://cookie-clicker2.com/8-ball-pool.embed"

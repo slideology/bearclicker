@@ -1970,5 +1970,35 @@ def game_8_ball_pool():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/moto-maniac-2')
+def moto_maniac_2():
+    faq_data = get_faqs_for_page('moto-maniac-2')
+    return render_template('moto-maniac-2.html',
+                         page_title='Moto Maniac 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/space-hunting')
+def space_hunting():
+    faq_data = get_faqs_for_page('space-hunting')
+    return render_template('space-hunting.html',
+                         page_title='Space Hunting',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/stickman-shooter-2')
+def stickman_shooter_2():
+    faq_data = get_faqs_for_page('stickman-shooter-2')
+    return render_template('stickman-shooter-2.html',
+                         page_title='Stickman Shooter 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
