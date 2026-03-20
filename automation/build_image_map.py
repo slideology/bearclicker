@@ -42,13 +42,15 @@ def build_image_map():
                 if href.startswith("/") and len(href) > 2 and not "games/" in href and href not in ["/all-games", "/new-games", "/hot-games"]:
                     slug = href.strip("/")
                     img = a.find("img")
-                    if img and img.get("src") and "upload" in img.get("src"):
+                    if img and img.get("src"):
                         src = img.get("src")
+                        # 跳过极小缩略图（24x24），保留所有其他有效图片
                         if "m24x24" in src:
                             continue
+                        # 补全相对路径
                         if not src.startswith("http"):
                             src = urllib.parse.urljoin(base_url, src)
-                        
+                        # 优先选较大的 m250x195 图，或保留第一个找到的
                         if slug not in game_map or "m250x195" in src:
                             game_map[slug] = src
                             items_found_on_page += 1

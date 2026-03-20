@@ -39,9 +39,18 @@ class TemplateGenerator:
         # Download to temp
         temp_img = os.path.join(tempfile.gettempdir(), f"{slug}_dl.img")
         try:
-            headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(source_url, headers=headers, stream=True, timeout=10)
-            response.raise_for_status()
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            # CI 环境网络较慢，使用 30 秒超时并支持一次重试
+            response = None
+            for attempt in range(2):
+                try:
+                    response = requests.get(source_url, headers=headers, stream=True, timeout=30)
+                    response.raise_for_status()
+                    break
+                except Exception as retry_err:
+                    logging.warning(f"Image download attempt {attempt+1} failed for {slug}: {retry_err}")
+                    if attempt == 1:
+                        raise
             with open(temp_img, 'wb') as f:
                 for chunk in response.iter_content(1024):
                     f.write(chunk)
