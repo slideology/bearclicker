@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "inca-adventure",
+      "title": "Inca Adventure",
+      "url": "https://cookie-clicker2.com/inca-adventure.embed"
+    },
+    {
+      "id": "neon-invaders",
+      "title": "Neon Invaders",
+      "url": "https://cookie-clicker2.com/neon-invaders.embed"
+    },
+    {
+      "id": "happy-glass-2",
+      "title": "Happy Glass 2",
+      "url": "https://cookie-clicker2.com/happy-glass-2.embed"
+    },
+    {
       "id": "stickman-shooter-2",
       "title": "Stickman Shooter 2",
       "url": "https://cookie-clicker2.com/stickman-shooter-2.embed"

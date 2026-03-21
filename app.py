@@ -2000,5 +2000,35 @@ def stickman_shooter_2():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/happy-glass-2')
+def happy_glass_2():
+    faq_data = get_faqs_for_page('happy-glass-2')
+    return render_template('happy-glass-2.html',
+                         page_title='Happy Glass 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/neon-invaders')
+def neon_invaders():
+    faq_data = get_faqs_for_page('neon-invaders')
+    return render_template('neon-invaders.html',
+                         page_title='Neon Invaders',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/inca-adventure')
+def inca_adventure():
+    faq_data = get_faqs_for_page('inca-adventure')
+    return render_template('inca-adventure.html',
+                         page_title='Inca Adventure',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
