@@ -2030,5 +2030,35 @@ def inca_adventure():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/shortcut-pro')
+def shortcut_pro():
+    faq_data = get_faqs_for_page('shortcut-pro')
+    return render_template('shortcut-pro.html',
+                         page_title='Shortcut Pro',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/fireboy-and-watergirl')
+def fireboy_and_watergirl():
+    faq_data = get_faqs_for_page('fireboy-and-watergirl')
+    return render_template('fireboy-and-watergirl.html',
+                         page_title='Fireboy And Watergirl',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pull-mermaid-out')
+def pull_mermaid_out():
+    faq_data = get_faqs_for_page('pull-mermaid-out')
+    return render_template('pull-mermaid-out.html',
+                         page_title='Pull Mermaid Out',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

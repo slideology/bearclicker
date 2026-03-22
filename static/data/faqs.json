@@ -6058,5 +6058,80 @@
       }
     ],
     "conclusion": "Enjoy playing Inca Adventure and share your high scores with friends!"
+  },
+  "shortcut-pro": {
+    "faqs": [
+      {
+        "question": "How to play Shortcut Pro?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Shortcut Pro."
+      },
+      {
+        "question": "Is Shortcut Pro free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Shortcut Pro on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Shortcut Pro?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Shortcut Pro and share your high scores with friends!"
+  },
+  "fireboy-and-watergirl": {
+    "faqs": [
+      {
+        "question": "How to play Fireboy And Watergirl?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Fireboy And Watergirl."
+      },
+      {
+        "question": "Is Fireboy And Watergirl free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Fireboy And Watergirl on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Fireboy And Watergirl?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Fireboy And Watergirl and share your high scores with friends!"
+  },
+  "pull-mermaid-out": {
+    "faqs": [
+      {
+        "question": "How to play Pull Mermaid Out?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pull Mermaid Out."
+      },
+      {
+        "question": "Is Pull Mermaid Out free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pull Mermaid Out on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pull Mermaid Out?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pull Mermaid Out and share your high scores with friends!"
   }
 }

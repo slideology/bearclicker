@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pull-mermaid-out",
+      "title": "Pull Mermaid Out",
+      "url": "https://cookie-clicker2.com/pull-mermaid-out.embed"
+    },
+    {
+      "id": "fireboy-and-watergirl",
+      "title": "Fireboy And Watergirl",
+      "url": "https://cookie-clicker2.com/fireboy-and-watergirl.embed"
+    },
+    {
+      "id": "shortcut-pro",
+      "title": "Shortcut Pro",
+      "url": "https://cookie-clicker2.com/shortcut-pro.embed"
+    },
+    {
       "id": "inca-adventure",
       "title": "Inca Adventure",
       "url": "https://cookie-clicker2.com/inca-adventure.embed"
