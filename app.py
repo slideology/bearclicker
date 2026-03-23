@@ -2060,5 +2060,35 @@ def pull_mermaid_out():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/among-us-io')
+def among_us_io():
+    faq_data = get_faqs_for_page('among-us-io')
+    return render_template('among-us-io.html',
+                         page_title='Among Us Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/color-spin-2')
+def color_spin_2():
+    faq_data = get_faqs_for_page('color-spin-2')
+    return render_template('color-spin-2.html',
+                         page_title='Color Spin 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/wormo-io')
+def wormo_io():
+    faq_data = get_faqs_for_page('wormo-io')
+    return render_template('wormo-io.html',
+                         page_title='Wormo Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

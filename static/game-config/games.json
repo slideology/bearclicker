@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "wormo-io",
+      "title": "Wormo Io",
+      "url": "https://cookie-clicker2.com/wormo-io.embed"
+    },
+    {
+      "id": "color-spin-2",
+      "title": "Color Spin 2",
+      "url": "https://cookie-clicker2.com/color-spin-2.embed"
+    },
+    {
+      "id": "among-us-io",
+      "title": "Among Us Io",
+      "url": "https://cookie-clicker2.com/among-us-io.embed"
+    },
+    {
       "id": "pull-mermaid-out",
       "title": "Pull Mermaid Out",
       "url": "https://cookie-clicker2.com/pull-mermaid-out.embed"
