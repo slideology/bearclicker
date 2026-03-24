@@ -1130,4 +1130,22 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://bearclicker.net/cut-the-rope-2</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/colored-drawing</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/risky-rescue</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>

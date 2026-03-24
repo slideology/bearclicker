@@ -6208,5 +6208,80 @@
       }
     ],
     "conclusion": "Enjoy playing Wormo Io and share your high scores with friends!"
+  },
+  "cut-the-rope-2": {
+    "faqs": [
+      {
+        "question": "How to play Cut The Rope 2?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Cut The Rope 2."
+      },
+      {
+        "question": "Is Cut The Rope 2 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Cut The Rope 2 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Cut The Rope 2?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Cut The Rope 2 and share your high scores with friends!"
+  },
+  "colored-drawing": {
+    "faqs": [
+      {
+        "question": "How to play Colored Drawing?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Colored Drawing."
+      },
+      {
+        "question": "Is Colored Drawing free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Colored Drawing on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Colored Drawing?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Colored Drawing and share your high scores with friends!"
+  },
+  "risky-rescue": {
+    "faqs": [
+      {
+        "question": "How to play Risky Rescue?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Risky Rescue."
+      },
+      {
+        "question": "Is Risky Rescue free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Risky Rescue on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Risky Rescue?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Risky Rescue and share your high scores with friends!"
   }
 }

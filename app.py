@@ -2090,5 +2090,35 @@ def wormo_io():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/cut-the-rope-2')
+def cut_the_rope_2():
+    faq_data = get_faqs_for_page('cut-the-rope-2')
+    return render_template('cut-the-rope-2.html',
+                         page_title='Cut The Rope 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/colored-drawing')
+def colored_drawing():
+    faq_data = get_faqs_for_page('colored-drawing')
+    return render_template('colored-drawing.html',
+                         page_title='Colored Drawing',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/risky-rescue')
+def risky_rescue():
+    faq_data = get_faqs_for_page('risky-rescue')
+    return render_template('risky-rescue.html',
+                         page_title='Risky Rescue',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

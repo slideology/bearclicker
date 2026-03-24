@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "risky-rescue",
+      "title": "Risky Rescue",
+      "url": "https://cookie-clicker2.com/risky-rescue.embed"
+    },
+    {
+      "id": "colored-drawing",
+      "title": "Colored Drawing",
+      "url": "https://cookie-clicker2.com/colored-drawing.embed"
+    },
+    {
+      "id": "cut-the-rope-2",
+      "title": "Cut The Rope 2",
+      "url": "https://cookie-clicker2.com/cut-the-rope-2.embed"
+    },
+    {
       "id": "wormo-io",
       "title": "Wormo Io",
       "url": "https://cookie-clicker2.com/wormo-io.embed"
