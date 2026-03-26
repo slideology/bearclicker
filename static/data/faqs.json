@@ -6283,5 +6283,80 @@
       }
     ],
     "conclusion": "Enjoy playing Risky Rescue and share your high scores with friends!"
+  },
+  "sweet-candy-mania": {
+    "faqs": [
+      {
+        "question": "How to play Sweet Candy Mania?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Sweet Candy Mania."
+      },
+      {
+        "question": "Is Sweet Candy Mania free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Sweet Candy Mania on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Sweet Candy Mania?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Sweet Candy Mania and share your high scores with friends!"
+  },
+  "whack-a-mole": {
+    "faqs": [
+      {
+        "question": "How to play Whack A Mole?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Whack A Mole."
+      },
+      {
+        "question": "Is Whack A Mole free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Whack A Mole on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Whack A Mole?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Whack A Mole and share your high scores with friends!"
+  },
+  "mahjong": {
+    "faqs": [
+      {
+        "question": "How to play Mahjong?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Mahjong."
+      },
+      {
+        "question": "Is Mahjong free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Mahjong on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Mahjong?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Mahjong and share your high scores with friends!"
   }
 }

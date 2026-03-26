@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "mahjong",
+      "title": "Mahjong",
+      "url": "https://cookie-clicker2.com/mahjong.embed"
+    },
+    {
+      "id": "whack-a-mole",
+      "title": "Whack A Mole",
+      "url": "https://cookie-clicker2.com/whack-a-mole.embed"
+    },
+    {
+      "id": "sweet-candy-mania",
+      "title": "Sweet Candy Mania",
+      "url": "https://cookie-clicker2.com/sweet-candy-mania.embed"
+    },
+    {
       "id": "risky-rescue",
       "title": "Risky Rescue",
       "url": "https://cookie-clicker2.com/risky-rescue.embed"

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Mahjong - Play Mahjong On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Mahjong is a classic game and formed hundreds of years ago in China. And it is widely developed, with a lot of people who know and have fun playing. M...">
+<link rel="canonical" href="https://bearclicker.net/mahjong">
+{% endblock %}
+
+{% block og_title %}Mahjong - Play Mahjong On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Mahjong is a classic game and formed hundreds of years ago in China. And it is widely developed, with a lot of people who know and have fun playing. M...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/mahjong.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/mahjong-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/mahjong-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/mahjong",
+        title="Mahjong",
+        description="Enjoy Mahjong is a classic game and formed hundreds of years ago in China. And it is widely developed, with a lot of people who know and have fun playing. M...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='mahjong' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

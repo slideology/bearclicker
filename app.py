@@ -2120,5 +2120,35 @@ def risky_rescue():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/sweet-candy-mania')
+def sweet_candy_mania():
+    faq_data = get_faqs_for_page('sweet-candy-mania')
+    return render_template('sweet-candy-mania.html',
+                         page_title='Sweet Candy Mania',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/whack-a-mole')
+def whack_a_mole():
+    faq_data = get_faqs_for_page('whack-a-mole')
+    return render_template('whack-a-mole.html',
+                         page_title='Whack A Mole',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/mahjong')
+def mahjong():
+    faq_data = get_faqs_for_page('mahjong')
+    return render_template('mahjong.html',
+                         page_title='Mahjong',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
