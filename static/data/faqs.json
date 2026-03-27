@@ -6433,5 +6433,80 @@
       }
     ],
     "conclusion": "Enjoy playing Aquapark Io and share your high scores with friends!"
+  },
+  "super-rocket-buddy": {
+    "faqs": [
+      {
+        "question": "How to play Super Rocket Buddy?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Super Rocket Buddy."
+      },
+      {
+        "question": "Is Super Rocket Buddy free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Super Rocket Buddy on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Super Rocket Buddy?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Super Rocket Buddy and share your high scores with friends!"
+  },
+  "stack-colors": {
+    "faqs": [
+      {
+        "question": "How to play Stack Colors?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Stack Colors."
+      },
+      {
+        "question": "Is Stack Colors free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Stack Colors on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Stack Colors?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Stack Colors and share your high scores with friends!"
+  },
+  "idle-zoo": {
+    "faqs": [
+      {
+        "question": "How to play Idle Zoo?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Idle Zoo."
+      },
+      {
+        "question": "Is Idle Zoo free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Idle Zoo on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Idle Zoo?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Idle Zoo and share your high scores with friends!"
   }
 }

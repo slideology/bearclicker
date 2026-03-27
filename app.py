@@ -2180,5 +2180,35 @@ def aquapark_io():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/super-rocket-buddy')
+def super_rocket_buddy():
+    faq_data = get_faqs_for_page('super-rocket-buddy')
+    return render_template('super-rocket-buddy.html',
+                         page_title='Super Rocket Buddy',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/stack-colors')
+def stack_colors():
+    faq_data = get_faqs_for_page('stack-colors')
+    return render_template('stack-colors.html',
+                         page_title='Stack Colors',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/idle-zoo')
+def idle_zoo():
+    faq_data = get_faqs_for_page('idle-zoo')
+    return render_template('idle-zoo.html',
+                         page_title='Idle Zoo',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

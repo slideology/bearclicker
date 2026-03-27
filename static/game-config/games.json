@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "idle-zoo",
+      "title": "Idle Zoo",
+      "url": "https://cookie-clicker2.com/idle-zoo.embed"
+    },
+    {
+      "id": "stack-colors",
+      "title": "Stack Colors",
+      "url": "https://cookie-clicker2.com/stack-colors.embed"
+    },
+    {
+      "id": "super-rocket-buddy",
+      "title": "Super Rocket Buddy",
+      "url": "https://cookie-clicker2.com/super-rocket-buddy.embed"
+    },
+    {
       "id": "aquapark-io",
       "title": "Aquapark Io",
       "url": "https://cookie-clicker2.com/aquapark-io.embed"
