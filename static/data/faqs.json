@@ -6358,5 +6358,80 @@
       }
     ],
     "conclusion": "Enjoy playing Mahjong and share your high scores with friends!"
+  },
+  "knife-hit": {
+    "faqs": [
+      {
+        "question": "How to play Knife Hit?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Knife Hit."
+      },
+      {
+        "question": "Is Knife Hit free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Knife Hit on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Knife Hit?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Knife Hit and share your high scores with friends!"
+  },
+  "yohoho-io": {
+    "faqs": [
+      {
+        "question": "How to play Yohoho Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Yohoho Io."
+      },
+      {
+        "question": "Is Yohoho Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Yohoho Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Yohoho Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Yohoho Io and share your high scores with friends!"
+  },
+  "aquapark-io": {
+    "faqs": [
+      {
+        "question": "How to play Aquapark Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Aquapark Io."
+      },
+      {
+        "question": "Is Aquapark Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Aquapark Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Aquapark Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Aquapark Io and share your high scores with friends!"
   }
 }

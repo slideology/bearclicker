@@ -2150,5 +2150,35 @@ def mahjong():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/knife-hit')
+def knife_hit():
+    faq_data = get_faqs_for_page('knife-hit')
+    return render_template('knife-hit.html',
+                         page_title='Knife Hit',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/yohoho-io')
+def yohoho_io():
+    faq_data = get_faqs_for_page('yohoho-io')
+    return render_template('yohoho-io.html',
+                         page_title='Yohoho Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/aquapark-io')
+def aquapark_io():
+    faq_data = get_faqs_for_page('aquapark-io')
+    return render_template('aquapark-io.html',
+                         page_title='Aquapark Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

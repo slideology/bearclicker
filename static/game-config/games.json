@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "aquapark-io",
+      "title": "Aquapark Io",
+      "url": "https://cookie-clicker2.com/aquapark-io.embed"
+    },
+    {
+      "id": "yohoho-io",
+      "title": "Yohoho Io",
+      "url": "https://cookie-clicker2.com/yohoho-io.embed"
+    },
+    {
+      "id": "knife-hit",
+      "title": "Knife Hit",
+      "url": "https://cookie-clicker2.com/knife-hit.embed"
+    },
+    {
       "id": "mahjong",
       "title": "Mahjong",
       "url": "https://cookie-clicker2.com/mahjong.embed"
