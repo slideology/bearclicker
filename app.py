@@ -2210,5 +2210,35 @@ def idle_zoo():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/alphabet-kitchen')
+def alphabet_kitchen():
+    faq_data = get_faqs_for_page('alphabet-kitchen')
+    return render_template('alphabet-kitchen.html',
+                         page_title='Alphabet Kitchen',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/zombie-tsunami-online')
+def zombie_tsunami_online():
+    faq_data = get_faqs_for_page('zombie-tsunami-online')
+    return render_template('zombie-tsunami-online.html',
+                         page_title='Zombie Tsunami Online',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/spin-wheel')
+def spin_wheel():
+    faq_data = get_faqs_for_page('spin-wheel')
+    return render_template('spin-wheel.html',
+                         page_title='Spin Wheel',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

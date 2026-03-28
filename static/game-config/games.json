@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "spin-wheel",
+      "title": "Spin Wheel",
+      "url": "https://cookie-clicker2.com/spin-wheel.embed"
+    },
+    {
+      "id": "zombie-tsunami-online",
+      "title": "Zombie Tsunami Online",
+      "url": "https://cookie-clicker2.com/zombie-tsunami-online.embed"
+    },
+    {
+      "id": "alphabet-kitchen",
+      "title": "Alphabet Kitchen",
+      "url": "https://cookie-clicker2.com/alphabet-kitchen.embed"
+    },
+    {
       "id": "idle-zoo",
       "title": "Idle Zoo",
       "url": "https://cookie-clicker2.com/idle-zoo.embed"

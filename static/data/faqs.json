@@ -6508,5 +6508,80 @@
       }
     ],
     "conclusion": "Enjoy playing Idle Zoo and share your high scores with friends!"
+  },
+  "alphabet-kitchen": {
+    "faqs": [
+      {
+        "question": "How to play Alphabet Kitchen?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Alphabet Kitchen."
+      },
+      {
+        "question": "Is Alphabet Kitchen free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Alphabet Kitchen on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Alphabet Kitchen?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Alphabet Kitchen and share your high scores with friends!"
+  },
+  "zombie-tsunami-online": {
+    "faqs": [
+      {
+        "question": "How to play Zombie Tsunami Online?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Zombie Tsunami Online."
+      },
+      {
+        "question": "Is Zombie Tsunami Online free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Zombie Tsunami Online on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Zombie Tsunami Online?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Zombie Tsunami Online and share your high scores with friends!"
+  },
+  "spin-wheel": {
+    "faqs": [
+      {
+        "question": "How to play Spin Wheel?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Spin Wheel."
+      },
+      {
+        "question": "Is Spin Wheel free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Spin Wheel on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Spin Wheel?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Spin Wheel and share your high scores with friends!"
   }
 }
