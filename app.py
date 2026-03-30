@@ -2240,5 +2240,35 @@ def spin_wheel():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/rolly-vortex')
+def rolly_vortex():
+    faq_data = get_faqs_for_page('rolly-vortex')
+    return render_template('rolly-vortex.html',
+                         page_title='Rolly Vortex',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/fire-balls-3d')
+def fire_balls_3d():
+    faq_data = get_faqs_for_page('fire-balls-3d')
+    return render_template('fire-balls-3d.html',
+                         page_title='Fire Balls 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pop-it')
+def pop_it():
+    faq_data = get_faqs_for_page('pop-it')
+    return render_template('pop-it.html',
+                         page_title='Pop It',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

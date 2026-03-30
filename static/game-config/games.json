@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pop-it",
+      "title": "Pop It",
+      "url": "https://cookie-clicker2.com/pop-it.embed"
+    },
+    {
+      "id": "fire-balls-3d",
+      "title": "Fire Balls 3D",
+      "url": "https://cookie-clicker2.com/fire-balls-3d.embed"
+    },
+    {
+      "id": "rolly-vortex",
+      "title": "Rolly Vortex",
+      "url": "https://cookie-clicker2.com/rolly-vortex.embed"
+    },
+    {
       "id": "spin-wheel",
       "title": "Spin Wheel",
       "url": "https://cookie-clicker2.com/spin-wheel.embed"

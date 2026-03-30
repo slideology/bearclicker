@@ -6583,5 +6583,80 @@
       }
     ],
     "conclusion": "Enjoy playing Spin Wheel and share your high scores with friends!"
+  },
+  "rolly-vortex": {
+    "faqs": [
+      {
+        "question": "How to play Rolly Vortex?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Rolly Vortex."
+      },
+      {
+        "question": "Is Rolly Vortex free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Rolly Vortex on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Rolly Vortex?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Rolly Vortex and share your high scores with friends!"
+  },
+  "fire-balls-3d": {
+    "faqs": [
+      {
+        "question": "How to play Fire Balls 3D?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Fire Balls 3D."
+      },
+      {
+        "question": "Is Fire Balls 3D free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Fire Balls 3D on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Fire Balls 3D?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Fire Balls 3D and share your high scores with friends!"
+  },
+  "pop-it": {
+    "faqs": [
+      {
+        "question": "How to play Pop It?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pop It."
+      },
+      {
+        "question": "Is Pop It free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pop It on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pop It?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pop It and share your high scores with friends!"
   }
 }
