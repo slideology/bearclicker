@@ -6658,5 +6658,80 @@
       }
     ],
     "conclusion": "Enjoy playing Pop It and share your high scores with friends!"
+  },
+  "flyufo-io": {
+    "faqs": [
+      {
+        "question": "How to play Flyufo Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Flyufo Io."
+      },
+      {
+        "question": "Is Flyufo Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Flyufo Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Flyufo Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Flyufo Io and share your high scores with friends!"
+  },
+  "hex-pipes": {
+    "faqs": [
+      {
+        "question": "How to play Hex Pipes?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Hex Pipes."
+      },
+      {
+        "question": "Is Hex Pipes free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Hex Pipes on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Hex Pipes?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Hex Pipes and share your high scores with friends!"
+  },
+  "pop-us": {
+    "faqs": [
+      {
+        "question": "How to play Pop Us?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pop Us."
+      },
+      {
+        "question": "Is Pop Us free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pop Us on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pop Us?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pop Us and share your high scores with friends!"
   }
 }

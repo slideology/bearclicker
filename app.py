@@ -2270,5 +2270,35 @@ def pop_it():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/flyufo-io')
+def flyufo_io():
+    faq_data = get_faqs_for_page('flyufo-io')
+    return render_template('flyufo-io.html',
+                         page_title='Flyufo Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/hex-pipes')
+def hex_pipes():
+    faq_data = get_faqs_for_page('hex-pipes')
+    return render_template('hex-pipes.html',
+                         page_title='Hex Pipes',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pop-us')
+def pop_us():
+    faq_data = get_faqs_for_page('pop-us')
+    return render_template('pop-us.html',
+                         page_title='Pop Us',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
