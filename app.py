@@ -2300,5 +2300,35 @@ def pop_us():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/line-color')
+def line_color():
+    faq_data = get_faqs_for_page('line-color')
+    return render_template('line-color.html',
+                         page_title='Line Color',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/hole-io')
+def hole_io():
+    faq_data = get_faqs_for_page('hole-io')
+    return render_template('hole-io.html',
+                         page_title='Hole Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/element-evolution')
+def element_evolution():
+    faq_data = get_faqs_for_page('element-evolution')
+    return render_template('element-evolution.html',
+                         page_title='Element Evolution',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

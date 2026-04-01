@@ -6733,5 +6733,80 @@
       }
     ],
     "conclusion": "Enjoy playing Pop Us and share your high scores with friends!"
+  },
+  "line-color": {
+    "faqs": [
+      {
+        "question": "How to play Line Color?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Line Color."
+      },
+      {
+        "question": "Is Line Color free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Line Color on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Line Color?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Line Color and share your high scores with friends!"
+  },
+  "hole-io": {
+    "faqs": [
+      {
+        "question": "How to play Hole Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Hole Io."
+      },
+      {
+        "question": "Is Hole Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Hole Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Hole Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Hole Io and share your high scores with friends!"
+  },
+  "element-evolution": {
+    "faqs": [
+      {
+        "question": "How to play Element Evolution?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Element Evolution."
+      },
+      {
+        "question": "Is Element Evolution free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Element Evolution on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Element Evolution?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Element Evolution and share your high scores with friends!"
   }
 }

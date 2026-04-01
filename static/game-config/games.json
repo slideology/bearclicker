@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "element-evolution",
+      "title": "Element Evolution",
+      "url": "https://cookie-clicker2.com/element-evolution.embed"
+    },
+    {
+      "id": "hole-io",
+      "title": "Hole Io",
+      "url": "https://cookie-clicker2.com/hole-io.embed"
+    },
+    {
+      "id": "line-color",
+      "title": "Line Color",
+      "url": "https://cookie-clicker2.com/line-color.embed"
+    },
+    {
       "id": "pop-us",
       "title": "Pop Us",
       "url": "https://cookie-clicker2.com/pop-us.embed"
