@@ -2330,5 +2330,35 @@ def element_evolution():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/burger-now')
+def burger_now():
+    faq_data = get_faqs_for_page('burger-now')
+    return render_template('burger-now.html',
+                         page_title='Burger Now',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/farm-panic')
+def farm_panic():
+    faq_data = get_faqs_for_page('farm-panic')
+    return render_template('farm-panic.html',
+                         page_title='Farm Panic',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/beat-hop')
+def beat_hop():
+    faq_data = get_faqs_for_page('beat-hop')
+    return render_template('beat-hop.html',
+                         page_title='Beat Hop',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

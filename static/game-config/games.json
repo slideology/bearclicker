@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "beat-hop",
+      "title": "Beat Hop",
+      "url": "https://cookie-clicker2.com/beat-hop.embed"
+    },
+    {
+      "id": "farm-panic",
+      "title": "Farm Panic",
+      "url": "https://cookie-clicker2.com/farm-panic.embed"
+    },
+    {
+      "id": "burger-now",
+      "title": "Burger Now",
+      "url": "https://cookie-clicker2.com/burger-now.embed"
+    },
+    {
       "id": "element-evolution",
       "title": "Element Evolution",
       "url": "https://cookie-clicker2.com/element-evolution.embed"

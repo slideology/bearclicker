@@ -6808,5 +6808,80 @@
       }
     ],
     "conclusion": "Enjoy playing Element Evolution and share your high scores with friends!"
+  },
+  "burger-now": {
+    "faqs": [
+      {
+        "question": "How to play Burger Now?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Burger Now."
+      },
+      {
+        "question": "Is Burger Now free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Burger Now on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Burger Now?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Burger Now and share your high scores with friends!"
+  },
+  "farm-panic": {
+    "faqs": [
+      {
+        "question": "How to play Farm Panic?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Farm Panic."
+      },
+      {
+        "question": "Is Farm Panic free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Farm Panic on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Farm Panic?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Farm Panic and share your high scores with friends!"
+  },
+  "beat-hop": {
+    "faqs": [
+      {
+        "question": "How to play Beat Hop?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Beat Hop."
+      },
+      {
+        "question": "Is Beat Hop free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Beat Hop on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Beat Hop?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Beat Hop and share your high scores with friends!"
   }
 }
