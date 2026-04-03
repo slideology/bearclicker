@@ -2360,5 +2360,35 @@ def beat_hop():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/wings-rush')
+def wings_rush():
+    faq_data = get_faqs_for_page('wings-rush')
+    return render_template('wings-rush.html',
+                         page_title='Wings Rush',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/wormate-io')
+def wormate_io():
+    faq_data = get_faqs_for_page('wormate-io')
+    return render_template('wormate-io.html',
+                         page_title='Wormate Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/drunken-duel-2')
+def drunken_duel_2():
+    faq_data = get_faqs_for_page('drunken-duel-2')
+    return render_template('drunken-duel-2.html',
+                         page_title='Drunken Duel 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

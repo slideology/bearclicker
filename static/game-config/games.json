@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "drunken-duel-2",
+      "title": "Drunken Duel 2",
+      "url": "https://cookie-clicker2.com/drunken-duel-2.embed"
+    },
+    {
+      "id": "wormate-io",
+      "title": "Wormate Io",
+      "url": "https://cookie-clicker2.com/wormate-io.embed"
+    },
+    {
+      "id": "wings-rush",
+      "title": "Wings Rush",
+      "url": "https://cookie-clicker2.com/wings-rush.embed"
+    },
+    {
       "id": "beat-hop",
       "title": "Beat Hop",
       "url": "https://cookie-clicker2.com/beat-hop.embed"

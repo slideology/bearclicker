@@ -6883,5 +6883,80 @@
       }
     ],
     "conclusion": "Enjoy playing Beat Hop and share your high scores with friends!"
+  },
+  "wings-rush": {
+    "faqs": [
+      {
+        "question": "How to play Wings Rush?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Wings Rush."
+      },
+      {
+        "question": "Is Wings Rush free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Wings Rush on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Wings Rush?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Wings Rush and share your high scores with friends!"
+  },
+  "wormate-io": {
+    "faqs": [
+      {
+        "question": "How to play Wormate Io?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Wormate Io."
+      },
+      {
+        "question": "Is Wormate Io free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Wormate Io on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Wormate Io?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Wormate Io and share your high scores with friends!"
+  },
+  "drunken-duel-2": {
+    "faqs": [
+      {
+        "question": "How to play Drunken Duel 2?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Drunken Duel 2."
+      },
+      {
+        "question": "Is Drunken Duel 2 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Drunken Duel 2 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Drunken Duel 2?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Drunken Duel 2 and share your high scores with friends!"
   }
 }
