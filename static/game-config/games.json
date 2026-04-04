@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "fast-words",
+      "title": "Fast Words",
+      "url": "https://cookie-clicker2.com/fast-words.embed"
+    },
+    {
+      "id": "color-switch",
+      "title": "Color Switch",
+      "url": "https://cookie-clicker2.com/color-switch.embed"
+    },
+    {
+      "id": "super-buddy-kick",
+      "title": "Super Buddy Kick",
+      "url": "https://cookie-clicker2.com/super-buddy-kick.embed"
+    },
+    {
       "id": "drunken-duel-2",
       "title": "Drunken Duel 2",
       "url": "https://cookie-clicker2.com/drunken-duel-2.embed"

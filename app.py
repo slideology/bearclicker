@@ -2390,5 +2390,35 @@ def drunken_duel_2():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/super-buddy-kick')
+def super_buddy_kick():
+    faq_data = get_faqs_for_page('super-buddy-kick')
+    return render_template('super-buddy-kick.html',
+                         page_title='Super Buddy Kick',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/color-switch')
+def color_switch():
+    faq_data = get_faqs_for_page('color-switch')
+    return render_template('color-switch.html',
+                         page_title='Color Switch',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/fast-words')
+def fast_words():
+    faq_data = get_faqs_for_page('fast-words')
+    return render_template('fast-words.html',
+                         page_title='Fast Words',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
