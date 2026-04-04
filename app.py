@@ -2420,5 +2420,35 @@ def fast_words():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/bubble-spinner')
+def bubble_spinner():
+    faq_data = get_faqs_for_page('bubble-spinner')
+    return render_template('bubble-spinner.html',
+                         page_title='Bubble Spinner',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/muscle-race-3d')
+def muscle_race_3d():
+    faq_data = get_faqs_for_page('muscle-race-3d')
+    return render_template('muscle-race-3d.html',
+                         page_title='Muscle Race 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/among-us-space-rush')
+def among_us_space_rush():
+    faq_data = get_faqs_for_page('among-us-space-rush')
+    return render_template('among-us-space-rush.html',
+                         page_title='Among Us Space Rush',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

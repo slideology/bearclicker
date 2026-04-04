@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "among-us-space-rush",
+      "title": "Among Us Space Rush",
+      "url": "https://cookie-clicker2.com/among-us-space-rush.embed"
+    },
+    {
+      "id": "muscle-race-3d",
+      "title": "Muscle Race 3D",
+      "url": "https://cookie-clicker2.com/muscle-race-3d.embed"
+    },
+    {
+      "id": "bubble-spinner",
+      "title": "Bubble Spinner",
+      "url": "https://cookie-clicker2.com/bubble-spinner.embed"
+    },
+    {
       "id": "fast-words",
       "title": "Fast Words",
       "url": "https://cookie-clicker2.com/fast-words.embed"
