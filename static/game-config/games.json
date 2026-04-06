@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "tap-tap-dash-online",
+      "title": "Tap Tap Dash Online",
+      "url": "https://cookie-clicker2.com/tap-tap-dash-online.embed"
+    },
+    {
+      "id": "habbo-clicker",
+      "title": "Habbo Clicker",
+      "url": "https://cookie-clicker2.com/habbo-clicker.embed"
+    },
+    {
+      "id": "sushi-roll-3d",
+      "title": "Sushi Roll 3D",
+      "url": "https://cookie-clicker2.com/sushi-roll-3d.embed"
+    },
+    {
       "id": "among-us-space-rush",
       "title": "Among Us Space Rush",
       "url": "https://cookie-clicker2.com/among-us-space-rush.embed"

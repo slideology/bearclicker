@@ -2450,5 +2450,35 @@ def among_us_space_rush():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/sushi-roll-3d')
+def sushi_roll_3d():
+    faq_data = get_faqs_for_page('sushi-roll-3d')
+    return render_template('sushi-roll-3d.html',
+                         page_title='Sushi Roll 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/habbo-clicker')
+def habbo_clicker():
+    faq_data = get_faqs_for_page('habbo-clicker')
+    return render_template('habbo-clicker.html',
+                         page_title='Habbo Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/tap-tap-dash-online')
+def tap_tap_dash_online():
+    faq_data = get_faqs_for_page('tap-tap-dash-online')
+    return render_template('tap-tap-dash-online.html',
+                         page_title='Tap Tap Dash Online',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

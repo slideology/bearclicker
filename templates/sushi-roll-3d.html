@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Sushi Roll 3D - Play Sushi Roll 3D On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Time to show off your cooking skills! Sushi Roll 3D is a new game, a space for you to explore. You will be a professional chef rolling delicious Sushi...">
+<link rel="canonical" href="https://bearclicker.net/sushi-roll-3d">
+{% endblock %}
+
+{% block og_title %}Sushi Roll 3D - Play Sushi Roll 3D On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Time to show off your cooking skills! Sushi Roll 3D is a new game, a space for you to explore. You will be a professional chef rolling delicious Sushi...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/sushi-roll-3d.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/sushi-roll-3d-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/sushi-roll-3d-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/sushi-roll-3d",
+        title="Sushi Roll 3D",
+        description="Enjoy Time to show off your cooking skills! Sushi Roll 3D is a new game, a space for you to explore. You will be a professional chef rolling delicious Sushi...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='sushi-roll-3d' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}
