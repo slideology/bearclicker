@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pole-vault-3d",
+      "title": "Pole Vault 3D",
+      "url": "https://cookie-clicker2.com/pole-vault-3d.embed"
+    },
+    {
+      "id": "stick-duel-battle",
+      "title": "Stick Duel Battle",
+      "url": "https://cookie-clicker2.com/stick-duel-battle.embed"
+    },
+    {
+      "id": "spiral-roll",
+      "title": "Spiral Roll",
+      "url": "https://cookie-clicker2.com/spiral-roll.embed"
+    },
+    {
       "id": "tap-tap-dash-online",
       "title": "Tap Tap Dash Online",
       "url": "https://cookie-clicker2.com/tap-tap-dash-online.embed"

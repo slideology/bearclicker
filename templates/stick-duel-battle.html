@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Stick Duel Battle - Play Stick Duel Battle On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Stick Duel Battle is a game that takes place in a match between stickmen. The battle rages and thrills like never before. Use your weapons and move fo...">
+<link rel="canonical" href="https://bearclicker.net/stick-duel-battle">
+{% endblock %}
+
+{% block og_title %}Stick Duel Battle - Play Stick Duel Battle On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Stick Duel Battle is a game that takes place in a match between stickmen. The battle rages and thrills like never before. Use your weapons and move fo...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/stick-duel-battle.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/stick-duel-battle-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/stick-duel-battle-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/stick-duel-battle",
+        title="Stick Duel Battle",
+        description="Enjoy Stick Duel Battle is a game that takes place in a match between stickmen. The battle rages and thrills like never before. Use your weapons and move fo...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='stick-duel-battle' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

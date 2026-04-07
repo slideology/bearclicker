@@ -2480,5 +2480,35 @@ def tap_tap_dash_online():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/spiral-roll')
+def spiral_roll():
+    faq_data = get_faqs_for_page('spiral-roll')
+    return render_template('spiral-roll.html',
+                         page_title='Spiral Roll',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/stick-duel-battle')
+def stick_duel_battle():
+    faq_data = get_faqs_for_page('stick-duel-battle')
+    return render_template('stick-duel-battle.html',
+                         page_title='Stick Duel Battle',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pole-vault-3d')
+def pole_vault_3d():
+    faq_data = get_faqs_for_page('pole-vault-3d')
+    return render_template('pole-vault-3d.html',
+                         page_title='Pole Vault 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
