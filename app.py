@@ -2510,5 +2510,35 @@ def pole_vault_3d():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/unblock-ball')
+def unblock_ball():
+    faq_data = get_faqs_for_page('unblock-ball')
+    return render_template('unblock-ball.html',
+                         page_title='Unblock Ball',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/arrow-challenge')
+def arrow_challenge():
+    faq_data = get_faqs_for_page('arrow-challenge')
+    return render_template('arrow-challenge.html',
+                         page_title='Arrow Challenge',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/lolbeans-io')
+def lolbeans_io():
+    faq_data = get_faqs_for_page('lolbeans-io')
+    return render_template('lolbeans-io.html',
+                         page_title='Lolbeans Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

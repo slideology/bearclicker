@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "lolbeans-io",
+      "title": "Lolbeans Io",
+      "url": "https://cookie-clicker2.com/lolbeans-io.embed"
+    },
+    {
+      "id": "arrow-challenge",
+      "title": "Arrow Challenge",
+      "url": "https://cookie-clicker2.com/arrow-challenge.embed"
+    },
+    {
+      "id": "unblock-ball",
+      "title": "Unblock Ball",
+      "url": "https://cookie-clicker2.com/unblock-ball.embed"
+    },
+    {
       "id": "pole-vault-3d",
       "title": "Pole Vault 3D",
       "url": "https://cookie-clicker2.com/pole-vault-3d.embed"
