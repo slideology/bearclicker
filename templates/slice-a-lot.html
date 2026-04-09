@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Slice A Lot - Play Slice A Lot On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Use a sharp knife in Slice a lot game. It is a fun addictive game. Slicing everything on the way is your task.
+Make as many slices as possible, which...">
+<link rel="canonical" href="https://bearclicker.net/slice-a-lot">
+{% endblock %}
+
+{% block og_title %}Slice A Lot - Play Slice A Lot On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Use a sharp knife in Slice a lot game. It is a fun addictive game. Slicing everything on the way is your task.
+Make as many slices as possible, which...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/slice-a-lot.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/slice-a-lot-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/slice-a-lot-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/slice-a-lot",
+        title="Slice A Lot",
+        description="Enjoy Use a sharp knife in Slice a lot game. It is a fun addictive game. Slicing everything on the way is your task.
+Make as many slices as possible, which...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='slice-a-lot' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

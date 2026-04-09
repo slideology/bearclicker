@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Rugbyio Ball Mayhem - Play Rugbyio Ball Mayhem On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Rugby.io Ball Mayhem is an online sports game with rugby balls. Aim to get the ball to the final area and shoot the ball to score. Practice all ball-h...">
+<link rel="canonical" href="https://bearclicker.net/rugbyio-ball-mayhem">
+{% endblock %}
+
+{% block og_title %}Rugbyio Ball Mayhem - Play Rugbyio Ball Mayhem On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Rugby.io Ball Mayhem is an online sports game with rugby balls. Aim to get the ball to the final area and shoot the ball to score. Practice all ball-h...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/rugbyio-ball-mayhem.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/rugbyio-ball-mayhem-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/rugbyio-ball-mayhem-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/rugbyio-ball-mayhem",
+        title="Rugbyio Ball Mayhem",
+        description="Enjoy Rugby.io Ball Mayhem is an online sports game with rugby balls. Aim to get the ball to the final area and shoot the ball to score. Practice all ball-h...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='rugbyio-ball-mayhem' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

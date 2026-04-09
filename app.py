@@ -2540,5 +2540,35 @@ def lolbeans_io():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/slice-a-lot')
+def slice_a_lot():
+    faq_data = get_faqs_for_page('slice-a-lot')
+    return render_template('slice-a-lot.html',
+                         page_title='Slice A Lot',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/rugbyio-ball-mayhem')
+def rugbyio_ball_mayhem():
+    faq_data = get_faqs_for_page('rugbyio-ball-mayhem')
+    return render_template('rugbyio-ball-mayhem.html',
+                         page_title='Rugbyio Ball Mayhem',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/slidey-block-puzzle')
+def slidey_block_puzzle():
+    faq_data = get_faqs_for_page('slidey-block-puzzle')
+    return render_template('slidey-block-puzzle.html',
+                         page_title='Slidey Block Puzzle',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

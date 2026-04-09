@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "slidey-block-puzzle",
+      "title": "Slidey Block Puzzle",
+      "url": "https://cookie-clicker2.com/slidey-block-puzzle.embed"
+    },
+    {
+      "id": "rugbyio-ball-mayhem",
+      "title": "Rugbyio Ball Mayhem",
+      "url": "https://cookie-clicker2.com/rugbyio-ball-mayhem.embed"
+    },
+    {
+      "id": "slice-a-lot",
+      "title": "Slice A Lot",
+      "url": "https://cookie-clicker2.com/slice-a-lot.embed"
+    },
+    {
       "id": "lolbeans-io",
       "title": "Lolbeans Io",
       "url": "https://cookie-clicker2.com/lolbeans-io.embed"
