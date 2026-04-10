@@ -35,6 +35,45 @@
             Trending games like {{ page_title }}
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 sm:gap-3">
+            <!-- Cookie Merge Card -->
+            <a href="https://bearclicker.net/cookie-merge" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/cookie-merge.jpg') }}" 
+                         alt="Cookie Merge img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('cookie_merge', 'Cookie Merge') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Tricky Tiles Card -->
+            <a href="https://bearclicker.net/tricky-tiles" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/tricky-tiles.jpg') }}" 
+                         alt="Tricky Tiles img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('tricky_tiles', 'Tricky Tiles') }}
+                    </p>
+                </div>
+            </a>
+            <!-- Squid Game Card -->
+            <a href="https://bearclicker.net/squid-game" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
+                <div class="relative">
+                    <img src="{{ url_for('static', filename='images/games/squid-game.jpg') }}" 
+                         alt="Squid Game img" loading="lazy" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-2 bg-gray-100 dark:bg-gray-800">
+                    <p class="text-xs sm:text-sm font-medium text-gray-800 dark:text-gray-200 truncate text-center">
+                        {{ translations.get('trending', {}).get('squid_game', 'Squid Game') }}
+                    </p>
+                </div>
+            </a>
             <!-- Slidey Block Puzzle Card -->
             <a href="https://bearclicker.net/slidey-block-puzzle" class="group relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105 flex flex-col">
                 <div class="relative">

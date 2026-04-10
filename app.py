@@ -2570,5 +2570,35 @@ def slidey_block_puzzle():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/squid-game')
+def squid_game():
+    faq_data = get_faqs_for_page('squid-game')
+    return render_template('squid-game.html',
+                         page_title='Squid Game',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/tricky-tiles')
+def tricky_tiles():
+    faq_data = get_faqs_for_page('tricky-tiles')
+    return render_template('tricky-tiles.html',
+                         page_title='Tricky Tiles',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-merge')
+def cookie_merge():
+    faq_data = get_faqs_for_page('cookie-merge')
+    return render_template('cookie-merge.html',
+                         page_title='Cookie Merge',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

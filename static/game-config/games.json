@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "cookie-merge",
+      "title": "Cookie Merge",
+      "url": "https://cookie-clicker2.com/cookie-merge.embed"
+    },
+    {
+      "id": "tricky-tiles",
+      "title": "Tricky Tiles",
+      "url": "https://cookie-clicker2.com/tricky-tiles.embed"
+    },
+    {
+      "id": "squid-game",
+      "title": "Squid Game",
+      "url": "https://cookie-clicker2.com/squid-game.embed"
+    },
+    {
       "id": "slidey-block-puzzle",
       "title": "Slidey Block Puzzle",
       "url": "https://cookie-clicker2.com/slidey-block-puzzle.embed"

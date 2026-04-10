@@ -7408,5 +7408,80 @@
       }
     ],
     "conclusion": "Enjoy playing Slidey Block Puzzle and share your high scores with friends!"
+  },
+  "squid-game": {
+    "faqs": [
+      {
+        "question": "How to play Squid Game?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Squid Game."
+      },
+      {
+        "question": "Is Squid Game free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Squid Game on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Squid Game?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Squid Game and share your high scores with friends!"
+  },
+  "tricky-tiles": {
+    "faqs": [
+      {
+        "question": "How to play Tricky Tiles?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Tricky Tiles."
+      },
+      {
+        "question": "Is Tricky Tiles free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Tricky Tiles on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Tricky Tiles?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Tricky Tiles and share your high scores with friends!"
+  },
+  "cookie-merge": {
+    "faqs": [
+      {
+        "question": "How to play Cookie Merge?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Cookie Merge."
+      },
+      {
+        "question": "Is Cookie Merge free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Cookie Merge on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Cookie Merge?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Cookie Merge and share your high scores with friends!"
   }
 }
