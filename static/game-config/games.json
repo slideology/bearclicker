@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "idle-mining-empire",
+      "title": "Idle Mining Empire",
+      "url": "https://cookie-clicker2.com/idle-mining-empire.embed"
+    },
+    {
+      "id": "pokeio",
+      "title": "Pokeio",
+      "url": "https://cookie-clicker2.com/pokeio.embed"
+    },
+    {
+      "id": "target-hit-3d",
+      "title": "Target Hit 3D",
+      "url": "https://cookie-clicker2.com/target-hit-3d.embed"
+    },
+    {
       "id": "cookie-merge",
       "title": "Cookie Merge",
       "url": "https://cookie-clicker2.com/cookie-merge.embed"

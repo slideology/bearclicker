@@ -2600,5 +2600,35 @@ def cookie_merge():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/target-hit-3d')
+def target_hit_3d():
+    faq_data = get_faqs_for_page('target-hit-3d')
+    return render_template('target-hit-3d.html',
+                         page_title='Target Hit 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pokeio')
+def pokeio():
+    faq_data = get_faqs_for_page('pokeio')
+    return render_template('pokeio.html',
+                         page_title='Pokeio',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/idle-mining-empire')
+def idle_mining_empire():
+    faq_data = get_faqs_for_page('idle-mining-empire')
+    return render_template('idle-mining-empire.html',
+                         page_title='Idle Mining Empire',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
