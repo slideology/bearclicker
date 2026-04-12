@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "sticky-road",
+      "title": "Sticky Road",
+      "url": "https://cookie-clicker2.com/sticky-road.embed"
+    },
+    {
+      "id": "candy-clicker",
+      "title": "Candy Clicker",
+      "url": "https://cookie-clicker2.com/candy-clicker.embed"
+    },
+    {
+      "id": "room-clicker",
+      "title": "Room Clicker",
+      "url": "https://cookie-clicker2.com/room-clicker.embed"
+    },
+    {
       "id": "idle-mining-empire",
       "title": "Idle Mining Empire",
       "url": "https://cookie-clicker2.com/idle-mining-empire.embed"

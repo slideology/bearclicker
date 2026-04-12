@@ -2630,5 +2630,35 @@ def idle_mining_empire():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/room-clicker')
+def room_clicker():
+    faq_data = get_faqs_for_page('room-clicker')
+    return render_template('room-clicker.html',
+                         page_title='Room Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/candy-clicker')
+def candy_clicker():
+    faq_data = get_faqs_for_page('candy-clicker')
+    return render_template('candy-clicker.html',
+                         page_title='Candy Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/sticky-road')
+def sticky_road():
+    faq_data = get_faqs_for_page('sticky-road')
+    return render_template('sticky-road.html',
+                         page_title='Sticky Road',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

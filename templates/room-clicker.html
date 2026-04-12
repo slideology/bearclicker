@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Room Clicker - Play Room Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Room Clicker is a simple idle clicker game where you use your earned money through clicks to buy furniture, decorations, and upgrades for your room th...">
+<link rel="canonical" href="https://bearclicker.net/room-clicker">
+{% endblock %}
+
+{% block og_title %}Room Clicker - Play Room Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Room Clicker is a simple idle clicker game where you use your earned money through clicks to buy furniture, decorations, and upgrades for your room th...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/room-clicker.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/room-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/room-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/room-clicker",
+        title="Room Clicker",
+        description="Enjoy Room Clicker is a simple idle clicker game where you use your earned money through clicks to buy furniture, decorations, and upgrades for your room th...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='room-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

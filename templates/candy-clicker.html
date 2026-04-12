@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Candy Clicker - Play Candy Clicker On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Candy Clicker is an interesting and addictive game for lovers who want to dispel all fatigue in study and work.
+Click on the candy to earn more coins...">
+<link rel="canonical" href="https://bearclicker.net/candy-clicker">
+{% endblock %}
+
+{% block og_title %}Candy Clicker - Play Candy Clicker On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Candy Clicker is an interesting and addictive game for lovers who want to dispel all fatigue in study and work.
+Click on the candy to earn more coins...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/candy-clicker.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/candy-clicker-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/candy-clicker-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/candy-clicker",
+        title="Candy Clicker",
+        description="Enjoy Candy Clicker is an interesting and addictive game for lovers who want to dispel all fatigue in study and work.
+Click on the candy to earn more coins...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='candy-clicker' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

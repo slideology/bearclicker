@@ -7558,5 +7558,80 @@
       }
     ],
     "conclusion": "Enjoy playing Idle Mining Empire and share your high scores with friends!"
+  },
+  "room-clicker": {
+    "faqs": [
+      {
+        "question": "How to play Room Clicker?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Room Clicker."
+      },
+      {
+        "question": "Is Room Clicker free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Room Clicker on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Room Clicker?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Room Clicker and share your high scores with friends!"
+  },
+  "candy-clicker": {
+    "faqs": [
+      {
+        "question": "How to play Candy Clicker?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Candy Clicker."
+      },
+      {
+        "question": "Is Candy Clicker free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Candy Clicker on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Candy Clicker?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Candy Clicker and share your high scores with friends!"
+  },
+  "sticky-road": {
+    "faqs": [
+      {
+        "question": "How to play Sticky Road?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Sticky Road."
+      },
+      {
+        "question": "Is Sticky Road free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Sticky Road on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Sticky Road?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Sticky Road and share your high scores with friends!"
   }
 }
