@@ -2660,5 +2660,35 @@ def sticky_road():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/gold-miner')
+def gold_miner():
+    faq_data = get_faqs_for_page('gold-miner')
+    return render_template('gold-miner.html',
+                         page_title='Gold Miner',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/house-flipper')
+def house_flipper():
+    faq_data = get_faqs_for_page('house-flipper')
+    return render_template('house-flipper.html',
+                         page_title='House Flipper',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/factory-idle')
+def factory_idle():
+    faq_data = get_faqs_for_page('factory-idle')
+    return render_template('factory-idle.html',
+                         page_title='Factory Idle',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

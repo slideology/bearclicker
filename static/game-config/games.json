@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "factory-idle",
+      "title": "Factory Idle",
+      "url": "https://cookie-clicker2.com/factory-idle.embed"
+    },
+    {
+      "id": "house-flipper",
+      "title": "House Flipper",
+      "url": "https://cookie-clicker2.com/house-flipper.embed"
+    },
+    {
+      "id": "gold-miner",
+      "title": "Gold Miner",
+      "url": "https://cookie-clicker2.com/gold-miner.embed"
+    },
+    {
       "id": "sticky-road",
       "title": "Sticky Road",
       "url": "https://cookie-clicker2.com/sticky-road.embed"
