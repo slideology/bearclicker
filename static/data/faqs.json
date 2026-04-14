@@ -7708,5 +7708,80 @@
       }
     ],
     "conclusion": "Enjoy playing Factory Idle and share your high scores with friends!"
+  },
+  "grindcraft": {
+    "faqs": [
+      {
+        "question": "How to play Grindcraft?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Grindcraft."
+      },
+      {
+        "question": "Is Grindcraft free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Grindcraft on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Grindcraft?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Grindcraft and share your high scores with friends!"
+  },
+  "my-sugar-factory": {
+    "faqs": [
+      {
+        "question": "How to play My Sugar Factory?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with My Sugar Factory."
+      },
+      {
+        "question": "Is My Sugar Factory free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play My Sugar Factory on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for My Sugar Factory?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing My Sugar Factory and share your high scores with friends!"
+  },
+  "juice-production-tycoon": {
+    "faqs": [
+      {
+        "question": "How to play Juice Production Tycoon?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Juice Production Tycoon."
+      },
+      {
+        "question": "Is Juice Production Tycoon free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Juice Production Tycoon on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Juice Production Tycoon?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Juice Production Tycoon and share your high scores with friends!"
   }
 }

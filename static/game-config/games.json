@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "juice-production-tycoon",
+      "title": "Juice Production Tycoon",
+      "url": "https://cookie-clicker2.com/juice-production-tycoon.embed"
+    },
+    {
+      "id": "my-sugar-factory",
+      "title": "My Sugar Factory",
+      "url": "https://cookie-clicker2.com/my-sugar-factory.embed"
+    },
+    {
+      "id": "grindcraft",
+      "title": "Grindcraft",
+      "url": "https://cookie-clicker2.com/grindcraft.embed"
+    },
+    {
       "id": "factory-idle",
       "title": "Factory Idle",
       "url": "https://cookie-clicker2.com/factory-idle.embed"

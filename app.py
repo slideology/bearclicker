@@ -2690,5 +2690,35 @@ def factory_idle():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/grindcraft')
+def grindcraft():
+    faq_data = get_faqs_for_page('grindcraft')
+    return render_template('grindcraft.html',
+                         page_title='Grindcraft',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/my-sugar-factory')
+def my_sugar_factory():
+    faq_data = get_faqs_for_page('my-sugar-factory')
+    return render_template('my-sugar-factory.html',
+                         page_title='My Sugar Factory',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/juice-production-tycoon')
+def juice_production_tycoon():
+    faq_data = get_faqs_for_page('juice-production-tycoon')
+    return render_template('juice-production-tycoon.html',
+                         page_title='Juice Production Tycoon',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
