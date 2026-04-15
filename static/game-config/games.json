@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pinatamasters",
+      "title": "Pinatamasters",
+      "url": "https://cookie-clicker2.com/pinatamasters.embed"
+    },
+    {
+      "id": "enchanted-heroes",
+      "title": "Enchanted Heroes",
+      "url": "https://cookie-clicker2.com/enchanted-heroes.embed"
+    },
+    {
+      "id": "dualforce-idle",
+      "title": "Dualforce Idle",
+      "url": "https://cookie-clicker2.com/dualforce-idle.embed"
+    },
+    {
       "id": "juice-production-tycoon",
       "title": "Juice Production Tycoon",
       "url": "https://cookie-clicker2.com/juice-production-tycoon.embed"

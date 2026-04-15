@@ -2720,5 +2720,35 @@ def juice_production_tycoon():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/dualforce-idle')
+def dualforce_idle():
+    faq_data = get_faqs_for_page('dualforce-idle')
+    return render_template('dualforce-idle.html',
+                         page_title='Dualforce Idle',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/enchanted-heroes')
+def enchanted_heroes():
+    faq_data = get_faqs_for_page('enchanted-heroes')
+    return render_template('enchanted-heroes.html',
+                         page_title='Enchanted Heroes',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pinatamasters')
+def pinatamasters():
+    faq_data = get_faqs_for_page('pinatamasters')
+    return render_template('pinatamasters.html',
+                         page_title='Pinatamasters',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
