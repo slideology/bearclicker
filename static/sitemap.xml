@@ -1520,4 +1520,22 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://bearclicker.net/pou</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/ant-destroyer-2</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/pull-him-out</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>

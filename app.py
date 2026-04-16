@@ -2750,5 +2750,35 @@ def pinatamasters():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/pou')
+def pou():
+    faq_data = get_faqs_for_page('pou')
+    return render_template('pou.html',
+                         page_title='Pou',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/ant-destroyer-2')
+def ant_destroyer_2():
+    faq_data = get_faqs_for_page('ant-destroyer-2')
+    return render_template('ant-destroyer-2.html',
+                         page_title='Ant Destroyer 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pull-him-out')
+def pull_him_out():
+    faq_data = get_faqs_for_page('pull-him-out')
+    return render_template('pull-him-out.html',
+                         page_title='Pull Him Out',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pull-him-out",
+      "title": "Pull Him Out",
+      "url": "https://cookie-clicker2.com/pull-him-out.embed"
+    },
+    {
+      "id": "ant-destroyer-2",
+      "title": "Ant Destroyer 2",
+      "url": "https://cookie-clicker2.com/ant-destroyer-2.embed"
+    },
+    {
+      "id": "pou",
+      "title": "Pou",
+      "url": "https://cookie-clicker2.com/pou.embed"
+    },
+    {
       "id": "pinatamasters",
       "title": "Pinatamasters",
       "url": "https://cookie-clicker2.com/pinatamasters.embed"

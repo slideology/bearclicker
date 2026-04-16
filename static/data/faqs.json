@@ -7858,5 +7858,80 @@
       }
     ],
     "conclusion": "Enjoy playing Pinatamasters and share your high scores with friends!"
+  },
+  "pou": {
+    "faqs": [
+      {
+        "question": "How to play Pou?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pou."
+      },
+      {
+        "question": "Is Pou free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pou on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pou?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pou and share your high scores with friends!"
+  },
+  "ant-destroyer-2": {
+    "faqs": [
+      {
+        "question": "How to play Ant Destroyer 2?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Ant Destroyer 2."
+      },
+      {
+        "question": "Is Ant Destroyer 2 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Ant Destroyer 2 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Ant Destroyer 2?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Ant Destroyer 2 and share your high scores with friends!"
+  },
+  "pull-him-out": {
+    "faqs": [
+      {
+        "question": "How to play Pull Him Out?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pull Him Out."
+      },
+      {
+        "question": "Is Pull Him Out free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pull Him Out on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pull Him Out?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pull Him Out and share your high scores with friends!"
   }
 }
