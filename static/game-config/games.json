@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "among-stacky-runner",
+      "title": "Among Stacky Runner",
+      "url": "https://cookie-clicker2.com/among-stacky-runner.embed"
+    },
+    {
+      "id": "adam-and-eve-go",
+      "title": "Adam And Eve Go",
+      "url": "https://cookie-clicker2.com/adam-and-eve-go.embed"
+    },
+    {
+      "id": "freddy-run",
+      "title": "Freddy Run",
+      "url": "https://cookie-clicker2.com/freddy-run.embed"
+    },
+    {
       "id": "pull-him-out",
       "title": "Pull Him Out",
       "url": "https://cookie-clicker2.com/pull-him-out.embed"

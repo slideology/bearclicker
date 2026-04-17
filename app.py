@@ -2780,5 +2780,35 @@ def pull_him_out():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/freddy-run')
+def freddy_run():
+    faq_data = get_faqs_for_page('freddy-run')
+    return render_template('freddy-run.html',
+                         page_title='Freddy Run',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/adam-and-eve-go')
+def adam_and_eve_go():
+    faq_data = get_faqs_for_page('adam-and-eve-go')
+    return render_template('adam-and-eve-go.html',
+                         page_title='Adam And Eve Go',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/among-stacky-runner')
+def among_stacky_runner():
+    faq_data = get_faqs_for_page('among-stacky-runner')
+    return render_template('among-stacky-runner.html',
+                         page_title='Among Stacky Runner',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

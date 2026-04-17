@@ -7933,5 +7933,80 @@
       }
     ],
     "conclusion": "Enjoy playing Pull Him Out and share your high scores with friends!"
+  },
+  "freddy-run": {
+    "faqs": [
+      {
+        "question": "How to play Freddy Run?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Freddy Run."
+      },
+      {
+        "question": "Is Freddy Run free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Freddy Run on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Freddy Run?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Freddy Run and share your high scores with friends!"
+  },
+  "adam-and-eve-go": {
+    "faqs": [
+      {
+        "question": "How to play Adam And Eve Go?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Adam And Eve Go."
+      },
+      {
+        "question": "Is Adam And Eve Go free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Adam And Eve Go on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Adam And Eve Go?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Adam And Eve Go and share your high scores with friends!"
+  },
+  "among-stacky-runner": {
+    "faqs": [
+      {
+        "question": "How to play Among Stacky Runner?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Among Stacky Runner."
+      },
+      {
+        "question": "Is Among Stacky Runner free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Among Stacky Runner on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Among Stacky Runner?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Among Stacky Runner and share your high scores with friends!"
   }
 }
