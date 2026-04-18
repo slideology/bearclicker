@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "fit-and-go-shape-puzzle",
+      "title": "Fit And Go Shape Puzzle",
+      "url": "https://cookie-clicker2.com/fit-and-go-shape-puzzle.embed"
+    },
+    {
+      "id": "slope-game",
+      "title": "Slope Game",
+      "url": "https://cookie-clicker2.com/slope-game.embed"
+    },
+    {
+      "id": "diskio",
+      "title": "Diskio",
+      "url": "https://cookie-clicker2.com/diskio.embed"
+    },
+    {
       "id": "among-stacky-runner",
       "title": "Among Stacky Runner",
       "url": "https://cookie-clicker2.com/among-stacky-runner.embed"

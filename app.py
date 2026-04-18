@@ -2810,5 +2810,35 @@ def among_stacky_runner():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/diskio')
+def diskio():
+    faq_data = get_faqs_for_page('diskio')
+    return render_template('diskio.html',
+                         page_title='Diskio',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/slope-game')
+def slope_game():
+    faq_data = get_faqs_for_page('slope-game')
+    return render_template('slope-game.html',
+                         page_title='Slope Game',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/fit-and-go-shape-puzzle')
+def fit_and_go_shape_puzzle():
+    faq_data = get_faqs_for_page('fit-and-go-shape-puzzle')
+    return render_template('fit-and-go-shape-puzzle.html',
+                         page_title='Fit And Go Shape Puzzle',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

@@ -8008,5 +8008,80 @@
       }
     ],
     "conclusion": "Enjoy playing Among Stacky Runner and share your high scores with friends!"
+  },
+  "diskio": {
+    "faqs": [
+      {
+        "question": "How to play Diskio?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Diskio."
+      },
+      {
+        "question": "Is Diskio free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Diskio on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Diskio?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Diskio and share your high scores with friends!"
+  },
+  "slope-game": {
+    "faqs": [
+      {
+        "question": "How to play Slope Game?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Slope Game."
+      },
+      {
+        "question": "Is Slope Game free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Slope Game on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Slope Game?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Slope Game and share your high scores with friends!"
+  },
+  "fit-and-go-shape-puzzle": {
+    "faqs": [
+      {
+        "question": "How to play Fit And Go Shape Puzzle?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Fit And Go Shape Puzzle."
+      },
+      {
+        "question": "Is Fit And Go Shape Puzzle free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Fit And Go Shape Puzzle on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Fit And Go Shape Puzzle?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Fit And Go Shape Puzzle and share your high scores with friends!"
   }
 }
