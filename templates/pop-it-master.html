@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Pop It Master - Play Pop It Master On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Have you conquered all the collections in the Pop It Master game? Your task is to pop each bubble and leave nothing behind. Enjoy realistic, soothing ...">
+<link rel="canonical" href="https://bearclicker.net/pop-it-master">
+{% endblock %}
+
+{% block og_title %}Pop It Master - Play Pop It Master On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Have you conquered all the collections in the Pop It Master game? Your task is to pop each bubble and leave nothing behind. Enjoy realistic, soothing ...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/pop-it-master.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/pop-it-master-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/pop-it-master-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/pop-it-master",
+        title="Pop It Master",
+        description="Enjoy Have you conquered all the collections in the Pop It Master game? Your task is to pop each bubble and leave nothing behind. Enjoy realistic, soothing ...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='pop-it-master' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

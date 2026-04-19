@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "pop-it-master",
+      "title": "Pop It Master",
+      "url": "https://cookie-clicker2.com/pop-it-master.embed"
+    },
+    {
+      "id": "funny-bone-surgery",
+      "title": "Funny Bone Surgery",
+      "url": "https://cookie-clicker2.com/funny-bone-surgery.embed"
+    },
+    {
+      "id": "10x10-winter-gems",
+      "title": "10X10 Winter Gems",
+      "url": "https://cookie-clicker2.com/10x10-winter-gems.embed"
+    },
+    {
       "id": "fit-and-go-shape-puzzle",
       "title": "Fit And Go Shape Puzzle",
       "url": "https://cookie-clicker2.com/fit-and-go-shape-puzzle.embed"

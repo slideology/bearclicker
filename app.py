@@ -2840,5 +2840,35 @@ def fit_and_go_shape_puzzle():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/10x10-winter-gems')
+def game_10x10_winter_gems():
+    faq_data = get_faqs_for_page('10x10-winter-gems')
+    return render_template('10x10-winter-gems.html',
+                         page_title='10X10 Winter Gems',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/funny-bone-surgery')
+def funny_bone_surgery():
+    faq_data = get_faqs_for_page('funny-bone-surgery')
+    return render_template('funny-bone-surgery.html',
+                         page_title='Funny Bone Surgery',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pop-it-master')
+def pop_it_master():
+    faq_data = get_faqs_for_page('pop-it-master')
+    return render_template('pop-it-master.html',
+                         page_title='Pop It Master',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
