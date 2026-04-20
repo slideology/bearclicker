@@ -2870,5 +2870,35 @@ def pop_it_master():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/helix-jump')
+def helix_jump():
+    faq_data = get_faqs_for_page('helix-jump')
+    return render_template('helix-jump.html',
+                         page_title='Helix Jump',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/teeth-runner')
+def teeth_runner():
+    faq_data = get_faqs_for_page('teeth-runner')
+    return render_template('teeth-runner.html',
+                         page_title='Teeth Runner',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/idle-money-tree')
+def idle_money_tree():
+    faq_data = get_faqs_for_page('idle-money-tree')
+    return render_template('idle-money-tree.html',
+                         page_title='Idle Money Tree',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

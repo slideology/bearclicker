@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "idle-money-tree",
+      "title": "Idle Money Tree",
+      "url": "https://cookie-clicker2.com/idle-money-tree.embed"
+    },
+    {
+      "id": "teeth-runner",
+      "title": "Teeth Runner",
+      "url": "https://cookie-clicker2.com/teeth-runner.embed"
+    },
+    {
+      "id": "helix-jump",
+      "title": "Helix Jump",
+      "url": "https://cookie-clicker2.com/helix-jump.embed"
+    },
+    {
       "id": "pop-it-master",
       "title": "Pop It Master",
       "url": "https://cookie-clicker2.com/pop-it-master.embed"
