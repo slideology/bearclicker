@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "conquer-the-city",
+      "title": "Conquer The City",
+      "url": "https://cookie-clicker2.com/conquer-the-city.embed"
+    },
+    {
+      "id": "k-challenge-456",
+      "title": "K Challenge 456",
+      "url": "https://cookie-clicker2.com/k-challenge-456.embed"
+    },
+    {
+      "id": "rabbit-samurai-2",
+      "title": "Rabbit Samurai 2",
+      "url": "https://cookie-clicker2.com/rabbit-samurai-2.embed"
+    },
+    {
       "id": "idle-money-tree",
       "title": "Idle Money Tree",
       "url": "https://cookie-clicker2.com/idle-money-tree.embed"

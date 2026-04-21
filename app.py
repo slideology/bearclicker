@@ -2900,5 +2900,35 @@ def idle_money_tree():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/rabbit-samurai-2')
+def rabbit_samurai_2():
+    faq_data = get_faqs_for_page('rabbit-samurai-2')
+    return render_template('rabbit-samurai-2.html',
+                         page_title='Rabbit Samurai 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/k-challenge-456')
+def k_challenge_456():
+    faq_data = get_faqs_for_page('k-challenge-456')
+    return render_template('k-challenge-456.html',
+                         page_title='K Challenge 456',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/conquer-the-city')
+def conquer_the_city():
+    faq_data = get_faqs_for_page('conquer-the-city')
+    return render_template('conquer-the-city.html',
+                         page_title='Conquer The City',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
