@@ -2930,5 +2930,35 @@ def conquer_the_city():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/helix-stack-ball')
+def helix_stack_ball():
+    faq_data = get_faqs_for_page('helix-stack-ball')
+    return render_template('helix-stack-ball.html',
+                         page_title='Helix Stack Ball',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/taps-to-riches')
+def taps_to_riches():
+    faq_data = get_faqs_for_page('taps-to-riches')
+    return render_template('taps-to-riches.html',
+                         page_title='Taps To Riches',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/ball-merge-2048')
+def ball_merge_2048():
+    faq_data = get_faqs_for_page('ball-merge-2048')
+    return render_template('ball-merge-2048.html',
+                         page_title='Ball Merge 2048',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

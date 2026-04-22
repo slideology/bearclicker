@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Taps To Riches - Play Taps To Riches On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Taps To Riches is a game that will allow you to become a billionaire. This game is part of a collection of entertaining idle games.
+To make a big pro...">
+<link rel="canonical" href="https://bearclicker.net/taps-to-riches">
+{% endblock %}
+
+{% block og_title %}Taps To Riches - Play Taps To Riches On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Taps To Riches is a game that will allow you to become a billionaire. This game is part of a collection of entertaining idle games.
+To make a big pro...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/taps-to-riches.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/taps-to-riches-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/taps-to-riches-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/taps-to-riches",
+        title="Taps To Riches",
+        description="Enjoy Taps To Riches is a game that will allow you to become a billionaire. This game is part of a collection of entertaining idle games.
+To make a big pro...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='taps-to-riches' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

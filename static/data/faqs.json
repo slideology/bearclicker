@@ -8308,5 +8308,80 @@
       }
     ],
     "conclusion": "Enjoy playing Conquer The City and share your high scores with friends!"
+  },
+  "helix-stack-ball": {
+    "faqs": [
+      {
+        "question": "How to play Helix Stack Ball?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Helix Stack Ball."
+      },
+      {
+        "question": "Is Helix Stack Ball free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Helix Stack Ball on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Helix Stack Ball?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Helix Stack Ball and share your high scores with friends!"
+  },
+  "taps-to-riches": {
+    "faqs": [
+      {
+        "question": "How to play Taps To Riches?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Taps To Riches."
+      },
+      {
+        "question": "Is Taps To Riches free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Taps To Riches on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Taps To Riches?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Taps To Riches and share your high scores with friends!"
+  },
+  "ball-merge-2048": {
+    "faqs": [
+      {
+        "question": "How to play Ball Merge 2048?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Ball Merge 2048."
+      },
+      {
+        "question": "Is Ball Merge 2048 free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Ball Merge 2048 on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Ball Merge 2048?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Ball Merge 2048 and share your high scores with friends!"
   }
 }

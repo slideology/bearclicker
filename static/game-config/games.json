@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "ball-merge-2048",
+      "title": "Ball Merge 2048",
+      "url": "https://cookie-clicker2.com/ball-merge-2048.embed"
+    },
+    {
+      "id": "taps-to-riches",
+      "title": "Taps To Riches",
+      "url": "https://cookie-clicker2.com/taps-to-riches.embed"
+    },
+    {
+      "id": "helix-stack-ball",
+      "title": "Helix Stack Ball",
+      "url": "https://cookie-clicker2.com/helix-stack-ball.embed"
+    },
+    {
       "id": "conquer-the-city",
       "title": "Conquer The City",
       "url": "https://cookie-clicker2.com/conquer-the-city.embed"
