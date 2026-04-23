@@ -2960,5 +2960,35 @@ def ball_merge_2048():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/bubble-fight-io')
+def bubble_fight_io():
+    faq_data = get_faqs_for_page('bubble-fight-io')
+    return render_template('bubble-fight-io.html',
+                         page_title='Bubble Fight Io',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/color-drop')
+def color_drop():
+    faq_data = get_faqs_for_page('color-drop')
+    return render_template('color-drop.html',
+                         page_title='Color Drop',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/squid-challenge-2')
+def squid_challenge_2():
+    faq_data = get_faqs_for_page('squid-challenge-2')
+    return render_template('squid-challenge-2.html',
+                         page_title='Squid Challenge 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

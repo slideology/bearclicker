@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "squid-challenge-2",
+      "title": "Squid Challenge 2",
+      "url": "https://cookie-clicker2.com/squid-challenge-2.embed"
+    },
+    {
+      "id": "color-drop",
+      "title": "Color Drop",
+      "url": "https://cookie-clicker2.com/color-drop.embed"
+    },
+    {
+      "id": "bubble-fight-io",
+      "title": "Bubble Fight Io",
+      "url": "https://cookie-clicker2.com/bubble-fight-io.embed"
+    },
+    {
       "id": "ball-merge-2048",
       "title": "Ball Merge 2048",
       "url": "https://cookie-clicker2.com/ball-merge-2048.embed"
