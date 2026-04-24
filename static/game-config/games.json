@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "shortcut-race-3d",
+      "title": "Shortcut Race 3D",
+      "url": "https://cookie-clicker2.com/shortcut-race-3d.embed"
+    },
+    {
+      "id": "planet-clicker-2",
+      "title": "Planet Clicker 2",
+      "url": "https://cookie-clicker2.com/planet-clicker-2.embed"
+    },
+    {
+      "id": "mouth-shift-3d",
+      "title": "Mouth Shift 3D",
+      "url": "https://cookie-clicker2.com/mouth-shift-3d.embed"
+    },
+    {
       "id": "squid-challenge-2",
       "title": "Squid Challenge 2",
       "url": "https://cookie-clicker2.com/squid-challenge-2.embed"

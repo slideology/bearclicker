@@ -2990,5 +2990,35 @@ def squid_challenge_2():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/mouth-shift-3d')
+def mouth_shift_3d():
+    faq_data = get_faqs_for_page('mouth-shift-3d')
+    return render_template('mouth-shift-3d.html',
+                         page_title='Mouth Shift 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/planet-clicker-2')
+def planet_clicker_2():
+    faq_data = get_faqs_for_page('planet-clicker-2')
+    return render_template('planet-clicker-2.html',
+                         page_title='Planet Clicker 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/shortcut-race-3d')
+def shortcut_race_3d():
+    faq_data = get_faqs_for_page('shortcut-race-3d')
+    return render_template('shortcut-race-3d.html',
+                         page_title='Shortcut Race 3D',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
