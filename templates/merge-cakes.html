@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Merge Cakes - Play Merge Cakes On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Merge Cakes' purpose is to combine all of the same baked products or candies to create a new recipe. Every ten seconds, you'll get a fresh low-cost tr...">
+<link rel="canonical" href="https://bearclicker.net/merge-cakes">
+{% endblock %}
+
+{% block og_title %}Merge Cakes - Play Merge Cakes On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Merge Cakes' purpose is to combine all of the same baked products or candies to create a new recipe. Every ten seconds, you'll get a fresh low-cost tr...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/merge-cakes.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/merge-cakes-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/merge-cakes-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/merge-cakes",
+        title="Merge Cakes",
+        description="Enjoy Merge Cakes' purpose is to combine all of the same baked products or candies to create a new recipe. Every ten seconds, you'll get a fresh low-cost tr...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='merge-cakes' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

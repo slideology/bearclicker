@@ -3020,5 +3020,35 @@ def shortcut_race_3d():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/fruit-mahjong')
+def fruit_mahjong():
+    faq_data = get_faqs_for_page('fruit-mahjong')
+    return render_template('fruit-mahjong.html',
+                         page_title='Fruit Mahjong',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/merge-cakes')
+def merge_cakes():
+    faq_data = get_faqs_for_page('merge-cakes')
+    return render_template('merge-cakes.html',
+                         page_title='Merge Cakes',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/high-pizza-game')
+def high_pizza_game():
+    faq_data = get_faqs_for_page('high-pizza-game')
+    return render_template('high-pizza-game.html',
+                         page_title='High Pizza Game',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

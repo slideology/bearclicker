@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "high-pizza-game",
+      "title": "High Pizza Game",
+      "url": "https://cookie-clicker2.com/high-pizza-game.embed"
+    },
+    {
+      "id": "merge-cakes",
+      "title": "Merge Cakes",
+      "url": "https://cookie-clicker2.com/merge-cakes.embed"
+    },
+    {
+      "id": "fruit-mahjong",
+      "title": "Fruit Mahjong",
+      "url": "https://cookie-clicker2.com/fruit-mahjong.embed"
+    },
+    {
       "id": "shortcut-race-3d",
       "title": "Shortcut Race 3D",
       "url": "https://cookie-clicker2.com/shortcut-race-3d.embed"

@@ -8533,5 +8533,80 @@
       }
     ],
     "conclusion": "Enjoy playing Shortcut Race 3D and share your high scores with friends!"
+  },
+  "fruit-mahjong": {
+    "faqs": [
+      {
+        "question": "How to play Fruit Mahjong?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Fruit Mahjong."
+      },
+      {
+        "question": "Is Fruit Mahjong free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Fruit Mahjong on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Fruit Mahjong?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Fruit Mahjong and share your high scores with friends!"
+  },
+  "merge-cakes": {
+    "faqs": [
+      {
+        "question": "How to play Merge Cakes?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Merge Cakes."
+      },
+      {
+        "question": "Is Merge Cakes free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Merge Cakes on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Merge Cakes?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Merge Cakes and share your high scores with friends!"
+  },
+  "high-pizza-game": {
+    "faqs": [
+      {
+        "question": "How to play High Pizza Game?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with High Pizza Game."
+      },
+      {
+        "question": "Is High Pizza Game free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play High Pizza Game on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for High Pizza Game?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing High Pizza Game and share your high scores with friends!"
   }
 }
