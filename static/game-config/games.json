@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "drift-boss",
+      "title": "Drift Boss",
+      "url": "https://cookie-clicker2.com/drift-boss.embed"
+    },
+    {
+      "id": "idle-farm",
+      "title": "Idle Farm",
+      "url": "https://cookie-clicker2.com/idle-farm.embed"
+    },
+    {
+      "id": "fruit-master",
+      "title": "Fruit Master",
+      "url": "https://cookie-clicker2.com/fruit-master.embed"
+    },
+    {
       "id": "high-pizza-game",
       "title": "High Pizza Game",
       "url": "https://cookie-clicker2.com/high-pizza-game.embed"

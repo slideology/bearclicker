@@ -8608,5 +8608,80 @@
       }
     ],
     "conclusion": "Enjoy playing High Pizza Game and share your high scores with friends!"
+  },
+  "fruit-master": {
+    "faqs": [
+      {
+        "question": "How to play Fruit Master?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Fruit Master."
+      },
+      {
+        "question": "Is Fruit Master free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Fruit Master on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Fruit Master?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Fruit Master and share your high scores with friends!"
+  },
+  "idle-farm": {
+    "faqs": [
+      {
+        "question": "How to play Idle Farm?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Idle Farm."
+      },
+      {
+        "question": "Is Idle Farm free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Idle Farm on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Idle Farm?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Idle Farm and share your high scores with friends!"
+  },
+  "drift-boss": {
+    "faqs": [
+      {
+        "question": "How to play Drift Boss?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Drift Boss."
+      },
+      {
+        "question": "Is Drift Boss free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Drift Boss on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Drift Boss?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Drift Boss and share your high scores with friends!"
   }
 }

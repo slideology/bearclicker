@@ -3050,5 +3050,35 @@ def high_pizza_game():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/fruit-master')
+def fruit_master():
+    faq_data = get_faqs_for_page('fruit-master')
+    return render_template('fruit-master.html',
+                         page_title='Fruit Master',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/idle-farm')
+def idle_farm():
+    faq_data = get_faqs_for_page('idle-farm')
+    return render_template('idle-farm.html',
+                         page_title='Idle Farm',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/drift-boss')
+def drift_boss():
+    faq_data = get_faqs_for_page('drift-boss')
+    return render_template('drift-boss.html',
+                         page_title='Drift Boss',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
