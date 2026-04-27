@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "city-blocks",
+      "title": "City Blocks",
+      "url": "https://cookie-clicker2.com/city-blocks.embed"
+    },
+    {
+      "id": "cookie-crush-3",
+      "title": "Cookie Crush 3",
+      "url": "https://cookie-clicker2.com/cookie-crush-3.embed"
+    },
+    {
+      "id": "oil-tycoon-2",
+      "title": "Oil Tycoon 2",
+      "url": "https://cookie-clicker2.com/oil-tycoon-2.embed"
+    },
+    {
       "id": "drift-boss",
       "title": "Drift Boss",
       "url": "https://cookie-clicker2.com/drift-boss.embed"

@@ -3080,5 +3080,35 @@ def drift_boss():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/oil-tycoon-2')
+def oil_tycoon_2():
+    faq_data = get_faqs_for_page('oil-tycoon-2')
+    return render_template('oil-tycoon-2.html',
+                         page_title='Oil Tycoon 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-crush-3')
+def cookie_crush_3():
+    faq_data = get_faqs_for_page('cookie-crush-3')
+    return render_template('cookie-crush-3.html',
+                         page_title='Cookie Crush 3',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/city-blocks')
+def city_blocks():
+    faq_data = get_faqs_for_page('city-blocks')
+    return render_template('city-blocks.html',
+                         page_title='City Blocks',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
