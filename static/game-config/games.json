@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "the-mergest-kingdom",
+      "title": "The Mergest Kingdom",
+      "url": "https://cookie-clicker2.com/the-mergest-kingdom.embed"
+    },
+    {
+      "id": "smiling-glass-2",
+      "title": "Smiling Glass 2",
+      "url": "https://cookie-clicker2.com/smiling-glass-2.embed"
+    },
+    {
+      "id": "candy-clicker-2",
+      "title": "Candy Clicker 2",
+      "url": "https://cookie-clicker2.com/candy-clicker-2.embed"
+    },
+    {
       "id": "city-blocks",
       "title": "City Blocks",
       "url": "https://cookie-clicker2.com/city-blocks.embed"

@@ -3110,5 +3110,35 @@ def city_blocks():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/candy-clicker-2')
+def candy_clicker_2():
+    faq_data = get_faqs_for_page('candy-clicker-2')
+    return render_template('candy-clicker-2.html',
+                         page_title='Candy Clicker 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/smiling-glass-2')
+def smiling_glass_2():
+    faq_data = get_faqs_for_page('smiling-glass-2')
+    return render_template('smiling-glass-2.html',
+                         page_title='Smiling Glass 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/the-mergest-kingdom')
+def the_mergest_kingdom():
+    faq_data = get_faqs_for_page('the-mergest-kingdom')
+    return render_template('the-mergest-kingdom.html',
+                         page_title='The Mergest Kingdom',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

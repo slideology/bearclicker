@@ -1736,4 +1736,22 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://bearclicker.net/candy-clicker-2</loc>
+        <lastmod>2026-04-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/smiling-glass-2</loc>
+        <lastmod>2026-04-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/the-mergest-kingdom</loc>
+        <lastmod>2026-04-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
