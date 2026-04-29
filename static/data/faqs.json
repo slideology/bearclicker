@@ -8833,5 +8833,80 @@
       }
     ],
     "conclusion": "Enjoy playing The Mergest Kingdom and share your high scores with friends!"
+  },
+  "swing-robber": {
+    "faqs": [
+      {
+        "question": "How to play Swing Robber?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Swing Robber."
+      },
+      {
+        "question": "Is Swing Robber free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Swing Robber on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Swing Robber?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Swing Robber and share your high scores with friends!"
+  },
+  "cookie-master": {
+    "faqs": [
+      {
+        "question": "How to play Cookie Master?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Cookie Master."
+      },
+      {
+        "question": "Is Cookie Master free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Cookie Master on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Cookie Master?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Cookie Master and share your high scores with friends!"
+  },
+  "wood-block-puzzle": {
+    "faqs": [
+      {
+        "question": "How to play Wood Block Puzzle?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Wood Block Puzzle."
+      },
+      {
+        "question": "Is Wood Block Puzzle free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Wood Block Puzzle on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Wood Block Puzzle?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Wood Block Puzzle and share your high scores with friends!"
   }
 }

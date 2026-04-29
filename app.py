@@ -3140,5 +3140,35 @@ def the_mergest_kingdom():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/swing-robber')
+def swing_robber():
+    faq_data = get_faqs_for_page('swing-robber')
+    return render_template('swing-robber.html',
+                         page_title='Swing Robber',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-master')
+def cookie_master():
+    faq_data = get_faqs_for_page('cookie-master')
+    return render_template('cookie-master.html',
+                         page_title='Cookie Master',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/wood-block-puzzle')
+def wood_block_puzzle():
+    faq_data = get_faqs_for_page('wood-block-puzzle')
+    return render_template('wood-block-puzzle.html',
+                         page_title='Wood Block Puzzle',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
