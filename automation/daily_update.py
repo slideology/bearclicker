@@ -178,12 +178,24 @@ def run_daily_update():
             indexnow_success = indexnow.submit_urls(urls_to_submit)
         except Exception as e:
             logging.error(f"Could not hook into indexnow: {e}")
+
+    # 2. Submit sitemap to Google Search Console
+    gsc_sitemap_success = None
+    if success_records:
+        try:
+            import search_console_submitter
+
+            logging.info("Submitting sitemap to Google Search Console...")
+            gsc_sitemap_success = search_console_submitter.submit_sitemap()
+        except Exception as e:
+            logging.error(f"Could not hook into Google Search Console submitter: {e}")
             
-    # 2. Inform Feishu Webhook
+    # 3. Inform Feishu Webhook
     summary = {
         "success_games": success_records,
         "failed_games": failed_records,
-        "indexnow_status": indexnow_success
+        "indexnow_status": indexnow_success,
+        "gsc_sitemap_status": gsc_sitemap_success,
     }
     
     # Use WebhookSender

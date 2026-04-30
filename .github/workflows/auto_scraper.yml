@@ -30,12 +30,15 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 pillow google-generativeai python-dotenv flask cloudscraper
+          pip install requests beautifulsoup4 pillow google-generativeai python-dotenv flask cloudscraper google-auth
 
       - name: Run daily update pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          GOOGLE_SEARCH_CONSOLE_SITE_URL: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SITE_URL }}
+          GOOGLE_SEARCH_CONSOLE_SITEMAP_URL: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SITEMAP_URL }}
+          GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON }}
         run: |
           cd automation
           python daily_update.py
