@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "cupcake-clicker",
+      "title": "Cupcake Clicker",
+      "url": "https://cookie-clicker2.com/cupcake-clicker.embed"
+    },
+    {
+      "id": "skydom",
+      "title": "Skydom",
+      "url": "https://cookie-clicker2.com/skydom.embed"
+    },
+    {
+      "id": "idle-startup-tycoon",
+      "title": "Idle Startup Tycoon",
+      "url": "https://cookie-clicker2.com/idle-startup-tycoon.embed"
+    },
+    {
       "id": "wood-block-puzzle",
       "title": "Wood Block Puzzle",
       "url": "https://cookie-clicker2.com/wood-block-puzzle.embed"

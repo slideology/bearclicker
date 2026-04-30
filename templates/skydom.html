@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Skydom - Play Skydom On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Skydom is a fun puzzle game for kids with a variety of game types. The basic objective is to connect objects and build combos that will earn you addit...">
+<link rel="canonical" href="https://bearclicker.net/skydom">
+{% endblock %}
+
+{% block og_title %}Skydom - Play Skydom On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Skydom is a fun puzzle game for kids with a variety of game types. The basic objective is to connect objects and build combos that will earn you addit...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/skydom.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/skydom-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/skydom-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/skydom",
+        title="Skydom",
+        description="Enjoy Skydom is a fun puzzle game for kids with a variety of game types. The basic objective is to connect objects and build combos that will earn you addit...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='skydom' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

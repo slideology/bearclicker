@@ -3170,5 +3170,35 @@ def wood_block_puzzle():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/idle-startup-tycoon')
+def idle_startup_tycoon():
+    faq_data = get_faqs_for_page('idle-startup-tycoon')
+    return render_template('idle-startup-tycoon.html',
+                         page_title='Idle Startup Tycoon',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/skydom')
+def skydom():
+    faq_data = get_faqs_for_page('skydom')
+    return render_template('skydom.html',
+                         page_title='Skydom',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cupcake-clicker')
+def cupcake_clicker():
+    faq_data = get_faqs_for_page('cupcake-clicker')
+    return render_template('cupcake-clicker.html',
+                         page_title='Cupcake Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
