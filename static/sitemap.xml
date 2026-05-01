@@ -1790,4 +1790,22 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://bearclicker.net/pie-inc</loc>
+        <lastmod>2026-05-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/crowd-drift-city</loc>
+        <lastmod>2026-05-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bearclicker.net/puzzle-math</loc>
+        <lastmod>2026-05-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>

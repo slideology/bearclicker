@@ -3200,5 +3200,35 @@ def cupcake_clicker():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/pie-inc')
+def pie_inc():
+    faq_data = get_faqs_for_page('pie-inc')
+    return render_template('pie-inc.html',
+                         page_title='Pie Inc',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/crowd-drift-city')
+def crowd_drift_city():
+    faq_data = get_faqs_for_page('crowd-drift-city')
+    return render_template('crowd-drift-city.html',
+                         page_title='Crowd Drift City',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/puzzle-math')
+def puzzle_math():
+    faq_data = get_faqs_for_page('puzzle-math')
+    return render_template('puzzle-math.html',
+                         page_title='Puzzle Math',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

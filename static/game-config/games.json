@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "puzzle-math",
+      "title": "Puzzle Math",
+      "url": "https://cookie-clicker2.com/puzzle-math.embed"
+    },
+    {
+      "id": "crowd-drift-city",
+      "title": "Crowd Drift City",
+      "url": "https://cookie-clicker2.com/crowd-drift-city.embed"
+    },
+    {
+      "id": "pie-inc",
+      "title": "Pie Inc",
+      "url": "https://cookie-clicker2.com/pie-inc.embed"
+    },
+    {
       "id": "cupcake-clicker",
       "title": "Cupcake Clicker",
       "url": "https://cookie-clicker2.com/cupcake-clicker.embed"

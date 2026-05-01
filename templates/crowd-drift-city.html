@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Crowd Drift City - Play Crowd Drift City On Bear Clicker Game{% endblock %}
+
+{% block meta_description %}
+<meta name="description" content="Enjoy Crowd Drift City is a game in which you have the opportunity to command the city's largest vehicle drift gang. Drive as quickly as you can and recruit...">
+<link rel="canonical" href="https://bearclicker.net/crowd-drift-city">
+{% endblock %}
+
+{% block og_title %}Crowd Drift City - Play Crowd Drift City On Bear Clicker Game{% endblock %}
+{% block og_description %}Enjoy Crowd Drift City is a game in which you have the opportunity to command the city's largest vehicle drift gang. Drive as quickly as you can and recruit...{% endblock %}
+
+{% block og_image %}https://bearclicker.net/static/images/games/crowd-drift-city.jpg{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon/crowd-drift-city-favicon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/crowd-drift-city-apple-touch-icon.png') }}">
+{% endblock %}
+
+{% block content %}
+<div class="relative overflow-hidden">
+    {% with 
+        gradient_colors="from-pink-400 via-purple-500 to-indigo-600",
+        blob_gradient_1="from-pink-500 to-purple-500",
+        blob_gradient_2="from-purple-500 to-indigo-500",
+        title_gradient="from-pink-500 via-purple-500 to-indigo-500",
+        game_url="/game/crowd-drift-city",
+        title="Crowd Drift City",
+        description="Enjoy Crowd Drift City is a game in which you have the opportunity to command the city's largest vehicle drift gang. Drive as quickly as you can and recruit...",
+        open_in_new_tab=False
+    %}
+        {% include 'components/hero.html' %}
+    {% endwith %}
+
+
+    <!-- Trending Games Section -->
+    {% with current_page='crowd-drift-city' %}
+    {% include 'components/trending_games.html' %}
+    {% endwith %}
+    
+    <!-- FAQ Section -->
+    {% include 'components/faq_section.html' %}
+</div>
+{% endblock %}

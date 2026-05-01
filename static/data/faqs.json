@@ -8983,5 +8983,80 @@
       }
     ],
     "conclusion": "Enjoy playing Cupcake Clicker and share your high scores with friends!"
+  },
+  "pie-inc": {
+    "faqs": [
+      {
+        "question": "How to play Pie Inc?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Pie Inc."
+      },
+      {
+        "question": "Is Pie Inc free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Pie Inc on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Pie Inc?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Pie Inc and share your high scores with friends!"
+  },
+  "crowd-drift-city": {
+    "faqs": [
+      {
+        "question": "How to play Crowd Drift City?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Crowd Drift City."
+      },
+      {
+        "question": "Is Crowd Drift City free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Crowd Drift City on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Crowd Drift City?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Crowd Drift City and share your high scores with friends!"
+  },
+  "puzzle-math": {
+    "faqs": [
+      {
+        "question": "How to play Puzzle Math?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Puzzle Math."
+      },
+      {
+        "question": "Is Puzzle Math free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Puzzle Math on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Puzzle Math?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Puzzle Math and share your high scores with friends!"
   }
 }
