@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "idle-miner-tycoon",
+      "title": "Idle Miner Tycoon",
+      "url": "https://cookie-clicker2.com/idle-miner-tycoon.embed"
+    },
+    {
+      "id": "burger-clicker",
+      "title": "Burger Clicker",
+      "url": "https://cookie-clicker2.com/burger-clicker.embed"
+    },
+    {
+      "id": "cookie-crush-mania",
+      "title": "Cookie Crush Mania",
+      "url": "https://cookie-clicker2.com/cookie-crush-mania.embed"
+    },
+    {
       "id": "puzzle-math",
       "title": "Puzzle Math",
       "url": "https://cookie-clicker2.com/puzzle-math.embed"

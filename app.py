@@ -3230,5 +3230,35 @@ def puzzle_math():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/cookie-crush-mania')
+def cookie_crush_mania():
+    faq_data = get_faqs_for_page('cookie-crush-mania')
+    return render_template('cookie-crush-mania.html',
+                         page_title='Cookie Crush Mania',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/burger-clicker')
+def burger_clicker():
+    faq_data = get_faqs_for_page('burger-clicker')
+    return render_template('burger-clicker.html',
+                         page_title='Burger Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/idle-miner-tycoon')
+def idle_miner_tycoon():
+    faq_data = get_faqs_for_page('idle-miner-tycoon')
+    return render_template('idle-miner-tycoon.html',
+                         page_title='Idle Miner Tycoon',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
