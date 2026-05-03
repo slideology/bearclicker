@@ -3260,5 +3260,35 @@ def idle_miner_tycoon():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/cookie-crunch')
+def cookie_crunch():
+    faq_data = get_faqs_for_page('cookie-crunch')
+    return render_template('cookie-crunch.html',
+                         page_title='Cookie Crunch',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-blast-mania')
+def cookie_blast_mania():
+    faq_data = get_faqs_for_page('cookie-blast-mania')
+    return render_template('cookie-blast-mania.html',
+                         page_title='Cookie Blast Mania',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/grindcraft-2')
+def grindcraft_2():
+    faq_data = get_faqs_for_page('grindcraft-2')
+    return render_template('grindcraft-2.html',
+                         page_title='Grindcraft 2',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

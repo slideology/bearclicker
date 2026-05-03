@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "grindcraft-2",
+      "title": "Grindcraft 2",
+      "url": "https://cookie-clicker2.com/grindcraft-2.embed"
+    },
+    {
+      "id": "cookie-blast-mania",
+      "title": "Cookie Blast Mania",
+      "url": "https://cookie-clicker2.com/cookie-blast-mania.embed"
+    },
+    {
+      "id": "cookie-crunch",
+      "title": "Cookie Crunch",
+      "url": "https://cookie-clicker2.com/cookie-crunch.embed"
+    },
+    {
       "id": "idle-miner-tycoon",
       "title": "Idle Miner Tycoon",
       "url": "https://cookie-clicker2.com/idle-miner-tycoon.embed"
