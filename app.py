@@ -3290,5 +3290,35 @@ def grindcraft_2():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/cookie-run')
+def cookie_run():
+    faq_data = get_faqs_for_page('cookie-run')
+    return render_template('cookie-run.html',
+                         page_title='Cookie Run',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/shell-shockers')
+def shell_shockers():
+    faq_data = get_faqs_for_page('shell-shockers')
+    return render_template('shell-shockers.html',
+                         page_title='Shell Shockers',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/poppy-playtime')
+def poppy_playtime():
+    faq_data = get_faqs_for_page('poppy-playtime')
+    return render_template('poppy-playtime.html',
+                         page_title='Poppy Playtime',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

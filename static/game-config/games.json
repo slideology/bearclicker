@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "poppy-playtime",
+      "title": "Poppy Playtime",
+      "url": "https://cookie-clicker2.com/poppy-playtime.embed"
+    },
+    {
+      "id": "shell-shockers",
+      "title": "Shell Shockers",
+      "url": "https://cookie-clicker2.com/shell-shockers.embed"
+    },
+    {
+      "id": "cookie-run",
+      "title": "Cookie Run",
+      "url": "https://cookie-clicker2.com/cookie-run.embed"
+    },
+    {
       "id": "grindcraft-2",
       "title": "Grindcraft 2",
       "url": "https://cookie-clicker2.com/grindcraft-2.embed"

@@ -9208,5 +9208,80 @@
       }
     ],
     "conclusion": "Enjoy playing Grindcraft 2 and share your high scores with friends!"
+  },
+  "cookie-run": {
+    "faqs": [
+      {
+        "question": "How to play Cookie Run?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Cookie Run."
+      },
+      {
+        "question": "Is Cookie Run free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Cookie Run on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Cookie Run?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Cookie Run and share your high scores with friends!"
+  },
+  "shell-shockers": {
+    "faqs": [
+      {
+        "question": "How to play Shell Shockers?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Shell Shockers."
+      },
+      {
+        "question": "Is Shell Shockers free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Shell Shockers on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Shell Shockers?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Shell Shockers and share your high scores with friends!"
+  },
+  "poppy-playtime": {
+    "faqs": [
+      {
+        "question": "How to play Poppy Playtime?",
+        "answer": "Simply use your mouse to interact with the elements. Follow the on-screen instructions to get started with Poppy Playtime."
+      },
+      {
+        "question": "Is Poppy Playtime free to play?",
+        "answer": "Yes! You can play it completely free online directly in your browser without any downloads."
+      },
+      {
+        "question": "Can I play Poppy Playtime on my phone?",
+        "answer": "Absolutely, this HTML5 game is fully responsive and runs smoothly on both desktop and mobile devices."
+      },
+      {
+        "question": "What is the best strategy for Poppy Playtime?",
+        "answer": "Focus on upgrading your early resources as quickly as possible to build a strong foundation for late-game scaling."
+      },
+      {
+        "question": "Do my progress save automatically?",
+        "answer": "Yes, your progress is typically saved in your browser's local storage, so you can resume anytime you come back."
+      }
+    ],
+    "conclusion": "Enjoy playing Poppy Playtime and share your high scores with friends!"
   }
 }
