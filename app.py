@@ -3320,5 +3320,35 @@ def poppy_playtime():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/cookie-crush-pokemon')
+def cookie_crush_pokemon():
+    faq_data = get_faqs_for_page('cookie-crush-pokemon')
+    return render_template('cookie-crush-pokemon.html',
+                         page_title='Cookie Crush Pokemon',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/pixel-gold-clicker')
+def pixel_gold_clicker():
+    faq_data = get_faqs_for_page('pixel-gold-clicker')
+    return render_template('pixel-gold-clicker.html',
+                         page_title='Pixel Gold Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/word-cookies')
+def word_cookies():
+    faq_data = get_faqs_for_page('word-cookies')
+    return render_template('word-cookies.html',
+                         page_title='Word Cookies',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)

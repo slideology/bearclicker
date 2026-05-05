@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "word-cookies",
+      "title": "Word Cookies",
+      "url": "https://cookie-clicker2.com/word-cookies.embed"
+    },
+    {
+      "id": "pixel-gold-clicker",
+      "title": "Pixel Gold Clicker",
+      "url": "https://cookie-clicker2.com/pixel-gold-clicker.embed"
+    },
+    {
+      "id": "cookie-crush-pokemon",
+      "title": "Cookie Crush Pokemon",
+      "url": "https://cookie-clicker2.com/cookie-crush-pokemon.embed"
+    },
+    {
       "id": "poppy-playtime",
       "title": "Poppy Playtime",
       "url": "https://cookie-clicker2.com/poppy-playtime.embed"
