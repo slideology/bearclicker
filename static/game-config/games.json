@@ -4,6 +4,21 @@
   "brandUrl": "https://bearclicker.net",
   "games": [
     {
+      "id": "cookie-jam",
+      "title": "Cookie Jam",
+      "url": "https://cookie-clicker2.com/cookie-jam.embed"
+    },
+    {
+      "id": "idle-farm-tycoon",
+      "title": "Idle Farm Tycoon",
+      "url": "https://cookie-clicker2.com/idle-farm-tycoon.embed"
+    },
+    {
+      "id": "blacksmith-clicker",
+      "title": "Blacksmith Clicker",
+      "url": "https://cookie-clicker2.com/blacksmith-clicker.embed"
+    },
+    {
       "id": "word-cookies",
       "title": "Word Cookies",
       "url": "https://cookie-clicker2.com/word-cookies.embed"

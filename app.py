@@ -3350,5 +3350,35 @@ def word_cookies():
                          conclusion=faq_data.get('conclusion', ''),
                          translations=get_translations())
 
+
+@app.route('/blacksmith-clicker')
+def blacksmith_clicker():
+    faq_data = get_faqs_for_page('blacksmith-clicker')
+    return render_template('blacksmith-clicker.html',
+                         page_title='Blacksmith Clicker',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/idle-farm-tycoon')
+def idle_farm_tycoon():
+    faq_data = get_faqs_for_page('idle-farm-tycoon')
+    return render_template('idle-farm-tycoon.html',
+                         page_title='Idle Farm Tycoon',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
+
+@app.route('/cookie-jam')
+def cookie_jam():
+    faq_data = get_faqs_for_page('cookie-jam')
+    return render_template('cookie-jam.html',
+                         page_title='Cookie Jam',
+                         dynamic_faqs=faq_data.get('faqs', []),
+                         conclusion=faq_data.get('conclusion', ''),
+                         translations=get_translations())
+
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
